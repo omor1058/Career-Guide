@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajoysarkar.careerguide.nu">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/n"
+        android:id="@+id/imageView18"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="262dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bangladesh National University\n"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\nNational University, Bangladesh is a parent university of Bangladesh that was established by an Act of Parliament as an affiliating University of the country to impart graduate and post-graduate level education to the students through its affiliated colleges and professional institutions throughout the country. It is the 2nd largest university in the world according to enrollment. The headquarter is in Gazipur, on the outskirts of Dhaka.
+
+
+\nType 	public
+\nEstablished 	1992
+\nChancellor 	President of Bangladesh
+\nPresident 	Md. Abdul Hamid
+\nVice-Chancellor 	Harun-or-Rashid
+\nAcademic staff:  159,375 (incl. Affiliated colleges)
+\nAdministrative staff: 1,051
+\nStudents:   2,097,182
+\nUndergraduates :	1,755,256
+\nPostgraduates :  334,653
+\nDoctoral students:  184
+\nOther students:  7,048
+\nLocation :  Gazipur, Bangladesh
+
+\nCampus:   2,254 affiliated colleges
+\nWebsite:   nu.edu.bd
+"
+        android:id="@+id/textView8"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nOrganization\n"
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+\nIt is a postgraduate teaching and research university as well as an affiliating university. It is state-run and public. The university has a school and a centre. It has established institutes that provide courses leading to M.Phil. and Ph.D. degrees.
+
+\nThe Institute of Humanities and Social Sciences (IHS) was introduced in 1997 to offer two-year M.Phil. following modern American credit hour and semester system including course work, two-month internship and thesis guided by supervisor. The M.Phil.is an interdisciplinary degree which is intensive enough to help the students to pursue Ph.D. courses. The course is open to faculty members who are employed at universities and colleges.
+
+\nFour more institutes — the Institute of Liberation and Bangladesh Studies (ILBS), Institutes of National Science (INS), Institute of Life Sciences (ILS), and Institute of Business and Management Studies (IBMS) — have all the formalities complete toward their constitutions and are soon to provide higher courses related to science, needs of life, and national heritage.
+
+\nVery few of the teachers teaching at honors and masters level have higher training. The training programme of the university is designed to augment the knowledge of the college teachers, enhance their skill in teaching and get them an exposure to higher ideas. Eminent educationists and scholars of the country are associated with the academic programmes provided on campus.
+
+\nThere are four academic units:
+
+\n          1. School of Under Graduate Studies
+\n          2. Centre for Post-Graduate Studies Training and Research
+\n          3. M. Phil./Ph.D.Programme Unit
+\n          4. Centre for Curriculum Development and Evaluation
+
+"
+        android:id="@+id/textView1"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nAcademic departments\n"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="    Faculty of Arts
+\n	Department of Arabic and Islamic Studies
+\n	Department of Bengali
+\n	Department of English
+\n	Department of History
+\n	Department of Political science
+\n	Department of Pali and Sanskrit
+\n    Faculty of Business Studies
+\n	Department of BBA (Professional)
+\n	Department of Accounting
+\n	Department of Finance
+\n	Department of Management
+\n	Department of Marketing
+\n    Faculty of Engineering (Professionals)
+\n	Dept. of Computer Science and Engineering
+\n	Dept. of Electronics and Communication Engineering
+\n    Faculty of Technology (Professionals)
+\n	Department of FDT
+\n	Department of AMT
+\n	Department of KMT
+\n    Faculty of Science
+\n	Department of Computer Science
+\n	Department of Botany
+\n	Department of Zoology
+\n	Department of Chemistry
+\n	Department of Physics
+\n	Department of Mathematics
+\n	Department of Statistics
+\n    Faculty of Social Science
+\n	Department of Law
+\n	Department of Economics
+\n	Department of Political science
+\n	Department of Sociology
+\n	Department of Geography
+\n	Department of Psychology
+
+
+\nThere are some 2,254 colleges affiliated to NUB. Prominent ones include the following:
+\nAnanda Mohan College
+\nBrahmanbaria Govt. College
+\nBrajalal College
+\nBrojomohun College
+\nCarmichael College
+\nChittagong College
+\nDhaka City College
+\nDhaka College
+\nCollege Of Business Science and Technology - CBST, Mymensingh
+\nDhaka Commerce College
+\nDinajpur Government College
+\nEden Mohila College, Dhaka
+\nEdward College, Pabna
+\nGovernment AzizulHaque College, Bogra
+\nGovernment Bangla College
+\nGovernment City College, Chittagong
+\nGovernment Commerce College Chittagong
+\nGovernment Hazi Mohammad Mohshin College
+\nGovernment Narsingdi College
+\nGovernment Physical Education College, Dhaka
+\nGovernment Saadat College, Tangail
+\nGovernment ShahidSohrawardi College
+\nGovernment Titumir College
+\nGovernment Tolaram College
+\nGovernment Sheikh FazilatunnesaMujibMohila College, Tangail
+\nHabibullahBahar University College, Dhaka
+\nHaji JamirUddinShafina Women's College
+\nInstitute of Science,Trade and Technology
+\nIslamia University College, Chittagong
+\nJahangirpur Govt. College
+\nKabiNazrul Government College
+\nKumudini Women's College, Tangail
+\nMadan Mohan College, Sylhet
+\nMichael Modhushudon College
+\nMurari Chand College, Sylhet
+\nNawabganj Government College
+\nNew Government Degree College, Rajshahi
+\nNotre Dame College, Dhaka
+\nOmar Gani M.E.S. College
+\nRajshahi College
+\nRajshahi Government City College, Rajshahi
+\nRangpur Government College
+\nSapahar Government College
+\nShaikhBurhanuddin Post Graduate College
+\nSylhet Government Women's College
+\nTejgaon College
+\nVictoria College, Comilla
+\nMarine Fisheries Academy, Chittagong
+
+
+"
+        android:id="@+id/textView3"
+        android:textColor="#0a0909" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

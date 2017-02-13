@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gmat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.gmat">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="GMAT \n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="GMAT = Graduate Management Admission test, GRE এর মত একটি Standardized Test- যা আমেরিকাতে MBA করার জন্য প্রয়োজন হয়; যুক্তরাজ্য, অস্ট্রেলিয়ার মত অন্যান্য কিছু দেশেও লাগতে পারে। এটার জন্য রেজিস্ট্রেশন করতে খরচ পড়বে ২৫০ ডলার। একবার পরীক্ষা দিলে ৫টা ভার্সিটিতে ফ্রি স্কোর পাঠানো যায়, স্কোর valid থাকে ৫ বছর পর্যন্ত।
+
+\nসব মিলিয়ে ৮০৬ নম্বরের পরীক্ষা আর ভালো স্কোর বলতে ৬৫০ এর ওপরে বোঝায়।
+\n"
+
+
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TEST STRUCTURE\n"
+                android:id="@+id/textView66"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="সেকশন ৩টি-\n"
+                android:id="@+id/textView70"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1. Analytical writing\n"
+                android:id="@+id/textView65"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="যারা GRE এর writing section এর সাথে পরিচিত, তাদের নতুন করে আর কিছু জানার নেই। দুটো essay লিখতে হবে। একটি Issue Task, আরেকটা Argument Task. প্রত্যেকটার জন্য সময় থাকবে ৩০ মিনিট করে।
+\n\nশেষ করার পর ৫ মিনিটের জন্য আপনাকে ছেড়ে দেয়া হবে।\n"
+                android:id="@+id/textView75"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="2. Verbal\n"
+                android:id="@+id/textView64"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Verbal section এ সব মিলিয়ে প্রশ্ন থাকবে ৪১টা, সময় ৭৫ মিনিট। হিসাবে, প্রত্যেক প্রশ্নের জন্য পৌনে দুই মিনিট এর মত সময় পাওয়া যায়। এর মধ্যে ৩ ধরনের প্রশ্ন থাকতে পারে।
+
+\n\nReading Comprehension- মোটামুটি ৩৫০ শব্দের একটা passage থাকবে। ওখান থেকে আপনাকে বুঝে নিতে হবে অনুচ্ছেদের main or supporting idea কি, লেখক কি বোঝাতে চাইছেন, যে বিষয়ে আলোচনা হচ্ছে- লেখক সেটার প্রতি কতটুকু soft corner পোষণ করেন ইত্যাদি।
+\n\nSentence Correction – একটা লাইনের কিছু অংশ underline করা থাকবে। নিচের ৫টা অপশনে ঐ underlined অংশটা বিভিন্নভাবে rephrase করে বলা হবে। যেটা সবচেয়ে পবিত্র (শুদ্ধ), সেটাই সঠিক উত্তর। প্রথম অপশনটা underlined অংশের হুবুহু নকল (!). Original Line পড়তে গিয়ে ওটা আপনার পড়া হয়ে যাবে; তাই, ঐটা পড়তে গিয়ে সময় নষ্ট করবেন না।
+\n\nCritical Reasoning – একটা ছোট প্যারাগ্রাফ থাকবে। এরপর ঐ প্যারাগ্রাফের ব্যাপারে একটা question বা statement থাকবে, তার নিচে পাঁচটা অপশন থাকবে। ঐ পাঁচটা অপশনের মধ্যে কোনটা প্যারাগ্রাফের assumption অথবা বিশেষ কোন দিককে দুর্বল/সবল করে দেয়, সেটা বের করতে হবে।
+\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" 3. Quantitative\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="োজা বাংলায় (!), Math section. দুই টাইপের প্রশ্ন মিলিয়ে মোট ৩৭টা প্রশ্ন, সময় ৭৫ মিনিট; প্রত্যেকটার জন্য প্রায় ২ মিনিট করে। ক্যালকুলেটর ব্যবহার করা যাবে না; ঘুরিয়ে বললে বলা যায়, ক্যলকুলেটর লাগে না।
+
+\n\nProblem Solving – পাঁচটা অপশনের মধ্যে থেকে একটা সঠিক উত্তর বেছে নিতে হবে। এ ধরনের প্রশ্ন থাকতে পারে ১৮ টা বা ১৯টা।
+\n\nData Sufficiency- এটাও ১৮/১৯ টার মত থাকতে পারে। একটা প্রশ্ন আর দুইটা statement (1 and 2) দেয়া থাকবে। ঐ প্রশ্নটার উত্তর দেয়ার জন্য ইনফর্মেশন গুলো কতটুকু প্রয়োজন হয়, সেটার ওপর ভিত্তি করে A, B, C, D, E সিলেক্ট করতে হবে।
+
+\n\nউদাহরণের জন্য Barron’s GMAT থেকে একটা প্রশ্ন তুলে দিচ্ছি-
+
+\n\nIs “n” an even integer?
+\nStatement 1: n=3k, for some integer k
+\nStatement 2: n= 2j + 1, for some integer j
+
+\n\nStatement 1 দিয়েই প্রশ্নটার উত্তর দেয়া যায়, কিন্তু Statement-2 দিয়ে করা যায় না – তাহলে উত্তর A
+\n\nStatement 2 দিয়েই প্রশ্নটার উত্তর দেয়া যায়, কিন্তু Statement-1 দিয়ে করা যায় না – তাহলে উত্তর B
+\n\nদুইটা Statement এরই প্রয়োজন হয়, যে কোন একটা দিয়ে লাভ নাই – তাহলে উত্তর C
+\n\nপ্রত্যেক Statement-ই কাবিল, যে কোন একটা দিয়েই কাম হয়ে যায় – তাহলে উত্তর D
+\n\nকেউই কামের না, দুইটা একসাথে নিলেও কুনো লাভ নাই – তাহলে উত্তর E
+\n\nপেরেছেন? এটার উত্তর B.
+\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="PRACTICE\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ডাউনলোড করে নিতে পারেন, কিছু প্র্যাকটিস সেট আর দুটো পূর্ণাঙ্গ মডেল টেস্ট,
+চাইলে Kaplan GMAT পেজে জয়েন করতে পারেন।
+
+\n\nTEST TAKING STRATEGY
+\n\nযেহেতু এটা Computer Adaptive Test, প্রত্যেক প্রশ্নের সাপেক্ষে আপনার উত্তরের ওপর নির্ভর করে পরবর্তী প্রশ্ন সামনে আসবে। তাই, আপনি পেছনের প্রশ্নগুলোতে ফেরত যেতে পারবেন না। কোন প্রশ্ন বাদ রাখা যাবেনা। সবগুলো প্রশ্নের উত্তর দেয়া খুবই জরুরী। ভুল করলে যতটুকু নাম্বার কাটা যাবে, খালি রেখে আসলে কাটা যাবে আরো অনেক বেশি। তাই, টাইম সেন্স ঠিক রাখবেন।
+
+\n\nINTEGRATED REASONING
+
+\n\n২০১২ সালের জুনে একটা নতুন সেকশন যুক্ত হয়েছে, Integrated Reasoning. ৩০ মিনিটের সেকশন, যেখানে ম্যাথ আর ভার্বাল এর যৌথ উদ্যোগ এর প্রয়োজন হয়। Data, Chart, Graph- একত্রে বিশ্লেষণ করতে হয়। শুনতে কঠিন মনে হলেও জিনিসটা অন্যান্য সেকশন থেকে সোজা
+
+"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

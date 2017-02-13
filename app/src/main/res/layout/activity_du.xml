@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_du"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.DU">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/dhu"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageView11"
+        android:layout_marginTop="-65dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dhaka University \n"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The University of Dhaka ( also known as Dhaka University or simply DU), is the oldest university in modern Bangladesh. Established in 1921 during the British Raj, it has made significant contributions to the modern history of Bangladesh. After the Partition of India, it became the focal point of progressive and democratic movements in Pakistan. Its students and teachers played a central role in the rise of Bengali nationalism and the independence of Bangladesh.
+\nToday, it is the largest public university in Bangladesh, with a student body of 33,000 and a faculty of 1,800. It was identified by AsiaWeek as one of the top 100 universities in Asia. However, since the 1990s, the university has suffered from intensely politicized, partisan, and violent campus politics promoted by Bangladesh's political parties .
+\nMotto : সত্যের জয় সুনিশ্চিত
+\nMotto in English: Truth Shall Prevail
+\nType:	Public
+\nEstablished :	1921
+\nChancellor:	Abdul Hamid
+\nVice-Chancellor:	AAMS Arefin Siddique
+\nAcademic staff: 2,156
+\nAdministrative staff: 3,887
+\nStudents :	30,015
+\nUndergraduates :	23,620
+\nPostgraduates :	5,362
+\nDoctoral students: 764
+\nOther students: 269
+\nLocation :  Dhaka, Bangladesh
+\nCampus : Urban, 240 hectares (600 acres) (without the Institute of leather engineering and tech.)
+\nWebsite :  www.du.ac.bd; www.univdhaka.edu.
+"
+        android:id="@+id/textView4"
+        android:textColor="#0a0909" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nCampus
+\nResidential facilities
+\n"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\nThere are 23 residence halls for the students and dormitories for the teachers as well as for the officials of the university."
+        android:id="@+id/textView8"
+        android:textColor="#0a0909" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nResidence halls \n"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="
+\n•	Bank of pond at Shahidullah Hall, University of Dhaka.
+\n•	A.F. Rahman Hall
+\n•	Amar Ekushey Hall
+\n•	Bangabandhu Sheikh MujiburRahman Hall
+\n•	Bangladesh-Kuwait Maitree Hall
+\n•	Begum FazilatunesaMujib Hall
+\n•	BijoyEkattor Hall
+\n•	FazlulHaq Muslim Hall
+\n•	Haji Muhammad Mohshin Hall
+\n•	IBA Hostel
+\n•	ILET Hostel
+\n•	Jagannath Hall
+\n•	KabiJashimuddin Hall
+\n•	KabiSufiya Kamal Hall
+\n•	MuktijoddhaZiaurRahman Hall
+\n•	NawabFaizunnessaChowdhuraniChhatrinibash (Hostel)
+\n•	Ruqayyah Hall
+\n•	Salimullah Muslim Hall
+\n•	Sergeant ZahurulHaq Hall (formerly Iqbal Hall)
+\n•	Shahidullah Hall
+\n•	Shahnewaz Hostel
+\n•	Shamsunnahar Hall
+\n•	Sir P.J. Hartog International Hall
+\n•	Surya SenHall[18]
+"
+        android:id="@+id/textView9"
+        android:textColor="#0a0909" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nAcademic departments\n"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The university has 70 departments under 13 faculties.
+\nFaculty of Arts
+\n	Department of Arabic
+\n	Department of Bengali
+\n	Department of English
+\n	Department of Persian Language and Literature
+\n	Department of History
+\n	Department of Philosophy
+\n	Department of Islamic Studies
+\n	Department of Pali and Buddhist Studies
+\n	Department of Sanskrit
+\n	Department of Urdu
+\n	Department of Theater and Performance Studies
+\n	Department of Linguistics
+\n	Department of Music
+\n	Department of Islamic History and Culture
+\n	Department of World Religions and Culture
+\n	Department of Information Science and Library Management
+\nFaculty of Business Studies
+\n	Department of Finance
+\n	Department of Accounting and Information Systems (AIS)
+\n	Department of Marketing
+\n	Department of Banking and Insurance
+\n	Department of Management Information Systems (MIS)
+\n	Department of Management Studies
+\n	Department of International Business
+\n	Department of Tourism and Hospitality Management
+\n	Department of Organization Strategy and Leadership
+\nFaculty of Biological Science
+\n	Department of Microbiology
+\n	Department of Biochemistry and Molecular Biology
+\n	Department of Fisheries
+\n	Department of Genetic Engineering and Bio-technology
+\n	Department of Psychology
+\n	Department of Clinical Psychology
+\n	Department of Zoology
+\n	Department of Educational and Counseling Psychology
+\nFaculty of Engineering and Technology
+\n	Department of Robotics and Mechatronics Engineering
+\n	Department of Electrical and Electronic Engineering
+\n	Department of Applied Chemistry and Chemical Engineering
+\n	Department of Computer Science and Engineering
+\n	Department of Nuclear Engineering
+\nFaculty of Education
+\n	Technical Teachers' Training College (technical education)
+\nFaculty of Fine Arts
+\n	Department of Crafts
+\n	Department of Drawing and Painting
+\n	Department of Graphic Design
+\n	Department of Printmaking
+\n	Department of Oriental Art
+\n	Department of Sculpture
+\n	Department of History of Art
+\n	Department of Ceramics
+\nFaculty of Law
+\n	Department of Law
+\nFaculty of Medicine
+\nFaculty of Postgraduates Medical Sciences and Research
+\nFaculty of Pharmacy
+\n	Department of Pharmaceutical Chemistry
+\n	Department of Clinical Pharmacy and Pharmacology
+\n	Department of Pharmaceutical Technology
+\nFaculty of Science
+
+\n	Department of Applied Mathematics
+\n	Department of Physics
+\n	Department of Mathematics
+\n	Department of Statistics, Biostatistics and Informatics
+\n	Department of Theoretical Physics
+\n	Department of Biomedical Physics and Technology
+\n	Department of Chemistry
+\nFaculty of Social Sciences
+\n	Department of Anthropology
+\n	Department of Communication Disorders
+\n	Department of Criminology
+\n	Department of Development Studies
+\n	Department of Economics
+\n	Department of International Relations
+\n	Department of Sociology
+\n	Department of Mass Communication and Journalism
+\n	Department of Population Sciences
+\n	Department of Political Science
+\n	Department of Public Administration
+\n	Department of Peace and Conflict Studies
+\n	Department of Women's and Gender Studies
+\n	Department of Television and Film Studies
+\nFaculty of Earth and Environmental Sciences
+
+\n	Department of Geography and Environment
+\n	Department of Geology
+\n	Department of Oceanography
+\n	Department of Disaster Science and Management
+
+\nStudents of Charukala (Fine Arts) Institute of University of Dhaka preparing for PohelaBoishakh
+\nInstitutes
+\nInstitute of Statistical Research and Training (ISRT), University of Dhaka
+\n	Institute of Education and Research
+\n	Institute of Statistical Research and Training
+\n	Institute of Business Administration
+\n	Institute of Nutrition and Food Science
+\n	Institute of Social Welfare and Research
+\n	Institute of Modern Languages
+\n	Institute of Information Technology
+\n	Institute of Renewable Energy
+\n	Institute of Disaster Management and Vulnerability Studies
+\n	Institute of Leather Engineering and Technology
+
+\nBureaus, research centers and scholarship programs
+\n	Bureau of Economic Research
+\n	Bureau of Business Research
+\n	Bose Centre for Advanced Study and Research in Natural Sciences
+\n	Centre for Advanced Studies and Research in Biological Sciences
+\n	Dev Centre for Philosophical Studies
+\n	Renewable Energy Research Centre
+\n	Centre for Advanced Research in Humanities
+\n	Centre for Advanced Research in Social Sciences
+\n	Semiconductor Technology Research Centre
+\n	Biotechnology Research Centre
+\n	DU Cyber Centre
+\n	Nazrul Research Centre
+\n	NazmulKarim Study Centre
+\n	Disaster Research Training and Management Centre
+\n	Dr. SirajulHaque Islamic Research Centre
+\n	Centre for Biomedical Research
+\n	Bangladesh-Australia Centre for Environmental Research
+\n	Delta Research Centre
+\n	Centre for Advanced Research in Physical, Chemical, Biological and Pharmaceutical Sciences - The Centre of Excellence
+\n	Centre for Advanced Research in Arts and Social Sciences - The Centre of Excellence
+\n	Centre for Corporate Governance and Finance Studies
+\n	Center for Microfinance and Development
+\n	Japan Study Centre
+\n	Centre for Development and Policy Research
+\n	University and Industry Alliance
+\n	Professor Dilip Kumar Bhattacharya Research Centre
+\n	Organic Pollutants Research Centre
+\n	Refugee and Migratory Movement Research Unit
+\n	Center for Administrative Research and Innovation-CARI
+\n	Dhaka University Earthquake Observatory
+\n	Centre for Interreligious and Intercultural Dialogue
+\n	Dhaka University Arboriculture Section
+\n	Centre for Genocide Studies
+"
+        android:id="@+id/textView15"
+        android:textColor="#0a0909" />
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

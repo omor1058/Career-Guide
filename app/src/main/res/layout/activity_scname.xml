@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scname"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.scname">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="বিশ্বের কিছু নাম করা স্কলারশিপ এর নাম এবং দরখাস্ত করার সময়\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="জাপান\n"
+                android:id="@+id/textView46"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="মনবুকাগাকুশো- ইউনিভার্সিটি রেকোমেন্ডাশন
+\nদরখাস্তের সময়-প্রতি বছরনভেম্বর থেকে জানুয়ারী।
+\nমনবুকাগাকুশো-এম্বাসী রেকোমেন্ডেসন
+\nদরখাস্তের সময়-প্রতি বছর মার্চ -মে।
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="দক্ষিণ কোরিয়া\n"
+                android:id="@+id/textView26"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="KGSP স্কলারশিপ\nকোরিয়ার জাতীয় স্কলারশিপের নাম Korean Government Scholarship Program (KGSP)। এটি মূলত আন্ডারগ্র্যাজুয়েট এবং মাস্টার্স প্রোগ্রামে শিক্ষা সহায়তা প্রদান করে।  www.niied.go.kr/eng এ ওয়েবসাইট থেকে আবেদনের সময়কাল, সরাসরি প্রফেসরদের কাছেই-মেইল করার তথ্য পাওয়া যায়।
+
+\nদরখাস্তের সময়ঃ প্রতি বছরসেপ্টেম্বর
+\n"
+                android:id="@+id/textView37"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="চীন\n"
+                android:id="@+id/textView36"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="চাইনিজ গভঃ স্কলারশিপ
+\nদরখাস্তের সময়- প্রতি বছর সেপ্টেম্বর
+\nThe World Academy of Sciences
+\nদরখাস্তের সময়- প্রতি বছর আগস্ট
+\n"
+                android:id="@+id/textView27"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ইঊ কে\n"
+                android:id="@+id/textView06"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="কমনওয়েলথ স্কলারশিপ
+\nদরখাস্তের সময়- প্রতি বছর সেপ্টেম্বর থেকেনভেম্বর।
+\n"
+                android:id="@+id/textView07"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="জার্মানি\n"
+                android:id="@+id/textView16"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DAAD স্কলারশিপ
+\nদরখাস্তের সময়- প্রতি বছর সেপ্টেম্বর থেকেনভেম্বর।
+\n"
+                android:id="@+id/textView17"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="বেলজিয়াম\n"
+                android:id="@+id/textView60"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="VLIR-UOS  স্কলারশিপ
+\nVLIR-UOS মূলত বেলজিয়াম সরকার প্রদত্ত স্কলারশিপ। এ স্কলারশিপের জন্য আবেদন করতে পারবে এমন এশিয়ার ১০টি দেশের মধ্যে বাংলাদেশের নাম অন্তর্ভুক্ত আছে। আইইএলটিএসে  ৬.০ বা টোফেলে ৫৫০ (পেপার) বা ৭৯ (আইবিটি) স্কোর থাকলে আবেদন করা যায়। বিস্তারিত তথ্য  এওয়েবসাইট  www.scholarships.vliruos.be  থেকে জানতে পারবেন।\n"
+
+                android:id="@+id/textView70"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="নেদারল্যান্ডস\n"
+                android:id="@+id/textView69"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="NFP স্কলারশিপ
+\nNufficস্কলারশিপ
+\nদরখাস্তের সময়- প্রতিবছর সেপ্টেম্বর থেকে ফেব্রুয়ারী।
+\n"
+                android:id="@+id/textView79"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ইউরোপিয়ান কান্ট্রি\n"
+                android:id="@+id/textView68"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ERASMUS MUNDUS স্কলারশিপ
+\nদরখাস্তের সময়- প্রতি বছরসেপ্টেম্বর থেকে ফেব্রুয়ারী।
+\n"
+                android:id="@+id/textView78"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="সুইডেন\n"
+                android:id="@+id/textView67"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Swidish Institute Study Scholarship
+\nদরখাস্তের সময়- প্রতি বছরসেপ্টেম্বর থেকে ফেব্রুয়ারী
+\n"
+                android:id="@+id/textView77"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="নরওয়ে\n"
+                android:id="@+id/textView66"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Qouta scholarship
+\nদরখাস্তের সময়- প্রতি বছর সেপ্টেম্বর থেকেডিসেম্বর ।\nবাংলাদেশের শিক্ষার্থীরা এ স্কলারশিপের জন্য আবেদন করতে পারবেন। তথ্য পাবেন  - www.bi.edu/ master/ practical-information/ Scholarship/ The-Quota-Scholarship/  সাইট থেকে।
+\n"
+                android:id="@+id/textView76"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="অস্ট্রেলিয়া\n"
+                android:id="@+id/textView65"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="IPRS
+\nদরখাস্তের সময়- প্রতি বছর দুইবার – জুন-জুলাই এবংআগস্ট-সেপ্টেম্বর ।
+\nEndevour
+\nদরখাস্তের সময়- দরখাস্তের সময়- প্রতি বছর এপ্রিল থেকে জুন ।
+\nমোনাস স্কলারশিপ
+\nমোনাস ইন্টারন্যাশনাল মেরিট স্কলারশিপ অস্ট্রেলিয়ার মোনাস ইউনিভার্সিটিতে উচ্চশিক্ষা দেয়া হয়। প্রতিবছর তিনবার এ স্কলারশিপের জন্য আবেদনপত্র নেয়া হয়। চলতি বছর ৩১ টি স্কলারশিপ দেয়া হবে। প্রয়োজনীয় তথ্য জানুন www.study.monash/fees-scholarships/scholarships/find/ international-student-scholarships / international-merit|।
+
+\n"
+                android:id="@+id/textView75"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="কানাডা\n"
+                android:id="@+id/textView64"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="প্রতি টি বিশ্ববিদ্যালয় এর নিজস্ব কিছু স্কলারশিপ আছে। বিশ্ববিদ্যালয়এর
+ওয়েব সাইটে গিয়ে দরখাস্ত এর নিয়ম জেনে দরখাস্ত করতে হবে। সময় ও দেওয়াআছে।
+\n"
+                android:id="@+id/textView744"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="USA\n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Fulbright scholarship
+\nদরখাস্তের সময়- প্রতি বছর মে-অক্টোবর।
+\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

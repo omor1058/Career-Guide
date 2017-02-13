@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.cvSample">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Chronological  CV"
+            android:layout_width="185dp"
+            android:layout_height="180dp"
+            android:id="@+id/Chronological"
+            android:onClick="CV1"
+            android:background="#26A69A"
+            android:textStyle="normal|bold|italic"
+            android:typeface="sans"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="180dp"
+            android:id="@+id/Functional"
+            android:onClick="CV2"
+            android:background="#00ACC1"
+            android:textStyle="normal|bold|italic"
+            android:typeface="sans"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:text="Functional \n CV" />
+    </GridLayout>
+
+    <Button
+        android:text="Combined \n CV"
+        android:layout_width="190dp"
+        android:layout_height="180dp"
+        android:id="@+id/Combined"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold|italic"
+        android:typeface="sans"
+        android:textSize="20sp"
+        android:layout_marginBottom="142dp"
+        android:background="@color/colorAccent"
+        android:onClick="CV3" />
+</RelativeLayout>

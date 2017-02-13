@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_iut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajoysarkar.careerguide.iut">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/iu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView15"
+        android:layout_marginTop="-50dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Islamic University of Technology\n"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" >
+
+
+    </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Islamic University of Technology (IUT)  is an educational and research institution in Bangladesh run and funded by the Organization of Islamic Cooperation (OIC). The main objective of IUT is to contribute in developing the human resources of the member states of the OIC, particularly in the fields of engineering, technology and technical education. IUT receives direct endowment from OIC member countries and offers scholarships to its students in the form of free tuition, boarding, lodging and medicare. The aesthetic campus was designed by Turkish architect Pamir Mehmet, an MIT graduate.
+\nIslamic University of Technology, established in 1978, was first known as Islamic Center for Technical, Vocational Training and Research (ICTVTR). It was proposed in the 9th Islamic Conference of Foreign Ministers (ICFM) held in Dakar, Republic of Senegal on 24–28 April 1978. The establishment of IUT in Dhaka, Bangladesh was then approved by the foreign ministers. All the members of the Organisation of the Islamic Conference (OIC) agreed to cooperate for the implementation of the project.
+"
+            android:id="@+id/textView8"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="
+\nType :	International
+\nEstablished :  1981
+\nOpened:  14 July 1988
+\nAffiliation :  Organisation of Islamic Cooperation (OIC),
+                      International Association of Universities (IAU),
+                     Federation of the Universities of the Islamic World (FUIW),
+                     Association of the Universities of Asia and the Pacific (AUAP),
+                     University Grants Commission, Bangladesh
+\nChancellor:   Secretary General of OIC
+\nVice-Chancellor :  Munaz Ahmed Noor
+\nAdministrative staff:  201
+\nUndergraduates :  890
+\nPostgraduates :  150
+\nAddress :  Board Bazar, Gazipur, Dhaka District, 1704, Bangladesh
+\nCampus :  Urban, 12 hectares (30 acres)
+\nWebsite :  www.iutoic-dhaka.edu
+"
+            android:id="@+id/textView9"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Academics\n"
+            android:id="@+id/textView10"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="IUT contacts academic instructions completely in English. English, Arabic and French are the official languages of the university for all academic and admission purposes.
+
+\n1. Undergraduate education
+\n2. Postgraduate education
+\n3. Research and related sponsors
+"
+            android:id="@+id/textView11"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Departments\n"
+            android:id="@+id/textView12"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n	Department of Mechanical and Chemical Engineering (MCE)
+\n	Department of Electrical and Electronic Engineering (EoE)
+\n	Department of Computer Science and Engineering(CSE)
+\n	Department of Civil and Environmental Engineering (CEE)
+\n	Department of Technical and Vocational Education (TVE)
+"
+            android:id="@+id/textView13"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Research center\n"
+            android:id="@+id/textView14"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n	Department of Research, Extension and Advisory Services and Publication [REASP]
+\n	Energy and Environment Centre [EEC]
+"
+            android:id="@+id/textView15"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Facilities/laboratories\n"
+            android:id="@+id/textView16"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nFor conducting the courses satisfactorily, the following laboratories and workshops are available.
+\nDepartment of Mechanical and Chemical Engineering
+\n	Thermodynamics
+\n	Internal Combustion Engines
+\n	Heat Transfer
+\n	Fluid Mechanics and Machinery
+\n	Refrigeration and Air Conditioning
+\n	Metro-logy
+\n	Automotive Workshop
+\n	Machine Shop with NC and CNC Machine Tools
+\n	Fitting
+\n	Fabrication and Welding
+\n	Foundry
+\n	Computer Aided Design lab
+\n	Applied Mechanics and Materials
+\n	Mechanical Control and Instrumentation
+\n	Drawing and Design lab
+\n	Energy Technology
+\n	Chemistry
+\n	Physics
+\n	Chemical reaction engineering
+\n	Chemical Process Calculation
+\n	Chemical Technology
+
+\nDepartment of Electrical and Electronic Engineering
+\n	Electrical Engineering Laboratories
+\n	Electrical Circuits
+\n	Electrical Machines
+\n	Power Systems
+\n	Electrical Utilization
+\n	Electrical Workshop
+\n	Switchgear
+\nElectronic Engineering Laboratories
+\n	Electronics
+\n	Electronic Workshop
+\n	Digital Electronics
+\n	Industrial Electronics
+\n	Radio and Television Engineering
+\n	Microwave and Telecommunication
+\n	VLSI Circuits
+\n	Measurements and Instrumentation
+\n	Control, Microprocessor and Micro-controller Systems
+\n	Physics
+\nDepartment of Computer Science and Engineering
+\n	Software Engineering Laboratory
+\n	Network Laboratory
+\n	Multimedia Laboratory
+\n	Hardware Laboratory
+\n	Sun Solaris Lab
+\nDepartment of Civil and Environmental Engineering
+\n	Structural Engineering Laboratory
+\n	Construction Materials Laboratory
+\n	Geotechnical Engineering Laboratory
+\n	Transportation Engineering Laboratory
+\n	Environmental Engineering Laboratory
+\n	Hydraulics Laboratory
+\nDepartment of Technical and Vocational Education (TVE)
+\n	Language
+\n	Audio-Visual
+\n	Photographic Film Processing
+\nEngineering and technology programmes
+"
+            android:id="@+id/textView17"
+            android:textColor="#0a0909" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Postgraduate courses:\n"
+            android:id="@+id/textView18"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="	Master of Science in Civil Engineering
+\n	Master of Science in Computer Science and Engineering
+\n	Master of Science in Mechanical Engineering
+\n	Master of Science in Electrical and Electronic Engineering
+\n	Master of Mechanical Engineering
+\n	Master of Electrical and Electronic Engineering
+\n	Master of Science in Computer Science and Applications
+\n	Postgraduate Diploma in Mechanical Engineering
+\n	Postgraduate Diploma in Electrical and Electronic Engineering
+\n	Postgraduate Diploma in Computer Science and Engineering
+\n	Postgraduate Diploma in Computer Science and Applications
+"
+            android:id="@+id/textView19"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nFour Year Bachelor of Science\n"
+            android:id="@+id/textView20"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="	Computer Science and Engineering (BSc. CSE)
+\n	Electrical and Electronic Engineering (BSc. Engg. EEE)
+\n	Mechanical and Chemical Engineering (B.Sc. Engg. MCE)
+\n	Civil and Environmental Engineering (B.Sc. Engg. CEE)
+"
+            android:id="@+id/textView21"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nHigher Diploma in\n"
+            android:id="@+id/textView23"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\n	Computer Science and Engineering (HDCSE)
+\n	Electrical and Electronic Engineering (HDEE)
+\n	Mechanical Engineering (HDME)
+\n	Civil Engineering (HDCE)
+"
+            android:id="@+id/textView22"
+            android:textColor="#0a0909" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

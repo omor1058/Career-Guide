@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_whyarch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.whyarch">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="কেন আর্কিটেকচার পড়তে এসেছো ?\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="আমি ডিপার্টমেন্টে ঢুকার পর প্রথম দিন থেকেই প্রশ্নটির মুখোমুখি হয়ে আসছি।ফার্স্ট ইয়ারে থাকার সময় আমরা যে উত্তর দিতাম সেটা অনেকটা এরকম, ‘ছোটবেলা থেকেই ইচ্ছা ছিল আর্কিটেক্ট হবো’ বা ‘আমি আঁকাআঁকি করতে খুব পছন্দ করি তাই…’ অথবা ‘ইচ্ছা ছিলো সৃজনশীল পেশায় কাজ করবো এজন্য’। আরেকটা উত্তর ছিলো যেটা সবার সামনে বলা যেত না সেটা হলো, ‘চান্স পেয়েছি তাই পড়তে এসেছি। স্যাররা  এইসব উত্তর শুনে হাসতেন। আমি বুঝতাম এসব উত্তর আসলে ঠিক নয়।ওনারা অন্য কিছু জানতে চাচ্ছেন। তাহলে সঠিক উত্তরটা কি? কেন আমি আর্কিটেকচার পড়ছি-?এটাই কি প্রশ্নটা? নাকি এত সাব্জেক্ট বাদ দিয়ে আর্কিটেকচার পড়ার পিছনে কারণ কি? আর্কিটেকচার পড়ে আমি কি করবো? কি সেই উদ্দেশ্য- এটাই কি স্যাররা জানতে চাচ্ছেন? অনেকদিন এর উত্তর খুঁজলাম। ঘরবাড়ি ডিজাইন করার জন্য আর্কিটেকচার পড়ছি। আর্কিটেক্ট হয়ে সুন্দর সুন্দর ঘরবাড়ি ডিজাইন করবো। মোটামুটি এই রকম উত্তর একটা ঠিক করলাম প্রথম সেমিস্টারে ।
+\n\nদ্বিতীয় সেমিস্টারে উঠে মনে হলো উত্তরটায় ঘাপলা আছে। সারা পৃথিবীর প্রায় সব সাবজেক্টে যেখানে চার বছরে স্নাতক ডিগ্রি দেয়া হয় সেখানে আমরা শুধু বাড়িঘর ডিজাইন করা শিখি পাঁচ বছর ধরে। কিনেই আমাদের শেখার তালিকায়, ফিজিক্স, সোশিওলজি, আর্ট, মিউজিক, প্ল্যানিং, মেকানিক্স, ইকনোমিক্স, ফটোগ্রাফী, সাইকোলজি, স্কাল্পচার, লজিক এন্ড ফিলোসফি, ইলেক্ট্রিকাল ইকুইপমেন্ট,সেমিনার,একাউন্টিং, ম্যানেজমেন্ট ইত্যাদি ইত্যাদি।  শুধু নন ডিপার্টমেন্টাল সাব্জেক্টগুলো যদি এরকম হয় তাহলে দুইটা সম্ভসবনা হতে পারে।
+\n\nএক, এ সব জিনিস বেহুদা পড়ায়, কারণ এসব না পড়েও অনেক নন আর্কিটেক্ট বিল্ডিং  ডিজাইন করতে পারে। দুই, এ সব জিনিস পড়ায় শুধু বিল্ডিং ডিজাইন করার জন্য না, আরও অন্যকিছু করার জন্য।
+\n\nএক নম্বর সম্ভাবনা নিজের ঠিক বিশ্বাস হয় নাই। যদি দুই নম্বর সম্ভাবনা মেনে নেই, তাহলে প্রশ্ন আসে এই  অন্যকিছু  টাকি ?
+\n\nদ্বিতীয় বর্ষের প্রথম সেমিস্টারে উঠে ‘ফাংশন’ নামক একটা জিনিসের সাথে পরিচয় হলো। তখন বুঝতে পারলাম আর্কিটেক্টের কাজ  বাসাবাড়ি সুন্দর করে ডিজাইন করা না, আর্কিটেক্টের কাজ স্থান(space) কে দৃষ্টিনন্দনভাবে (aesthetically) ব্যবহার উপযোগী(functional) করে  তোলা। স্থাপত্য অর্থটা অনেক জটিল মনে হয় নিজের কাছে। কারণ তখন থেকেই বুঝতে পারলাম কাজটা আসলে কতটা কঠিন।
+\n\nদ্বিতীয় বর্ষের দ্বিতীয় সেমিস্টারে উঠার আগেই কিছু ভাসাভাসা জিনিস জানতে পারলাম। একটা বাড়ি আসলে শুধু বাড়ি নয়। এটার সাথে জড়িত আসলে অনেক কিছু । আগেকার দিনে বাড়ি গুলো হতো এক রকমের। পুরানো বাড়ি গুলোতে দেখা যায় এক রুমের মধ্য দিয়ে অন্য রুমে যেতে হয়। রুমগুলো ছোট হলেও বারান্দা থাকে বিশাল। আবার প্রত্যেক  তলার ছাদের উচ্চতা ছিলো অনেক বেশি। বাড়ি গুলো তৈরি হতো চুন-সুরকি দিয়ে। আর এখনকার ফ্ল্যাট বা বাড়িতে দেখা যায় প্রাইভেসির জন্য প্রত্যেক রুমে আলাদা প্রবেশপথ। আবার ডিজাইন এমনভাবে করা হয় যেন একরুম থেকে আরেক রুমের ভিতরটা দেখার সুযোগ না থাকে। প্রাইভেসির জন্য মা- বাবার রুম, ছেলেররুম, মেয়েররুম, গেস্টরুম, লিভিংরুম, ডাইনিংরুম ইত্যাদি বেশ পৃথক থাকে। এর ফলস্বরূপ এখনকার পারিবারিক বন্ধন পরিবর্তিত হয়ে যাচ্ছে। যেমন বাবা অফিস থেকে এসে নিজের রুমে চলে যায়। ছেলে ছেলের রুমে, মেয়ে মেয়ের রুমে যার যার মত ব্যস্ত থাকে। তাই নিজেদের মধ্যে দূরত্ব বাড়ছে। বাড়ছে মোবাইলে কথা বলা আর ফেসবুকিং এর নেশা।
+
+\n\nআজকাল রুম একটু বড় করার জন্য বারান্দা নাই করে দেওয়া হচ্ছে। মানুষের সুস্থতার জন্য এতটুকু খোলা জায়গার প্রয়োজনীয়তা যে কি তা বলার অপেক্ষা রাখেনা। একটু আউটডোর স্পেসের অভাবে বন্দি হয়ে যাচ্ছে নগরবাসী যার প্রভাব পড়ছে তাদের স্বাস্থ্যে এবং মানসিকতায়। ব্যাঙের ছাতার মত গজিয়ে ওঠা হাসপাতাল আর ডায়াগনসিস সেন্টার দেখলেই বোঝা যায় নগরবাসীর লাইফ স্টাইলে বড়সড় ধরনের ঘাপলা আছে। আর সংকীর্ণ্, ঘুপচি, দম বন্ধ  করা বাসায় থেকে যেকোন মানুষ সৎচিন্তাশীল এবং বিশাল  হৃদয়ের অধিকারী হবেনা একথা বোঝার জন্য রকেট সায়েন্টিস্ট হতে হয়না।
+
+\n\nবাসাবাড়িতে ছাদের উচ্চতা কমে যাওয়ার জন্য গরম বাতাস ঘুলঘুলি দিয়ে বের করে দেওয়ার যে স্বাভাবিক প্রক্রিয়া ছিল তা বাদ হয়ে যাচ্ছে। এখন তাই পাখার বাতাসেও কাজ হচ্ছেনা। দরকার হচ্ছে এসির। বাড়ছে বিদ্যুতবিল, বাড়ছে লোডশেডিং। জাতীয়পর্যায়ে বিদ্যুত আমদানির কথাও ভাবা হচ্ছে এখন।
+\n\nচুন সুরকির বদলে কনক্রিট ব্যবহার বেড়ে গেছে। কনক্রিট নন ডিসপোজেবল ম্যাটেরিয়াল। তাই দিন দিন মাটির উপর শক্ত শক্ত আবর্জনা বাড়ছে যেটা কোনদিনও মাটির সাথে মিশবেনা।
+\n\nএতগুলো কথা বললাম এই কথা বোঝাতে যে ছোট্ট একটা বাড়ি ডিজাইন করা মানে যে শুধু বাড়ি ডিজাইন করা তা নয় এর সাথে মানুষের জীবনধারা, স্বাস্থ্য, দেশেরভবিষ্যত, দেশেরঅর্থনীতি, পরিবেশ সরাসরিভাবে জড়িত। যার অর্থ দাঁড়ায় একটা  দেশের স্থপতিরা মিলে দেশের মানুষের জীবনধারা, স্বাস্থ্য, দেশের ভবিষ্যত, দেশের অর্থনীতি, পরিবেশ বদলে দিতে পারেন- সেটা ভালো দিকেও হতে পারে, খারাপ  দিকেও হতে পারে। তাহলেই বোঝা যায় একটা দেশের জাতীয় পরিসরে একজন স্থপতির ভুমিকা কত বিশাল।
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="চাহিদা\n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="বর্তমানে দেশে এ বিষয়ের প্রচন্ড চাহিদা রয়েছে। কারণ মানুষ বাড়ার সাথে সাথে বসতবাড়ি, অফিস আদালতের পরিমাণও বাড়ছে। মানুষ এখন চায় সুস্থ-স্বাভাবিক পরিবেশ সে যেন থাকতে পারে, কাজ করতে পারে। সে কারণে আর্কিটেকচারের বিকল্প কিছুই নেই। এছাড়াও বিভিন্ন রিয়েল এস্টেট কোম্পানিতে মোটা অংকের বিনিময়ে চাকুরি করা যায়। তবে সেক্ষেত্রে ভাল শিক্ষা প্রতিষ্ঠান থেকে পাস করা জরুরি। আর্কিটেকচার ফার্মগুলোর চাহিদাও অনেক।\n\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ভবিষ্যত\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ভবিষ্যতে আরো অফূরন্ত সুযোগ রয়েছে। খুব ভালো design করে এখন অনেক আর্কিটেক্ট খুব ভালো আয় করছেন। ভবিষ্যতেও এই ধারা অব্যাহত থাকবে। সামনের দিনগুলোতে আরো নতুন নতুন স্থাপনা গড়ে উঠবে। দেশের এই প্রেক্ষাপটে আর্কিটেকচারের বিকল্প নেই। দেশের বাইরেও অনেকে কাজ করে ভালো আয় করে যাচ্ছেন।\n\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="চাকুরি\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="এ বিভাগ হতে পাস করার পর যে কেউ যে কোন Architectural Consultant বা Developer ফার্মে চাকুরির সুযোগ পাবেন। পাশাপাশি অনেক সুযোগ থাকার কারণে অনেকে চাইলে 3D-animation, 3d-Modeling, Autocaddrawning, Rendering, photography বা Graphics এর যে কোন কাজ করতে পারেন। আর্কিটেকচারের প্রয়োজন শুধুমাত্র building design এর ক্ষেত্রে সীমাবদ্ধ নয়। চাইলে উল্লিখিত যেকোন একটা কিছু করে ব্যক্তি তার নিজের Career গড়ে নিতে পারেন।
+\n\nগবেষণা বহির্বিশ্বের উন্নত দেশসমূহে এবং আমাদের দেশে উচ্চশিক্ষার অনেক সুযোগ রয়েছে। যেমন: মাস্টার্স, পিএইচডি প্রভৃতি এ আওতায় পড়ে। ইংল্যান্ড, আমেরিকা, কানাডা ও জাপানে মাস্টার আর্কিটেক্টদের তত্ত্বাবধানে কাজ করতে পারবেন। পড়াশুনার পাশাপাশি পার্ট টাইম চাকুরি করার সুযোগ পেতে পারে এ বিষয়ের শিক্ষার্থীরা
+
+\n\nVisit: www.Architecture-Jobsource.org.
+
+\n\nএখন আমি সেই প্রশ্নটির উত্তর খুঁজে পেয়েছি। এখন যদি কেউ আমাকে জিজ্ঞেস করে, কেন আর্কিটেকচার পড়তে এসেছো ? আমি মাথা উঁচু করে বলবো, “দেশকে বদলে দিতেচাই, এজন্য আর্কিটেকচার পড়তে এসেছি।’’
+\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.cseTip">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1">
+
+
+            <ImageView
+                app:srcCompat="@drawable/cse7"
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:layout_weight="0.82" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="সি এস ই"
+                android:id="@+id/button5"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="cseinfo"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text=" সি এস ই তে কি কি পড়ানো হয়?"
+                android:id="@+id/button6"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="whycse"
+                android:nestedScrollingEnabled="false" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text=" সি এস ই এর প্রাণ প্রোগ্রামিং"
+                android:id="@+id/button7"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="programming"
+                android:nestedScrollingEnabled="false" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="শুরু কিভাবে করবেন?"
+                android:id="@+id/button8"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="starting" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="গণিতে দূর্বল?"
+                android:id="@+id/button9"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="math" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="প্রোগ্রামার হিসেবে ক্যারিয়ার"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="careerprog" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="নন-প্রোগ্রামার হিসেবে ক্যারিয়ার "
+                android:id="@+id/button3"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="nonprog" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="ফ্রিল্যান্সার হিসেবে ক্যারিয়ার"
+                android:id="@+id/button4"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="freelance" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

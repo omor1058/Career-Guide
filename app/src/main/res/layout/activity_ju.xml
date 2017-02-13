@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ju"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajoysarkar.careerguide.ju">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/jau"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView16"
+        android:layout_marginTop="-90dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Jahangirnagar University\n"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Jahangirnagar University is a public university in Bangladesh, based in SavarUpazila, Dhaka. It is the only fully residential university in Bangladesh.
+\nThe university was established in 1970 by the Jahangirnagar Muslim University Ordinance of the government of Pakistan. Its first vice-chancellor, MafizUddin Ahmad (Ph.D in chemistry, University of Illinois, Chicago) took up office on 24 September 1970. The first group of students, a total of 150, were enrolled in four departments: Economics, Geography, Mathematics, and Statistics. Its formal inauguration was delayed until 12 January 1971, when the university was launched by Rear Admiral S. M. Ahsan, the chancellor.
+
+\nType 	:Public
+\nEstablished :	1970
+\nChancellor 	: Abdul Hamid
+\nVice-Chancellor :	Farzana Islam
+\nPro-Vice-Chancellor :  Md. AbulHossain
+\nAcademic staff: 755
+\nAdministrative staff: 1,700
+\nStudents :  16,781
+\nUndergraduates :	10,983
+\nPostgraduates :  3,501
+\nDoctoral students :  2,274
+\nLocation :  Savar, Bangladesh
+\nCampus :  Rural, 697 acres (2.8 km²)
+\nWebsite : www.juniv.edu
+                www.ju-admission.org
+
+\nIt operated as a project until 1973, when the 'Jahangirnagar Muslim University Act' was amended as the 'Jahangirnagar University Act'.
+\nIn 2014, the university had 16,781 students, 755 teachers, and 1,430 other employees. On 2 March 2014, Farzana Islam, a professor of the Anthropology department, was appointed the Vice Chancellor of JU, marking the country's first woman to hold the position.
+"
+        android:id="@+id/textView8"
+        android:textColor="#0a0909" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nAcademics\n
+Faculties
+\n"
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="There are 34 departments under six faculties:
+
+\nFaculty of Mathematical and Physical Science
+\	Department of Computer Science and Engineering
+\n	Department of Environmental Sciences
+\n	Department of Physics
+\n	Department of Chemistry
+\n	Department of Statistics
+\n	Department of Mathematics
+\n	Department of Geological Science
+\nFaculty of Biological Science
+\n	Department of Botany
+\n	Department of Zoology
+\n	Department of Biochemistry and Molecular Biology
+\n	Department of Microbiology
+\n	Department of Pharmacy
+\n	Department of Public Health and Informatics
+\n	Department of Biotechnology and Genetic Engineering
+\nFaculty of Social Science
+\n	Department of Anthropology
+\n	Department of Economics
+\n	Department of Government and Politics[6]
+\n	Department of Geography and Environment
+\n	Department of Public Administration
+\n	Department of Urban and Regional Planning
+\nFaculty of Arts and Humanities
+\n	Department of Archaeology
+\n	Department of Bangla
+\n	Department of Drama and Dramatics
+\n	Department of English
+\n	Department of Fine Arts
+\n	Department of History
+\n	Department of International Relations
+\n	Department of Journalism and Media Studies
+\n	Department of Philosophy
+\n	Department of Fine Arts
+\nFaculty of Business Studies
+\n	Department of Accounting and Information Systems
+\n	Department of Finance and Banking
+\n	Department of Marketing
+\n	Department of Management Studies
+\nFaculty of Law
+\n	Department of Law and Justice
+
+\n"
+        android:id="@+id/textView10"
+        android:textColor="#0a0909" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\nHalls/dorms
+\n"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Halls for male students
+\n	Al Beruni Hall
+\n	Mir MosharrofHossain Hall
+\n	F. M Kamaluddin Hall
+\n	Shaheed Salam Barkat Hall
+\n	MoulanaBhashani Hall
+\n	Bangabandhu Sheikh
+\n	MujiburRahman Hall
+\n	ShahidRafiqJabbar Hall
+\n\	Rabindranath Hall
+\nHalls for female students
+\n	NawabFaizunnesa Hall
+\n	Fajilatunnesa Hall
+\n	Jahanara Imam Hall
+\n	Pritilata Hall
+\n	Begum Khaleda Zia Hall
+\n	Sheikh Hasina Hall
+\n	Sufia Kamal Hall
+\n"
+        android:id="@+id/textView12"
+        android:textColor="#0a0909" />
+
+
+    </LinearLayout>
+       </ScrollView>
+
+   </RelativeLayout>

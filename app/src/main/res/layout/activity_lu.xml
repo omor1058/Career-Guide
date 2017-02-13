@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.lu">
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/leu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView17"
+        android:layout_marginTop="-20dp"
+        android:layout_height="250dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Leading University\n"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Leading University or LU is a private university of Bangladesh. It was established in 2001 under the Private University Act 1992.[2] The outreach campus of LU is located in Surma and Rangmahal Tower, Sylhet. Sylhet.
+
+\nMotto:A Promise to Lead
+\nType :	Private university
+\nEstablished :	2001
+\nChancellor:President Abdul Hamid
+\nVice-Chancellor :Md. Qumruzzaman Chowdhury
+\nAcademic staff: 159
+\nAdministrative staff:94
+\nStudents :4,688[1]
+\nUndergraduates :4157
+\nPostgraduates:531
+\nLocation:Sylhet, Bangladesh
+\nCampus
+\nCity Campus 1: Surma Tower, Taltola, Sylhet.
+\nCity Campus 2:Rangmahal Tower, Bandar Bazar, Sylhet.
+\nPermanent Campus:Ragibnagar, Kamal Bazar, Sylhet.
+\nColors :  Red and green
+\nWebsite :lus.ac.bd
+"
+        android:id="@+id/textView8"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nAcademic Departments:
+\n"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\nLeading University has eight academic departments:
+
+
+\n	    Department of Business Administration
+\n	    Department of Computer Science and Engineering (CSE)
+\n	    Department of Electrical and Electronic Engineering (EEE)
+\n	    Department of English and Modern Language
+\n	    Department of Islamic Studies
+\n	    Department of Law
+\n	Department of Architecture
+
+
+\nhe university offers the following undergraduate programs:
+\n	Bachelor of Architecture
+\n	    Bachelor of Business Administration
+\n	    Bachelor of Science in Civil Engineering
+\n	    Bachelor of Computer Science and Engineering
+\n	    Bachelor of Science in Electrical and Electronics Engineering
+\n	    Bachelor of Arts in English
+\n	    Bachelor of Arts in Islamic Studies
+\n	    Bachelor of Arts in Law
+
+\nThe university offers the following postgraduate programs:
+\n	Masters of Business Administration
+\n	Masters of Arts in English (Preliminary and Final)
+\n	Masters of Arts in Islamic Studies
+\n	Masters of Law
+
+"
+        android:id="@+id/textView1"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nCalendar\n"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\nThe university has three semesters available in a year: spring semester (starts in January), summer semester (starts in April), and fall semester (starts in October). The duration of each semester is thirteen weeks. But the academic calendar for the architecture department consists of two semesters each year."
+        android:id="@+id/textView4"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nExtracurricular activities\n"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\nLU provides activities designed by its own particular club, such as the Debating Club, Sports Club, Cultural Activities Club, Social Services Club, Computer Club, Creative Club, and Bangladesh National Cadet Corps. Leading University Social Services Club run a school named Aloo [Light] for children. The delegate of this university won the Sylhet divisional championship of Abar71, a national convention organized by BRAC University Moot Court Society, Bangladesh MuktijuddaSangsad Command Unit, and Ministry of Liberation War."
+        android:id="@+id/textView5"
+        android:textColor="#0a0909" />
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

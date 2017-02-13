@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_civilwork"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.civilwork"> <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="প্রকৌশলীর কাজের ধরন\n"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nসিভিল ইঞ্জিনিয়াররা মোটামুটি সব ক্ষেত্রেই কাজ করতে পারেন। তার কাজের ধরন অনুযায়ী তাকে মাঠ ও অফিস এই ক্ষেত্রেই থাকতে হয়। এছাড়া তাদের থাকতে হয় সদা প্রস্তুত। কেননা দুর্যোগকালীন সময়েও তাদের উপস্থিতি ও পরিকল্পনার দরকার হয়। এছাড়া চাইলে স্ব স্ব ফার্মের মাধ্যমে ক্যারিয়ার শুরু করতে পারেন। বাড়ি, সড়ক, ব্রিজ, পোতাশ্রয়, বাঁধ, রেলপথ, কারখানা, হাউজিং কমপ্লেক্স, নিউক্লিয়ার পাওয়ার প্লান্ট, বিমানবন্দরসহ বিভিন্ন স্থাপনাতে নকশা ও কাঠামো তৈরিতে তাদের ভূমিকা সবচেয়ে বেশি। আর রিয়েল এস্টেটের ব্যবসা দিন দিন জনপ্রিয় হচ্ছে সেখানে চাইলে সিভিল ইঞ্জিনিয়াররা তাদের অবস্থান করে নিতে পারে। এছাড়া কাঠামোটি কতটা টেকশই ও সহনশীল হবে সেটাও অনেকাংশে তাদের ওপর নির্ভর করে। কিছু কিছু ক্ষেত্রে তারা পরামর্শকের ভূমিকা পালন করে। সিভিল ইঞ্জিনিয়াররা হাইওয়ে ইঞ্জিনিয়ার, ভূ-প্রকৌশল ইঞ্জিনিয়ার, বিদ্যুৎ ইঞ্জিনিয়ার, কনস্ট্রাকসন ইঞ্জিনিয়ার, গণপূর্ত ইঞ্জিনিয়ারসহ বিভিন্ন সেক্টরে কাজ করে।
+
+"
+            android:id="@+id/textView7"
+            android:textColor="#0a0909" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+</RelativeLayout>

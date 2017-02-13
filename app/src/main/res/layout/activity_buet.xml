@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_buet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.ajoysarkar.careerguide.buet">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bue"
+        android:id="@+id/imageView9"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-50dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView9">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bangladesh University of Engineering and Technology \n"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Bangladesh University of Engineering and Technology ( commonly known as BUET is a renowned public university in Bangladesh, which focuses on the study of engineering and architecture. It is the oldest institution for the study of engineering, architecture and urban planning in the country.
+    Every year, around 1030 students get accepted to their undergraduate programs to study engineering, architecture, and urban planning. Of the 9,000 candidates selected to write the undergraduate admission test from an initial application pool of over 10,000 applicants, only about the top 10% are admitted. Around 1000 graduate students are accepted into their Masters and PhD programmes on an annual basis. The total number of teachers is around 600. With the construction of new academic buildings, an auditorium complex, and halls of residence, the university has continued to expand over the last three decades. BUET has been ranked 159th among the Asian universities in the 2016 edition of QS World University Rankings.
+
+    \n\nMotto:	The ocean of knowledge
+    \nType:	Public coeducational
+    \nEstablished:	1876: Dhaka Survey School
+                    \n1912: Ahsanullah School of Engineering
+                    \n1947: Faculty of Engineering, University of Dhaka
+                    \n1962: EPUET
+                    \n1971: BUET
+    \nChancellor: President of Bangladesh
+    \nVice-Chancellor: Saiful Islam
+    \nAcademic staff :	652
+    \nAdministrative staff :	1,450
+    \mStudents	10,066
+    \nUndergraduates: 5,169
+    \nPostgraduates: 4,274
+    \nDoctoral students: 437
+    \nOther students: 186
+    \nLocation:	Dhaka, Bangladesh
+                Campus	Urban, 76.85 acres (0.31 km²)
+    \nNickname: BUET
+    \nWebsite: buet.ac.bd
+    "
+            android:id="@+id/textView7"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\n Academics\n
+Faculties and Departments
+\n"
+            android:id="@+id/textView8"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView30"
+            android:textColor="#090808"
+            android:text="Academic activities are undertaken by eighteen departments under five faculties Twelve departments offer undergraduate courses. All of the departments aside from the department of Humanities offer postgraduate courses.
+
+\nWest wing of the Civil Engineering
+
+\nElectrical and Computer Engineering
+
+\nElectrical and Mechanical Engineering
+
+\n Department of Architecture, BUET
+
+\nAerial view of the plinth level of the Architecture \n
+\n•	Faculty of Architecture and Planning
+\no	Department of Architecture (Arch)
+\no	Department of Urban and Regional Planning (URP)
+\no	Department of Humanities (Hum)
+\n•	Faculty of Civil Engineering
+\no	Department of Civil Engineering (CE)
+\no	Department of Water Resources Engineering (WRE)
+\n•	Faculty of Electrical and Electronic Engineering
+\no	Department of Electrical and Electronic Engineering (EEE)
+\no	Department of Computer Science and Engineering (CSE)
+\no	Department of Biomedical Engineering (BME)
+\n•	Faculty of Mechanical Engineering
+\no	Department of Mechanical Engineering (ME)
+\no	Department of Industrial and Production Engineering (IPE)
+\no	Department of Naval Architecture and Marine Engineering (NAME)
+\n•	Faculty of Engineering
+\no	Department of Chemical Engineering (ChE)
+\no	Department of Materials and Metallurgical Engineering (MME)
+\no	Department of Chemistry (Chem)
+\no	Department of Mathematics (Math)
+\no	Department of Physics (Phys)
+\no	Department of Petroleum and Mineral Resources Engineering (PMRE)
+\no	Department of Glass and Ceramic Engineering (GCE)
+">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nInstitutes\n"
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView10"
+            android:textColor="#090808"
+            android:text="At present there are six institutes in BUET. These institutes offer postgraduate diplomas, master's and doctoral degree
+\n•	Institute of Water and Flood Management (IWFM)
+\n•	Institute of Appropriate Technology (IAT)
+\n•	Institute of Information and Communication Technology (IICT)
+\n•	Accident Research Institute (ARI)
+\n•	BUET-Japan Institute of Disaster Prevention and Urban Safety (BUET-JIDPUS)
+\n•	Institute of Nuclear Power Engineering (INPE)
+"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nResearch Centers\n"
+            android:id="@+id/textView11"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView12"
+            android:textColor="#090808"
+            android:text="
+\n•	Centre for Energy Studies (CES)
+\n•	Centre for Environmental and Resource Management (CERM)
+\n•	Biomedical Engineering Centre (BEC)
+\n•	Bureau of Research, Testing and Consultation (BRTC)
+\n•	International Training Network Centre (ITN)
+\n•	Bangladesh Network Office for Urban Safety (BNUS)
+\n•	Selection Boards
+\n•	Committee for Advanced Studies and Research (CASR)
+\n•	Planning and Development Committee
+\n•	Boards of Postgraduate Studies (BPGS)
+\n•	Boards of Undergraduate Studies (BUGS)
+\nThe University Syndicate is the supreme authority in major policy-making matters and in approving recommendations. The Finance Committee, the Planning and Development Committee and other committees assist the Syndicate in matters important for proper functioning of the University. The Academic Council is the supreme body for formulating academic rules and regulations to which the CASR, Boards of Undergraduate and Postgraduate Studies and the Faculties recommend.
+"></TextView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

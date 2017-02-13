@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Career Guide</string>
+    <string name="title_activity_best_university">bestUniversity</string>
+    <string name="bestUni">Best University</string>
+    <string name="tips">Career Tips</string>
+    <string name="cseTips">CSE Career Tips</string>
+    <string name="eeeTips">EEE Career Tips</string>
+    <string name="architectureTips">ARCHITECTURE Career Tips</string>
+    <string name="civilTips">CIVIL Career Tips</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="aboutUs">About Us</string>
+    <string name="cvSample">CV Sample</string>
+    <string name="jobTest">Job Test Sample </string>
+    <string name="video">Career Video</string>
+    <string name="scholarTip">Scholarship Tips</string>
+    <string name="cuet">CUET</string>
+    <string name="du">Dhaka University</string>
+    <string name="kuet">KUET</string>
+    <string name="buet">BUET</string>
+    <string name="sust">SUST</string>
+    <string name="iut">IUT</string>
+    <string name="lu">Leading University</string>
+    <string name="ju">Jahangirnagar University</string>
+    <string name="nu">National University</string>
+
+
+    <string name="download_Pdf">Download pdf</string>
+    <string name="download_Doc">Download Doc</string>
+    <string name="download_zip">Download Zip</string>
+    <string name="download_video">Download Video</string>
+    <string name="download_mp3">Download MP3</string>
+    <string name="openFolder">Open Downloaded Folder</string>
+    <string name="downloadStarted">Download Started…</string>
+    <string name="downloadCompleted">Download Completed…</string>
+    <string name="downloadFailed">Download Failed…</string>
+    <string name="downloadAgain">Download Again</string>
+
+    <string name="menu_settings">Settings</string>
+
+    <!-- Start screen strings -->
+    <string name="nameHint">Choose your nick</string>
+    <string name="useThisButton">Use this :)</string>
+
+    <!-- Messaging screen strings -->
+    <string name="userMessageBoxHint">Enter your message</string>
+    <string name="groupMessageBoxText">No messages as of yet !</string>
+    <string name="sendButtonText">send</string>
+    <string name="cseinfo">সি এস ই</string>
+    <string name="math">গণিত</string>
+    <string name="career1">ক্যারিয়ার</string>
+    <string name="careerprog">প্রোগ্রামার হিসেবে ক্যারিয়ার</string>
+    <string name="nonprog">নন-প্রোগ্রামার হিসেবে ক্যারিয়ার </string>
+    <string name="starting">প্রথম ধাপ</string>
+    <string name="whycse">বিষয়</string>
+    <string name="freelance">ফ্রিল্যান্স</string>
+    <string name="programming">প্রোগ্রামিং</string>
+    <string name="whyeee">প্রয়োগ ক্ষেত্র</string>
+    <string name="eeeinfo">ই ই ই</string>
+    <string name="eeefield">সাবফিল্ড</string>
+    <string name="civilinfo">িভিল ইঞ্জিনিয়ারিং</string>
+    <string name="civilwork">প্রকৌশলীর কাজের ধরন</string>
+    <string name="civilstep">সিভিল ইঞ্জিনিয়ারিং এর প্রধান শাখাগুলি</string>
+    <string name="civilcareer">সিভিল ইঞ্জিনিয়ার হিসেবে ক্যারিয়ার</string>
+    <string name="wherestudy">কোথায় পড়বেন?</string>
+    <string name="archinfo">আর্কিটেকচার</string>
+    <string name="archstep">আর্কিটেকচার এর কয়েকটি শাখা </string>
+    <string name="admission">এডমিশন</string>
+    <string name="whyarch">কেন আর্কিটেকচার পড়তে এসেছো ?</string>
+    <string name="scinfo">স্কলারশিপ</string>
+    <string name="whysc">স্কলারশিপ পাওয়ার জন্য যাহা করণীয় </string>
+    <string name="scname">বিশ্বের কিছু নাম করা স্কলারশিপ</string>
+    <string name="gre">GRE</string>
+    <string name="ielts">IELTS</string>
+    <string name="toefl">TOEFL </string>
+    <string name="gmat">GMAT</string>
+
+
+
+
+
+</resources>

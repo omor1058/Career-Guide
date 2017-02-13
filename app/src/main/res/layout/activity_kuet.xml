@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kuet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajoysarkar.careerguide.kuet">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/kue"
+        android:id="@+id/imageView12"
+        android:layout_marginTop="-60dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Khulna University of Engineering and Technology\n"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\nKhulna University of Engineering and Technology  commonly known as KUET  formerly BIT, Khulna, is a public university of Bangladesh emphasizing education and research on engineering and technology. This is a renowned institution for the study of engineering in Bangladesh.
+
+\nThe primary focus of KUET is to offer undergraduate academic programs in engineering fields. In this institution, every year around 1005 students get enrolled in undergraduate programs to study engineering , planning and architecture. In undergraduate admission test, only about top 10% students can get admitted among 10,000 selected candidates, who are selected from an initial application pool of around 20,000 applicants. It also offers postgraduate-level degrees and conducts research in basic sciences along with advanced engineering fields. With over 300  academic stuff it is engaged in teaching some 4300 local and few international students through 16 academic departments in three faculties.
+
+\nThe university has a 101-acre (0.41 km2) campus with academic buildings, auditorium complex, halls of residence, teachers dormitory and residences, laboratories, engineering workshops, administrative building, cafeteria, gymnasium and other facilities.
+
+\nFormer names:  Khulna Engineering College (1967-1986)
+                 Bangladesh Institute of Technology (BIT), Khulna (1986-2003)
+\nMotto:প্রভুআমায়জ্ঞানদাও
+\nMotto in English:  Oh Lord! Bestow me with Knowledge
+\nType :	Public
+\nEstablished :  1967
+\nEndowment:  $8 million (2016)
+\nChancellor:  President of Bangladesh
+\nVice-Chancellor : Muhammed Alamgir
+\nDean:  Md. MahbubAlam
+\nMd. AbdurRafiq
+\nTarapada Bhowmick
+\nAcademic staff:  284
+\nAdministrative staff:  500
+\nStudents : 4280
+\nUndergraduates : 3450
+\nPostgraduates:  650
+\nDoctoral students:  180
+\nLocation : Khulna, Bangladesh
+\nCampus : Suburban, 101 acres (0.41 km²)
+\nWebsite : kuet.ac.bd
+
+"
+        android:id="@+id/textView8"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nAcademics\n"
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\nAcademic structure
+
+\nThe academic division of KUET is organized in 19 departments under three faculties. Forteen departments offer undergraduate courses.
+
+\n    Faculty of Civil Engineering
+\n	Department of Civil Engineering ( CE )
+\n	Department of Urban and Regional Planning ( URP )
+\n	Department of Building Engineering and Construction Management ( BECM )
+\n	Department of Architecture (AE)
+\n	Department of Mathematics ( MATH )
+\n	Department of Chemistry ( CH )
+\n	Department of Physics ( PH )
+\n	Department of Humanities ( HUM )
+\n    Faculty of Electrical and Electronic Engineering
+\n	Department of Electrical and Electronic Engineering ( EEE )
+\n	Department of Computer Science and Engineering ( CSE )
+\n	Department of Electronics and Communication Engineering ( ECE )
+\n	Department of Biomedical Engineering ( BME )
+\n	Department of Material Science and Engineering (MSE)
+\n    Faculty of Mechanical Engineering
+\n	Department of Mechanical Engineering ( ME )
+\n	Department of Industrial Engineering and Management ( IEM )
+\n	Department of Leather Engineering ( LE )
+\n	Department of Textile Engineering ( TE )
+\n	Department of Energy Science and Engineering ( ESE )
+"
+        android:id="@+id/textView11"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nInstitutes\n"
+            android:id="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="There are two institutes at KUET for advanced research:
+\n1. Institute of Information and Communication Technology (IICT, KUET).
+\n2. Institute of Disaster Management (IDM, KUET).
+
+\nKUET journals and research bulletins
+\n	Journal of Engineering Science
+\nStudent life
+\nHalls of residence
+\nAmar Ekushe Hall
+\nThere are seven residential halls (one female, six male). The administrative heads of a hall are its provost and assistant provosts. Usually the halls have a single provost and one or more assistant provost.
+\nThe residential halls provide facilities for the students, for example, hall library, prayer room, TV and recreational room including daily newspapers and magazines etc. Generally four students live in a room except the two-seat rooms in Amar Ekushey Hall arranged for graduate students. These halls have dining rooms (Amar Ekushey Hall has two dining rooms) where monthly prepaid lunch and dinner are offered to the students.
+
+\n	Bangabandhu Sheikh MujiburRahman Hall
+\n	Amar Ekushey Hall
+\n	FazlulHaque Hall
+\n	Lalan Shah Hall
+\n	Khan Jahan Ali Hall
+\n	Dr. M A Rashid Hall
+\n	Begum Rokeya Hall
+\n"
+        android:id="@+id/textView12"
+        android:textColor="#0a0909" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

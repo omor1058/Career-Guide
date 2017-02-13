@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admission"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.admission">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="এডমিশন\n"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="দেশে বর্তমানে সরকারি তিনটি প্রতিষ্ঠানে Architecture পড়ানো হয়-
+\n(ক) বাংলাদেশ প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়
+\n(খ) খুলনা বিশ্ববিদ্যালয়
+\n(গ) শাহজালাল প্রযুক্তি বিশ্ববিদ্যালয়
+\nএছাড়া বেসরকারি গুলোর মধ্যে অন্যতম-
+\n(ক) এশিয়া প্যাসিফিক ইউনিভর্সিটি
+\n(খ) ব্র্যাক ইউনিভার্সিটি
+\n(গ) নর্থ-সাইথ ইউনিভার্সিটি
+\n(ঘ) স্ট্যামফোর্ড ইউনিভার্সিটি
+
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ভর্তির যোগ্যতা\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="প্রথমত বিজ্ঞান শাখায় সকল বিষয়ে ভালো করতে হবে। বিশেষত পদার্থবিজ্ঞান এবং গণিতে A+ থাকলে খুব ভালো হয়। এইচএসসি’তে জিপিএ 4.8 এর উপরে থাকলে ভাল হয়। এসএসসি তে জি.পি.এ 4.7 এবং অবশ্যই কম্পিউটার ব্যবহার করে এবং মুক্তহস্তে অঙ্কনে পারদর্শী হতে হবে। যেকোন ছবি আঁকার মত যোগ্যতা ছাড়া আর্কিটেকচার-এ ভালো করা অনেকটাই অসম্ভব।\n\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="স্কলারশীপ\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="দেশে এবং দেশের বাইরে প্রচুর স্কলারশীপ পাওয়া যায়। এ বিষয়ে যদি সিজিপিএ 3.25 এর উপর থাকে তাহলে জাপানে, অস্ট্রেলিয়া এবং কানাডায় পড়াশুনা করার জন্য স্কলারশীপ পাওয়া সম্ভব। দেশেও অনেক বেসরকারি বিশ্ববিদ্যালয় বৃত্তি দিয়ে থাকে। Credit transfer এর মাধ্যমেও অনেকে স্কলারশীপ ব্যবস্থা করে থাকেন। দেশের চেয়ে বাইরে আর্কিটেকচারের কদর বেশি।\n\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

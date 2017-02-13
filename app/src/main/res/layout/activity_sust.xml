@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sust"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajoysarkar.careerguide.sust">
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/sus"
+        android:id="@+id/imageView14"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-20dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="300dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Shahjalal University of Science and Technology\n"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Shahjalal University of Science and Technology  also known as SUST is a state supported not-for-profit research university located in Sylhet, Bangladesh. It is the first university to adopt American credit system in Bangladesh. It is also one of the sixteen PhD granting universities of the country.
+\nThe university was founded by the Government of Bangladesh according to a university act in 1986 to give special importance in science and technology education. SUST was established as the first specialized science and  technology university of the country. After SUST, seven more science and technology universities have been established in Bangladesh.
+\nSUST is traditionally known for research and education in the physical sciences and engineering. It is one of the most selective higher learning institutions, and received 41,285 undergraduate applicants for 2015-2016 session only admitting 1,448; an acceptance rate of 3.51%.
+
+\nType:   Public, coeducational
+\nEstablished :  25 August 1986
+\nChancellor :  President Abdul Hamid
+\nVice-Chancellor:   MdAminul Haque Bhuyan
+\nAcademic staff:   1,508
+\nAdministrative staff:  302
+\nStudents:  15,314
+\nLocation :Kumargaon, Sylhet, Bangladesh
+\nCampus :  Urban
+\n320 acres:  (130 ha) (Main campus)
+\n173 acres:  (70 ha) (Affiliated campus)
+\nAcademic departments:  28
+\nNickname :  SUST
+\nAffiliations :  Association of Commonwealth Universities
+                International Association of Universities
+                Federation of the Universities of the Islamic World
+                University Grants Commission
+                World Health Organisation
+\nWebsite :  www.sust.edu
+
+
+"
+        android:id="@+id/textView8"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nSchools and departments\n"
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SUST programming team placed 98th among 2200 universities in ACM ICPC 2012
+\nSUST has 28 departments under 7 schools:
+\nSchool of Agriculture and Mineral Sciences
+\n	Department of Forestry and Environmental Science
+\nSchool of Applied Sciences and Technology
+\n	Department of Architecture (ARC)
+\n	Department of Chemical Engineering and Polymer Science (CEP)
+\n	Department of Civil and Environmental Engineering (CEE)
+\n	Department of Computer Science and Engineering (CSE)
+\n	Department of Electrical and Electronic Engineering (EEE)
+\n	Department of Food Engineering and Tea Technology (FET)
+\	Department of Industrial and Production Engineering (IPE)
+\n	Department of Mechanical Engineering (MEE)
+\n	Department of Petroleum and Mining Engineering (PME)
+\n	Department of Software Engineering (SWE)
+\n	Department of Oceanography (OCG)
+\n	School of Life Sciences
+\nA view of an academic building of SUST
+\n	Department of Bio-Chemistry and Molecular Biology (BMB)
+\n	Department of Genetic Engineering and Biotechnology (GEB)
+\nSchool of Management and Business Administration
+
+\n	Department of Business Administration, SUST
+
+\nSchool of Medical Sciences
+\n5 affiliated medical colleges:
+
+\n	M.A.G. Osmani Medical College, Sylhet
+\n	Jalalabad Ragib-Rabeya Medical College
+\n	North East Medical College
+\n	Sylhet Women's Medical College
+\n	Park View Medical College
+
+\nSchool of Physical Sciences
+
+\n	Department of Chemistry (CHE)
+\n	Department of Geography and Environment (GEE)
+\n	Department of Mathematics (MAT)
+\n	Department of Physics (PHY)
+\n	Department of Statistics (STA)
+\n	Department of Oceanography (OCG)
+
+\nSchool of Social Sciences
+
+\n	Department of Anthropology (ANP)
+\n	Department of Bangla (BNG)
+\n	Department of Economics (ECO)
+\n	Department of English (ENG)
+\n	Department of Political Studies (PSS)
+\n	Department of Public Administration (PAD)
+\n	Department of Social work (SCW)
+\n	Department of Sociology (SOC)
+
+\nAffiliated college
+\nThe university has eight affiliated colleges:
+\n	Sylhet Engineering College
+\n	M.A.G. Osmani Medical College, Sylhet
+\n	Jalalabad Ragib-Rabeya Medical College
+\n	North East Medical College
+\n	Sylhet Women's Medical College
+\n	DurreSamadRahman Women's Red Crescent Medical College
+\n	Sylhet Nursing College
+\n	North East Nursing College
+\n	Park View Medical College
+
+"
+        android:id="@+id/textView10"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nInstitutes\n"
+            android:id="@+id/textView11"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\nThe research institutes of SUST are:
+\n	PGD In IT
+\n	Institute of Information and Communication Technology
+\n	CRTC Architecture
+\n
+
+"
+        android:id="@+id/textView21"
+        android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nCampus\n"
+            android:id="@+id/textView1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="SUST has a campus area of 320 acres which is famous for its natural beauty. Many visitors come to Sylhet visit the ShahidMinar (Martyr's Memorial) of the university. The memorial stands on the top of a small hill and is surrounded by trees. Different cultural organizations arrange programs on the premises on local and national occasions.
+
+\nSUST has high reputation for non-violent student movements. It is also a university without any session jam. The first ever Bangladesh Mathematical Olympiad was held in Shahjalal University of Science and Technology in 2004.[24] Prominent teachers/lecturers there include the Bangladeshi writer and scientist, MuhammedZafarIqbal, who is a professor of Computer Science and Engineering and Electrical and Electronics Engineering as well as the head of the department.
+
+\nHalls of Residence
+\n	2nd Male Students' Hall
+\n	1st Ladies' Hall
+\nCurrently, there are 5 halls of residence. A significant number of students reside privately near the university area of Sylhet metro.
+
+\nHalls of Residence
+\n	Shah Paran Hall
+\n	Second Students Hall
+\n	Syed Mujtaba Ali Hall
+\n	First Ladies Hall
+\n	Begum SirajunnesaChowdhury Hall
+
+\nThere are also well decorated houses for the faculty members of SUST. University authorities also run some private halls of residence outside the main campus especially for female students to guarantee housing for female students. These Halls are:
+\n	DarulAmanchatrabas
+\n	Amir Complex
+\n	Fazal Complex
+\n	Samad House
+\n	MaaManjil
+\n	Sunu Mia Complex
+
+
+"
+            android:id="@+id/textView12"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nSports\n"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nThe students of this university participate in sports for recreation and the finest athletes regularly compete in inter-university games like football, handball, volleyball, basketball etc. SUST has some varsity teams. There is a Cricket ground, a Football ground, a Basketball ground and well equipped gymnasium adjacent to the university student health center. SUST is the only university to have Professional Cricket League and Professional Football League. Students organize both inter-department and inter-university tournaments for popular games every year. Girls and teachers also participate in several games.
+
+"
+            android:id="@+id/textView18"
+            android:textColor="#0a0909" />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

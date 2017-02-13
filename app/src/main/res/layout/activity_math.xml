@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_math"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.math">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="গণিতে দূর্বল?\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="অনেকেই আমার কাছে বা বিভিন্ন ফোরামে এরকম একটা প্রশ্ন করে, “ভাই, আমি তো গণিতে দূর্বল, আমি কি প্রোগ্রামিং শিখতে পারব?” প্রশ্নটা যারা করে, বেশিরভাগই বিশ্ববিদ্যালয় পর্যায়ের শিক্ষার্থী। এখন কথা হচ্ছে গণিতে দূর্বলতা কোনো স্থায়ী জন্মগত সমস্যা নয় যে সেটা ঠিক করা যাবে না। তাই প্রোগ্রামিং শেখার আগে সেই সমস্যাটা ঠিক করে ফেলাই ভালো নয় কি? তো কীভাবে কী করা যায়, সেটা নিয়ে আমার দীর্ঘদিন গণিত পড়ানোর অভিজ্ঞতার আলোকে তোমাদের জন্য এই লেখা।
+
+\n\nপ্রথম কথা হচ্ছে তোমার ম্যাথ জিনিয়াস হওয়ার দরকার নাই। তুমি তো আর আন্তর্জাতিক গণিত অলিম্পিয়াডে অংশ নিতে যাচ্ছ না, কিংবা এসিএম আইসিপিসির ওয়ার্ল্ড ফাইনালসে প্রতিযোগিতা করতে যাচ্ছে না। তোমার উদ্দেশ্য হচ্ছে প্রোগ্রামিং শেখা এবং ভালো লাগলে সেটার উপর ক্যারিয়ার গড়া। এবং তুমি গণিতে নিজেকে দূর্বল মনে করছ, তাই আমার এই আর্টিকেলটি পড়ছ। তুমি গণিতে দূর্বল মানে তোমার বেসিক যথেষ্ট শক্ত নয়, তুমি স্কুলে ফাঁকিবাজি করেছ। অথবা জীবনে কখনও ভালো গণিত শিক্ষকের সান্নিধ্যে আসার সুযোগ হয় নাই। তো এখন স্কুলজীবন শেষ, তার মানে এই না যে স্কুলের বইগুলো আবার পড়া যাবে না। তুমি প্রথমে অষ্টম শ্রেণীর গণিত বই পড়া শুরু কর। বইয়ের শুরু থেকে শেষ পর্যন্ত পড়ে ফেলবে। সাথে সাথে উদাহরণের অঙ্কগুলো নিজে নিজে করবে। অনুশীলনী করার দরকার নাই। এক-দুই সপ্তাহের মধ্যেই বইটা শেষ করতে পারা উচিত। তুমি স্কুলের বই পড়ছ দেখে বাসায় লোকজন হাসাহাসি করতে পারে, পাত্তা দিও না।
+
+\n\nএরপর নিজেকে প্রশ্ন করবে? ক্লাস এইটের বই পড়ার সময় কী সবকিছু ঠিকঠাক বুঝতে পেরেছ নাকি কোথাও কোথাও একটু সমস্যা হয়েছে? যদি সমস্যা হয়, তাহলে ক্লাস ফাইভের বই থেকে শুরু কর। তারপর ক্লাস সিক্স ও সেভেনের বই। প্রতিটা বই পড়তে এক সপ্তাহের মত সময় লাগবে। পড়ার সাথে সাথে উদাহরণগুলো করতে ভুলবে না।
+
+\n\nক্লাস এইট পর্যন্ত গণিতের বেসিক শক্ত করার পরে তুমি জাফর ইকবাল স্যারের লেখা “গণিত এবং আরো গণিত” বইটা পড়তে পার। বইটা আসলে ইংলিশ মিডিয়ামের (ও লেভেলের) গণিত বই অবলম্বনে লেখা। পড়তে এক মাসের মতো সময় লাগবে।
+
+\n\nউপরের কাজগুলো করার পরে তুমি প্রোগ্রামিং শেখা শুরু করে দাও। আর প্রোগ্রামিং শেখার সময়, প্রোগ্রামিংয়ের ফাঁকে ফাঁকে ডিসক্রিট ম্যাথ শিখে ফেলো। এর জন্য বাংলায় কোনো ভালো বই নাই। তবে হাম্মাদ আলী স্যারের অনলাইন কোর্স আছে, সবার জন্য ফ্রি।
+
+\n\nপৃথিবীর ৯৫% প্রফেশনাল প্রোগ্রামারই জীবনে এমন কিছু করবে না, যার জন্য এর চেয়ে বেশি গণিত শেখার দরকার হবে। বাকী ৫% এর অনেক কিছু শিখতে হবে। সেগুলো কী কী, এটা তাদের আলাদাভাবে বলে দেওয়া লাগবে না, তারা সামনে এগুতে থাকলে এমনিতেই জানতে পারবে। আর ৯৫%, যাদের মধ্যে তোমার থাকার সম্ভাবনা বেশি, তুমি নিশ্চিন্তে প্রোগ্রামিংকে ক্যারিয়ার হিসেবে নিতে পার, যদি প্রোগ্রামিং ভালো লাগে। তোমার জন্য শুভকামনা।
+\n\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

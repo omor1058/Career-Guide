@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nonprog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.nonprog">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="নন-প্রোগ্রামার হিসেবে ক্যারিয়ার  \n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="আপনিযদিপ্রোগ্রামিংএরপ্রতিআগ্রহীনাহনবামনেহয়এইসেক্টরেগিয়েআপনিখুবভালকিছুকরতেপারবেননাতাহলেহতাশহয়েযাবারকিছুনাই।বিরাট আইটি ইন্ড্রাস্টিতে প্রোগ্রামারের চেয়ে নন প্রোগ্রামারের সংখ্যাই বেশি । তাই নিচের যেকোন একটা পজিশনের জন্য আপনি নিজেকে প্রস্তুত করতে পারেন ।\n"
+                android:id="@+id/textView11"
+                android:textColor="#0a0909" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nQuality Assurance Engineer(QA Engineer)\n"
+                android:id="@+id/textView44"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Quality Assurance Engineer(QA Engineer)এর কাজ হচ্ছে ডেভেলপ করা সফটওয়্যার বা সিস্টেমের quality checkকরা । বিভিন্ন টুলস বা মেথডের মাধ্যমে পরীক্ষা নিরিক্ষা করা যে কোথাও কোন ত্রুটি রয়ে গেছে কিনা । QA  হিসেবে যারা কাজ করেন তাদের সরাসরি কোডে হাত দিতে হয় না বা প্রোগ্রামিং এর খুব বেশি গভীর জ্ঞান থাকাও জরুরী না । তবে কোম্পানি ভেদে হয়ত ভাল প্রোগ্রামিং জানাটাও একটা requirementহতে পারে।White box testingযেহেতু QA teamএরই কাজ তাই প্রোগ্রামিং এর ব্যাসিক ধারণাটা অবশ্যই থাকা লাগবে । \n"
+                android:id="@+id/textView26"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nUI/UX Designer"
+                android:id="@+id/textView18"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="\nUI/UX Designerএর চাহিদা সব ফার্মেই থাকে । UI  ও UX ডিজাইন সম্পূর্ণ আলাদা দুটি বিষয়।User Interface Designer যদিও কোড করে থাকেন তবে সেগুলো ঠিক প্রোগ্রামিং ল্যাঙ্গুয়েজ না বা এগুলো ডিজাইন করার জন্য problem solving skill প্রয়োজন হয় না। যেমন HTML , CSS, XML  বিভিন্ন ল্যাঙ্গুয়েজ দিয়ে কোন সফটওয়্যার/App/websiteএর Front endবা UI ডিজাইন করা । ইউএক্স ডিজাইনারের কাজ হচ্ছে পুরো সফটওয়্যারটা কিভাবে ডিজাইন করলে ইউজাররা সবচেয়ে বেশি কমফোর্ট ফিল করবেন সেটা ডিজাইন করা। ব্যবহারকারীদের বয়স, তাদের রুচি, তাদের পেশা ইত্যাদির কতা মাথায় রেখে ইউএক্স ডিজাইনাররা সিদ্বান্ত নিবেন কোন একটা অ্যাপের ব্যাকগ্রাউন্ড কালার কি হবে? বাটনগুলো কোথায় বসবে?আর এজন্য HTML, CSS, Photoshopএই জিনিসগুলো জানা থাকা লাগে ।\n"
+                android:id="@+id/textView45"
+                android:textColor="#0a0909" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nResearch Analyst\n"
+                android:id="@+id/textView9"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Research Analystহিসেবে কাজ করার জন্যও প্রোগ্রামিং দরকার হয় না। একজন রিসার্চ এনালিস্টের কাজ হচ্ছে কোম্পানি যে ধরনের কাজ করে সে সম্পর্কে বিভিন্ন ডেটা সংগ্রহ ও এনালাইসিস করা । যেমন কোন একটা কোম্পানি একটা চ্যাটিং এ্যাপ বানাতে চাচ্ছে । তখন রিসার্চ এনালিস্টের কাজ হবে এই সংক্রান্ত যাবতীয় তথ্য সংগ্রহ ও সেগুলোর উপর রিপোর্ট করা। এই ধরনের আর কি কি এ্যাপ আছে , সেগুলোর সুবিধা অসুবিধা কী, মানুষ কেন সেগুলো ইউজ করে বা করে না ইত্যাদি সকল তথ্য নিয়ে রিপোর্ট করা। \n"
+                android:id="@+id/textView24"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nIT Support Executive\n"
+                android:id="@+id/textView1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="IT Support Executiveনামের একটা পজিশন প্রায় সব সফটওয়্যার ফার্মেই থাকে  বা একই কাজের জন্য ভিন্ন নামের পদও থাকতে পারে। উনার কাজ হচ্ছে কোম্পানির ক্লায়েন্টদের যেকোন সমস্যায় সাপোর্ট দেয়া ।যেমন কোন ক্লায়েন্ট একটা সফটওয়্যার নিয়েছেন আপনার কোম্পানি থেকে , এখন কোন একটা অপশন খুঁজে পাচ্ছে না বা কোন একটা ফাংশন কাজ করছে না । তখন ফোনে ,স্কাইপিতে বা Team viewerএর মাধ্যমে যেভাবেই হোক সেটা সমাধান করা অথবা ক্লায়েন্টের প্রবলেমটা টুকে নিয়ে ডেভেলপার বা সংশ্লিষ্ঠ ডিপার্টমেন্টের কাছে পাঠানো । \n"
+                android:id="@+id/textView38"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nIT Executive \n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="IT Executive পদটি মাঝারি থেকে বড় প্রায় সকল প্রতিষ্ঠানেই থাকে। কোন একটা কোম্পানি যেখানে ৩০-৪০ টা কম্পিউটার ব্যবহার করা হয় এরকম যেকোন ধরনের প্রতিষ্ঠানেই আইটি এক্সিকিউটিভ প্রয়োজন হয়। এই চাকরির দায়িত্ব হচ্ছে কম্পিউটারগুলোর দেখাশুনা করা।সেগুলোর কোনটায় কোন ঝামেলা হলে সেটা ঠিক করা । এগুলোকে নেটওয়ার্কের আওতায় আনা।কোম্পানির বিভিন্ন ডকুমেন্টসগুলো সফট কপি আকারে সংরক্ষন করা। মোট কথা আইটি এক্সিকিউটিভ পদের মানুষটার কাজ হচ্ছে সংশ্লিষ্ট প্রতিষ্ঠানের যাবতীয় আইটি সাপোর্ট দেয়া। নেটওয়ার্কিং , অপারেটিং সিস্টেম এই বিষয়গুলোর উপর দক্ষতা থাকতে হবে। তবে বেশির ভাগ কোম্পানিতে এই পদে চাকুরি শুরু করার পর গুতাগুতি করতে করতেই শেখা হয়।\n"
+                android:id="@+id/textView60"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nDBA(Database Administrator)\n"
+                android:id="@+id/textView69"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DBA(Database Administrator)পদটি বেশ সম্মানজনক । আর এই পদের দায়-দায়িত্বও অনেক বেশি। ডেটাবেজ নিয়ে কাজ করার জন্য সরাসরি সেরকম প্রোগ্রামিং জ্ঞান প্রয়োজন হয় না। এই বিষয়ের উপর বিভিন্ন কোর্স করা যায়।Query languageজানা থাকতে হয় খুব ভাল মত। সার্ভার সংক্রান্ত জ্ঞান যেমন পারফর্মেন্স ইস্যু বা ডেটাবেজে কিভাবে ডেটা থাকে ইত্যাদি বিষয়ে জ্ঞান থাকতে হয়। ওরাকল জানা DBA এর বেশ ভাল চাহিদা রয়েছে বড় বড় সব প্রতিষ্ঠানেই।\n"
+                android:id="@+id/textView68"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nNetwork Engineer\n"
+                android:id="@+id/textView67"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Network Engineerএর কাজ হচ্ছে কোন একটা প্রতিষ্ঠানের কম্পিউটার নেটওয়ার্কিং সংক্রান্ত যাবতীয় কাজের দেখ ভাল করা। অবস্থা ভেদে প্রতিষ্ঠানের নিজস্ব সার্ভার স্থাপন,কনফিগারেশন ইত্যাদির কাজও নেটওয়ার্ক ইঞ্জিনিয়ারের করা দরকার হয়। পুরো নেটওয়ার্কের সিকিউরিটি, ইফিসিয়েন্সি, ব্যান্ডউইথ ম্যানেজমেন্ট বিবিধ ব্যাপার নিশ্চিত করাও এই পদের লোকদের কাজ। নেটওয়ার্ক ইঞ্জিনিয়ার হিসেবে কাজ করার জন্য CCNA কোর্স করার প্রয়োজন হয় । যদিনেটওয়ার্কিং নিয়ে নিজের ক্যারিয়ার গড়তে চান তাহলে খুজ নিয়ে দেখুন যেভার্সিটিতে ভর্তি হতে চাচ্ছেন সেই ভার্সিটি কী CISCO সার্টিফাইড কিনা।বাংলাদেশে অন্যতম CISCO সার্টিফাইড ভার্সিটি হল ড্যাফডিল এবং AIUB।\n"
+                android:id="@+id/textView66"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nTelecommunication Sector\n"
+                android:id="@+id/textView65"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Telecommunication Sectorএর চাকুরি অনেকের কাছেই লোভনীয়। প্রোগ্রামিং জানা লোকজন যেমন দরকার , নন-প্রোগ্রামার কিন্তু আইটি সম্পর্কে ,নেটওয়ার্ক সম্পর্কে জ্ঞান রাখে এমন লোকেরও দরকার ।
+\n"
+                android:id="@+id/textView64"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nBankinng Sector\n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Bankinng Sectorসহ সকল আর্থিক প্রতিষ্ঠানেই কম্পিউটার সায়েন্স গ্র্যাজুয়েট বা আইটির জনবল প্রয়োজন হয়। ব্যাংকের ডেটাবেজ রক্ষণাবেক্ষণের জন্য লোক দরকার হয় , ব্যাংকের নিজিস্ব সিস্টেমের সাপোর্ট দেয়ার জন্য লোক দরকার হয়, তাদের ওয়েব সাইট বা মোবাইল এপের দেখাশোনার জন্যেও লোকজন প্রয়োজন হয় । বর্তমানে সকল ব্যাংকই পুরোপুরিভাবে সফটওয়্যার ও ইন্টারনেটের উপর নির্ভরশীল । তাই এখানে কি পরিমাণ আইটি স্পেশালিষ্ট প্রয়োজন তা অনুমান করা যায় ।\n"
+                android:id="@+id/textView62"
+                android:textColor="#0a0909" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

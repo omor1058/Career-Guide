@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.gre">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="GRE\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=
+
+"GRE = Graduate Record Examination, একটি সম্পূর্ণ কম্পিউটারাইজড পরীক্ষা যা অনেক দেশের অনেক ইউনিভার্সিটিতে (বিশেষ করে উত্তর আমেরিকাতে) গ্র্যাজুয়েট স্টাডি (মাস্টার্স বা পিএইচডি) করার জন্য লাগে। প্রধানত science  and ব্যকগ্রাউন্ড এর স্টুডেন্টদের এটা লাগে। Commerce ব্যকগ্রাউন্ডের জন্য লাগে GMAT; তবে অনেক বিজনেস স্কুল আজকাল GRE একসেপ্ট করছে। GMAT নিয়ে জানতে ঘুরে আসুন দেখুন Test Preparation সেকশনের ১৩ নং নোট, All About GMAT
+
+Why GRE is important?
+অনেক ইউরোপিয়ান ইউনিভার্সিটির জন্য শুধুমাত্র সিজিপিএ আর IELTS/TOEFL স্কোর হলেই চলে। কিন্তু আমেরিকা, কানাডার ইউনিভার্সিটিগুলো সহ আরো বেশ কিছু দেশের ইউনিভার্সিটি একটু শেয়ানা। তারা জানে, শুধু সিজিপিএ কারো যোগ্যতার মাপকাঠি হতে পারেনা। ওরা জানে, একেক ইউনিভার্সিটির সিজিপিএ নিয়ে উদারতা একেক রকম। যাদের সিজিপিএ কম, তাদের জন্য এটা বেশ সুখবর। নিজের যোগ্যতা প্রমাণের আরো একটা সুযোগ আছে আপনাদের জন্য।
+\n\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Test Structure\n"
+                android:id="@+id/textView65"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="এর সেকশন ৩টি- Analytical Writing (রচনা), Verbal Reasoning (ইংরেজি), Quantitative Reasoning (গণিত)
+
+\n\nGRE হচ্ছে Multi-Stage Test. অর্থাৎ, Verbal আর Quantitative এর পরীক্ষা হবে একের অধিক (সচরাচর দুই) ধাপে। প্রথম ধাপে আপনার পারফর্ম্যান্স এর ওপর পরবর্তী ধাপের difficulty level নির্ধারিত হবে। অর্থাৎ, আপনি যদি দুপুরে ১ কেজি চালের ভাত খেতে পারেন, তাহলে রাতে দেখবে আপনার পাকস্থলী আসলেই কত বিশাল। ডিনারে দেড় কেজি চাইলের ভাত খেতে দেবে। দুপুরে যদি ১ কেজিই না খেতে পারেন, তাহলে রাতে দেবে ৫০০ গ্রাম।
+
+\n\nপরীক্ষার রুটিন অনেকটা এই রকম-
+\n\nAnalytical writing section > 1 minute break > Verbal > Quantitative > 10 minute break > verbal > quantitative > an experimental section. এই এক্সপেরিমেন্টাল সেকশনটা verbalও হতে পারে, আবার quantitativeও হতে পারে।
+
+\n\nআসুন, এবার তিনটা সেকশন নিয়েই বিস্তারিত জানি……
+\n"
+                android:id="@+id/textView75"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Analytical Writing\n"
+                android:id="@+id/textView64"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1. Analytical writing – দুটো essay লিখতে হবে। একটি Issue Task, আরেকটা Argument Task. প্রত্যেকটার জন্য সময় থাকবে ৩০ মিনিট করে। বিস্তারিত দেখুন Test Preparation সেকশনের ৫,৬ নং নোট- Argument task,Analytical Writing.
+\n"
+                android:id="@+id/textView74"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Verbal Reasoning\n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="2. Verbal Reasoning – আগেই বলা হয়েছে, এটা দুই ধাপে হবে। প্রত্যেক ধাপে 20 টা করে প্রশ্ন, সময় 30 মিনিট করে। এখানে তিন ধরনের প্রশ্ন আসবে।
+
+\n\n*Text Completion – সোজা বাংলায়, শূন্যস্থান পূরণ। একটা গ্যাপ থাকলে পাঁচটা অপশন, একটা সঠিক উত্তর সিলেক্ট করতে হবে। একের অধিক গ্যাপ থাকলে প্রত্যেক গ্যাপের জন্য 3 টা করে অপশন থাকবে, একটা করে সিলেক্ট করতে হবে। সর্বোচ্চ তিনটা গ্যাপ থাকতে পারে।
+\n\n*Sentence Equivalence – এটাও শূন্যস্থান পূরণ, একটু ভিন্ন আঙ্গিকে। একটা গ্যাপ, ছয়টা অপশন, দুইটা সঠিক উত্তর। Vocabulary তে ভালো হতে পারলে কাঁচা কাঁচা নাম্বার পাওয়া যাবে। আর নইলে অপশন নিয়ে ওবু দশ বিশ খেলতে হবে।
+\n\n*Reading Comprehension – ছোট বড় মিলিয়ে 3/4 টা passage থাকবে। আপনাকে বুঝে নিতে হবে অনুচ্ছেদের main or supporting idea কি, লেখক কি বোঝাতে চাইছেন, এই প্যাসেজ পড়ে কি কি প্রশ্নের উত্তর দেয়া যায় ইত্যাদি। একটা প্রশ্ন দিয়ে বলতে পারে, প্যাসেজের কোন লাইন দিয়ে এই প্রশ্নের উত্তর দেয়া যায়- সেক্ষেত্রে প্যাসেজ থেকে একটা লাইন সিলেক্ট করতে হবে।
+\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Quantitative Reasoning:\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="3. Quantitative Reasoning – ম্যাথ সেকশনকে এই নামে ডাকা হয়। এটাও দুই ধাপে হবে। প্রত্যেক ধাপে 20 টা করে প্রশ্ন, সময় 35 মিনিট করে। এখানে চার ধরনের প্রশ্ন আসবে।
+
+\n\n*M.C.Q.- একটা অংক, পাঁচটা অপশন, একটা সঠিক উত্তর, সিম্পল !!
+
+\n\n*M.C.Q. with more than one answer- একটা অংক, তিনটা থেকে ছয়টা অপশন, একের অধিক উত্তর। সবগুলোই উত্তর হতে পারে, সেক্ষেত্রে সবগুলোই সিলেক্ট করতে হবে।
+
+\n\n*Numeric Entry- কোন অপশন নাই, উত্তর লিখতে হবে একটা বক্সের মধ্যে। এখানে অপশন নিয়ে ওবু দশ বিশ খেলার সুযোগ নাই, চু চু……
+\n\n*Quantitative Comparison- আগের সবগুলোই আমাদের পরিচিত, এটা একটু নতুন। দুইটা quantity (Quantity A এবং Quantity B) -তে দুটো value (digit or variable) থাকবে। কোন কলামের value বড়, সেটার ওপর ভিত্তি করে উত্তর ঠিক করতে হবে।
+\n\nScoring Pattern
+
+\n\nসব মিলিয়ে ৩৪৬ নাম্বারের পরীক্ষা। Verbal আর Quantitative এ 170 করে, আর analytical এ 6. Verbal আর Quantitative মিলিয়ে মিনিমাম স্কোর বলতে 305+ এবং ভালো স্কোর বলতে 315+ বোঝায়। Analytical এ 3 এর ওপরে পাওয়া উচিৎ। আপনার যদি আগের GRE তে স্কোর থাকে, তাহলে সেটাকে নতুন GRE তে convert করে নিন ।
+\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Others\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="GRE এর জন্য জরুরি বইগুলো নিয়ে ভালো একটা আলোচনা পাবেন এখানে, Important books for GRE Preparation. তিন সেকশনের বই নিয়েই আলোচনা করা আছে এখানে।
+\n\nএকাউন্ট খুলতে হবে www.gre.org তে গিয়ে। এটার জন্য রেজিস্ট্রেশন করতে খরচ পড়বে 195 ডলার। Credit Card এর মাধ্যমে পেমেন্ট করতে হয়। আমরা (NexTop-USA) ক্রেডিট কার্ড সহায়তা দিয়ে থাকি, সবচে কম খরচে…
+\n\nএকবার পরীক্ষা দিলে 4 টা ভার্সিটিতে ফ্রি স্কোর পাঠানো যায়, পরবর্তী প্রতিটি ভার্সিটিতে পাঠাতে লাগে 25 ডলার করে; স্কোর valid থাকে 5 বছর পর্যন্ত। এটাও ক্রেডিট কার্ডের মাধ্যমেই করতে হয়।
+\n\nGRE বছরে পাঁচবার দেয়া যায়, কিন্তু একবার দেয়ার পরবর্তী 30 দিনের মধ্যে আর দেয়া যায়না।
+
+\n\nExam centre –
+\nAmerican Alumni Association (AAA),
+\nHouse# 145, Road 13B,
+\nBlock # E, Banani, Dhaka.
+"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_archstep"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.archstep">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="আর্কিটেকচার এর কয়েকটি শাখা \n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="১. ডিজাইন স্টুডিও,
+\n২. কম্পিউটার অ্যাপ্লিকেশন,
+\n৩. ম্যাথমেটিকস ফর আর্কিটেক্ট,
+\n৪. ইংলিশ ল্যাঙ্গুয়েজ স্কিল ডেভেলপমেন্ট,
+\n৫. ডকুমেন্টেশন, গ্রাফিকস অ্যান্ড ফ্রি হ্যান্ড ড্রইং,
+\n৬. বিল্ডিং ফিজিকস, ডিজাইন থিউরি,
+\n৭.ইকোলজি,আর্টঅ্যাপ্রিসিয়েশন,
+\n৮.মিউজিক অ্যাপ্রিসিয়েশন,
+\n৯.কনস্ট্রাকশন মেটেরিয়ালস অ্যান্ড সিস্টেমসসহ অন্যান্য বিষয়।
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

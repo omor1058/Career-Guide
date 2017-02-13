@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scholars"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.scholars">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                app:srcCompat="@drawable/scolarshipmain"
+                android:id="@+id/imageView24" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="স্কলারশিপ"
+                android:id="@+id/button5"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="scinfo" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="স্কলারশিপ পাওয়ার জন্য যাহা করণীয় "
+                android:id="@+id/button6"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="whysc"
+                android:nestedScrollingEnabled="false" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="বিশ্বের কিছু নাম করা স্কলারশিপ "
+                android:id="@+id/button7"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="scname"
+                android:nestedScrollingEnabled="false" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="GRE"
+                android:id="@+id/button8"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="gre" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="IELTS"
+                android:id="@+id/button9"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="ielts" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="TOEFL"
+                android:id="@+id/button1"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="toefl" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="GMAT"
+                android:id="@+id/button2"
+                android:layout_gravity="center_horizontal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="25dp"
+                android:onClick="gmat" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

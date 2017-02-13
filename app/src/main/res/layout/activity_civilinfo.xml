@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_civilinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.civilinfo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="সিভিল ইঞ্জিনিয়ারিং\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="
+\nসৃষ্টি যেখানে শুরু বলা চলে  সিভিল ইঞ্জিনিয়ারিংয়ের সূচনা সেখানে। ইঞ্জিনিয়ারিংয়ের পুরনো শাখাগুলোর লিস্টে সিভিল ইঞ্জিনিয়ারিংয়ের অবস্থান অন্যতম। কোনো কিছু নির্মাণের আগে সর্বপ্রথম একজন সিভিল ইঞ্জিনিয়ারের কথাই মাথায় আসে। কেননা তার নকশা, পরিকল্পনা ও দিক নির্দেশনা ছাড়া কাজটি প্রায় অসম্ভবই। যতই দেখতে সহজ মনে হয় না কেন, যে কোনো নির্মাণ কাজে গভীর জ্ঞান এবং কৌশলের পরিকল্পনা আপনার-আমার সাধারণ মস্তিষ্কের কাজ নয়। নকশা, ব্যবস্থাপনা, গঠন, নির্ধারণ তদারকি, পরিকল্পনা ইত্যাদি একজন প্রকৌশলীর প্রধান কাজ। দেশ ও দেশের বাইরে সরকারি ও বেসরকারি বিভিন্ন নির্মাণাধীন প্রতিষ্ঠানে সিভিল ইঞ্জিনিয়ারিংয়ের গুরুত্ব অনেক। সভ্যতার উন্নয়নের সঙ্গে সঙ্গে বাড়তি জনসংখ্যার চাপ ও সঠিক নগরায়ণের পরিকল্পনায় আমরা পুরোপুরিভাবে তাদের ওপর নির্ভরশীল।
+
+"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

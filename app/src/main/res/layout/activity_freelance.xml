@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_freelance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.freelance">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Freelancing\n"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="বর্তমানে সবচেয়ে স্মার্ট এবং জনপ্রিয় পেশা হলো ফ্রিল্যান্সিং। যার মাধ্যমে আমাদের অনেক স্বল্পশিক্ষিত তরুণও ঘুরে দাড়িয়েছে। বাংলাদেশ থেকে প্রচুর তরুণ বর্তমানে ফ্রিল্যান্সিং এর সাথে নিযুক্ত হচ্ছেন। নতুন যারা এ পেশায় আসতে চান, কিংবা যারা নতুন, তারা অনেকেই ভাবেন, কম্পিউটারের মাউস ঘোরাতে পারলে কিংবা টাইপিং জানলেই আপনিও করতে পারবেন। তাদের প্রতি আমার প্রশ্ন: বাংলা রিডিং পড়া জানলে আর লিখতে জানলেই কি আপনি ঢাকা বিশ্ববিদ্যালয়ে চান্স পাবেন?? আর রিডিং পড়া আর লেখা জানাটা তো আমরা ক্লাস-টু কিংবা থ্রিতেই শিখে যাই। কিন্তু ভাসির্টি চান্সের জন্য কি করতে হয় সেটা কেবল এইচ.এস.সি দেওয়ার পর একটা শিক্ষার্থীই জানে, যে চান্স পেয়েছে। ফ্রিল্যান্সিংটাও সে রকম। সত্যিকার ফ্রিল্যান্সিং (ডোল্যান্সার, মোল্যান্সার/ক্লিক ফ্লিক নয়) করতে এখন ফ্রিল্যান্সারই জানেন, কত শত রাত তাকে জাগতে হয়েছে। দৈনিক কত ঘন্টা কম্পিউটারের সামনে বসে থাকতে হয়। এই তো, আমাদের জাহেদুল ইসলাম ভাই, যিনি ঢাকা বিভাগ থেকে ফ্রিল্যান্সিং এ বেসিস এওয়ার্ড পেয়েছেন, সেই প্রতিবন্ধি জাহেদ ভাই, আজ আরো কঠিন রোগে আক্রান্ত। কম্পিউটারের সামনে বসে থাকতে থাকতে তার মেরুদন্ড বাকা হয়ে গেছে, এখন সোজা হয় না, নড়াচড়া করলে প্রচুর ব্যথা হয়।\n"
+            android:id="@+id/textView7"
+            android:textColor="#0a0909" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" \nপ্রকৃত ফ্রিল্যান্সারের করণীয়\n "
+            android:id="@+id/textView8"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="মুল কথা হলো, সত্যিকারের ফ্রিল্যান্সার হতে চাইলে আপনার দরকার যেকোন একটি কাজের আগা-গোড়া খেয়ে ফেলা অর্থাৎ কাজটি এমনভাবে শিখতে হবে যাতে করে আপনি সারা বিশ্বের সকল ফ্রিল্যান্সারদের সাথে প্রতিযোগীতায় টিকে থাকতে পারেন। আর তা না হলে দু-একটা কাজ পেলেও যেকোন সময় ছিটকে পড়বেন। ভার্সিটি পরীক্ষায় যেমন যেকোন বিষয়ের খুটিনাটিসহ ভালোভাবে বুঝতে হয় ফ্রিল্যান্সিংটা তাই। কারণ ভার্সিটির মতই এখানে প্রতিযোগীতা দিয়ে কাজ অর্জন করে নিতে হয়। ভার্সিটির মতই এখানে প্রতিটি কাজের দক্ষতা/মান যাচাই করে আপনার ক্লায়েন্ট আপনাকে মার্কস দেয়।সেটাও জিপি-এ সিস্টেমের মতই-৫, যাকে বলে রেটিং। এই রেটিং ৪ হলেও অনেক সময় কাজ পাওয়াটা মুশকিল হয়ে যায়। তাই মূল কথা হলো কাজ শিখতে হবে। আর পরিশ্রমী হতে হবে। আর কাজ জানলে আপনি মার্কেটপ্লেসে কাজ না করলেও দেশীয় বিভিন্ন আইটি ফার্মে স্মার্ট সেলারীতে কাজ করতে পারবেন। তাছাড়া অনেক খুচরা কাজও পার্সোনালী পাবেন।\n"
+            android:id="@+id/textView9"
+            android:textColor="#0a0909" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" \nকোনটা শিখব?\n "
+            android:id="@+id/textView10"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="কাজ শেখার কথা বললেই প্রথমেই আসে আপনি কোন কাজটা শিখবেন?? এবং এটা নিয়ে অনেকেই আমাকে মেইল/এফবি এবং টিউনে টিউমেন্ট করেন। কাজের ক্ষেত্রে আমি প্রথমেই রিটিউমেন্ট করবো, আপনি যদি আগে কোন কাজ জেনে থাকেন সেই কাজটাই নতুন করে শিখুন। আর নতুনরা আপনাদের যেটার প্রতি আগ্রহ অনুভব করবেন, যেমন আপনার ছোটকাল থেকে আঁকাআঁকির অভ্যাস সেক্ষেত্রে আপনি গ্রাফিক্স ডিজাইন শুরু করুন। আর যারা ম্যাথে ভালো করেছেন, তারা ওয়েব ডিজাইন শুরু করতে পারেন। তাছাড়া যাদের এই দুটিতেই দুর্বল তারা এসইও করতে পারেন। আর যাই শিখবেন এডভান্স শিখুন। কারণ আমি আগেই বলেছি, ফ্রিল্যান্সিং এ বেসিক লেভেলের কোন কাজ দিয়ে আপনি কিছু করতে পারবেন না। তাই যে কাজটা আগে শিখেছেন সেটাই নতুন করে আবার শুরু করুন এবং বার বার প্রাকটিস করুন। আপনার কাজের সাথে রিলেটেড বিভিন্ন আর্টিকেল পড়ুন। যারা প্রফেশনালী ঐ কাজগুলো করেন, তাদের কাজের স্যাম্পল দেখুন। আপনি সে রকম আরেকটি তৈরী করার চেষ্টা করুন। এভাবে ভালোভাবে কাজ শেখার পর অন্তত দুমাস সময় নিন, সব ধরনের জটিল জটিল কাজগুলো প্রাকটিস করে আয়ত্ত করার।\n"
+            android:id="@+id/textView11"
+            android:textColor="#0a0909" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nকোথায়, কিভাবে? \n  "
+            android:id="@+id/textView12"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="তারপর যখন নিজের প্রতি আত্নবিশ্বাস পাবেন তখন আপনি ফ্রিল্যান্সিংমার্কেটেপ্লেসগুলোতে একাউন্ট করুন। মনে রাখবেন, ক্লায়েন্ট আপনাকে দেখছেনা, আপনার বংশ পরিচয়/ফ্যামিলি স্ট্যাটাস অথবা দেশে আপনার প্রভাব/ক্ষমতা কতটুকু সেটা দেখছে না, দেখবে প্রথমে আপনার প্রোফাইল, আমরা যেমন কোন শপিংমলে গেলে তথা কোন শো-রুমে গেলে প্রথমত উক্ত শো-রুমের সাজসজ্জা, আয়তন এবংপণ্যগুলোর উপস্থাপন এবং সার্ভিসারদের আচরণ দেখে প্রথমত পছন্দ করি, তারপর তার পণ্যগুলো ভালো হলে বার বার ঔই শো-রুমে যাই, তথা সবাইকে রিটিউমেন্ট করি।মাকের্টপ্লেসেও সে রকম, প্রথমে আপনার প্রোফাইলের সাজানো গোছানো, পোর্টফোলিও এবং অন্যান্য তথ্য, টেস্ট ইত্যাদি প্রথমত পছন্দ করেন। তারপর আপনার কভারলেটার এবং সর্বশেষ আপনাকে হায়ার করার পর কাজের কোয়ালিটি দেখা হয়।তার উপর নির্ভর করে আপনাকে ফিডব্যাক দেয়। বেশিরভাগ ক্লায়েন্ট আপনার কাজ ভালো লাগলে পরবর্তী কাজগুলোর জন্য আপনাকেই রিকুয়েস্ট করবে।
+\n\nকাজ শেখার জন্য বর্তমানে অনলাইনে অনেক টিউটোরিয়াল পাওয়া যায়, তবে সেক্ষেত্রে দেখা যায়, টিউটোরিয়ালগুলো ধারাবাহিক নয়, আবার অনেক ক্ষেত্রে টিউটোরিয়ালগুলো বেসিক লেভেলের, কিংবা একটি ছোট সমস্যাকে বিশালভাবে পেচিয়ে উপস্থাপন করা।এভাবে শিখলে যেমন প্রচুর সময় লস হবে, তেমনি আপনি কতটুকু শিখলেন কিংবা আর কতটুকু শেখা দরকার কিছু ধারণা করতে পারবেন না। তাছাড়া এই ভিডিওগুলোর অনেক ক্ষেত্রে সোর্সফাইলও থাকে না। তবে কিছু সাইট আছে যেগুলো থেকে ভালোভাবেই শিখতে পারেন। যেমন: w3schools.com , (english), webcoachbd.com (bangla)। আর যারা পড়ে শিখতে ঝামেলা মনে করেন, তাদের জন্য ইউটিউবে বাংলায় হিউজ রিসোর্স আছে। এক্ষেত্রে ওয়েব ডিজাইন, গ্রাফিক্স ডিজাইন কিংবা এসইও এর জন্য আলাদা কিছু অপুর্নাঙ্গ টিউটোরিয়াল পাওয়া যায়। আবার অনেক ক্ষেত্রে পুর্নাঙ্গ টিউটোরিয়াল পাওয়া গেলেও সবগুলো পাওয়া যায় না। তবে সবগুলো কোর্সের ধারাবাহিক টিউটোরিয়ালের জন্য আমি এই চ্যানেলটিকে রিকমেন্ড করবো।
+\n\n"
+                android:id="@+id/textView13"
+        android:textColor="#0a0909" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

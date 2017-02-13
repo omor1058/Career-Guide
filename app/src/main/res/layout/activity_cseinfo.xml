@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cseinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajoysarkar.careerguide.cseinfo">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="কম্পিউটার সাইন্স এন্ড ইঞ্জিনিয়ারিং(CSE) বিভাগ \n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="তথ্য প্রযুক্তির এই যুগে কম্পিউটারের অবদান অপরিসীম।তাই নিজেকে অন্যের কাছে তুলে ধরা বা যেকোনোনতুন সুযোগকে কাজে লাগাতে তথ্যপ্রযুক্তির ছেলেমেয়েরাই এগিয়ে থাকে। নিজেকেতুলে ধরতে তথ্যপ্রযুক্তির ব্যবহারেও তারা অনেক বেশি পারদর্শী হয়। যেকোনোক্ষেত্রে আপনি আপনার কম্পিউটিং দক্ষতা ব্যবহার করতে পারেন। আপনি আপনি যদিকম্পিউটার বিজ্ঞানে অধ্যয়নরত থাকেন তবে এটি সেক্টরের পাশাপাশি আরও ভিন্নকিছু সেক্টরে নিজের দক্ষতা কাজে লাগিয়ে ক্যারিয়ার গড়তে পারেন। যেমন,  ব্যাংক, করপোরেট হাউজ, মিডিয়াসহ সব জায়গাই আজ কম্পিউটার সায়েন্সেরছাত্রছাত্রীদের ব্যাপক চাহিদা।এই বিভাগের সবচেয়ে উল্লেখযোগ্য অংশ হচ্ছে প্রোগ্রামিং | প্রোগ্রামিং এর জন্য আমাদের কয়েকটি প্রোগ্রামিং ল্যাঙ্গুয়েজ জানতে হবে । যেমন C, C++, java, python ইত্যাদি। এছাড়াও এই বিভাগে রয়েছে নেটওয়ার্কিং, কম্পিউটার গ্রাফিক্স, ওয়েব ডিজাইন ইত্যাদি। ভার্সিটিতে ভর্তি হবার পর জীবনের অন্যতম গুরুত্বপূর্ণ  একটা সময় পার করি ।  এই সময়টার মূল্য সবচেয়ে বেশি ।আর এই সময়টাই আমরা সবচেয়ে বেশি নষ্ট করি।জুনিয়রদের জন্য পরামর্শ হচ্ছে ভার্সিটির মেজর কোর্সগুলো বুঝে পড়। বইয়ের বাইরেও একটা দুনিয়া আছে রিলেটেড কোর্স বুঝার জন্য । দেখবা একটা না একটা টপিক মনে ধরবেই।সুতরাং আপনি যদি কম্পিউটার সায়েন্স নিয়ে পড়াশোনা করেন তবে আপনার সামনে এমনঅনেক পথ পাবেন যেখান থেকে খুব সহজে নিজের পছন্দ মতো একটি পথ বেছে নিয়েক্যারিয়ার গড়তে পারবেন।\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

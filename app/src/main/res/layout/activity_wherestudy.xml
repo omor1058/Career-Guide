@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wherestudy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.wherestudy">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="কোথায় পড়বেন?\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="আমাদের দেশে সিভিল ইঞ্জিনিয়ার পড়তে ইচ্ছুক শিক্ষার্থীদের সংখ্যা বেশ ভারী। দেশের প্রায় সব প্রযুক্তি বিশ্ববিদ্যালয়েই সিভিল ইঞ্জিনিয়ারিং পড়ার সুযোগ রয়েছে। বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (বুয়েট), খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (কুয়েট), রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (রুয়েট), চট্টগ্রাম প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (চুয়েট) থেকেও এ বিষয়ে পড়া যায়।
+\n\nএছাড়া দেশের বিভিন্ন প্রাইভেট বিশ্ববিদ্যালয় থেকেও এ বিষয়ে পড়ার সুযোগ যথেষ্ট। নর্থ সাউথ ইউনিভার্সিটি, আমেরিকান ইন্টারন্যাশনাল ইউনিভার্সিটি, ব্র্যাক ইউনিভার্সিটি, আহ্ছানউল্লাহ বিজ্ঞান ও প্রযুক্তি বিশ্বিবিদ্যালয় ইঞ্জিনিয়ারিংয়ে পড়ার ক্ষেত্রে উল্লেখযোগ্য। দেশের বাইরে ইউকে, রাশিয়া, নিউজিল্যান্ড, ইউক্রেন, অস্ট্রেলিয়া, জার্মানি, চীনেও এ বিষয়ে উচ্চ শিক্ষার জন্য যাওয়া যায়। আর এ বিষয়ে অনেক পুরনো ও চাহিদাসম্পন্ন হওয়ায় এর অনেক শাখা রয়েছে। এর মধ্যে স্থাপত্য প্রকৌশল, জিওট্যাকনিক্যাল প্রকৌশল, ভূপ্রকৃতিবিদ্যা প্রকৌশল, নিয়ন্ত্রণ প্রকৌশল, স্ট্রাকচারাল প্রকৌশল, ভূমিকম্প প্রকৌশল, পরিবেশ প্রকৌশল, পানিসম্পদ প্রকৌশল, পরিবহন প্রকৌশল উল্লেখযোগ্য।
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ডিপ্লোমা ইঞ্জিনিয়ারিং\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="কেউ চাইলে এসএসসি-এর পরও বিজ্ঞান বিভাগ থেকে বাংলাদেশ কারিগরি শিক্ষাবোর্ডের অধীনে ডিপ্লোমা ইন সিভিল ইঞ্জিনিয়ারিং পড়া যায়। এক্ষেত্রে পরীক্ষায় ন্যূনতম জিপিএ ২.৫ থাকতে হবে। এরপর চাইলে যে কেউ বিএসসি ইঞ্জিনিয়ারিং করতে পারে যে কোনো বিশ্ববিদ্যালয় থেকে। এক্ষেত্রে ঢাকা প্রকৌশল বিশ্ববিদ্যালয় (ডুয়েট) ডিপ্লোমা ইঞ্জিনিয়ারদের বিএসসি ইঞ্জিনিয়ারিংয়ের সুযোগ দিয়ে থাকে।\n\n"
+                android:id="@+id/textView722"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ভর্তি যোগ্যতা\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="সিভিল ইঞ্জিনিয়ার হতে হলে একজনকে পরিকল্পনা ও ড্রইয়িংয়ে পারদর্শী হতে হবে। এর পূর্বশর্ত হচ্ছে, শিক্ষার্থীকে বিজ্ঞান বিভাগ থেকে আসতে হবে। পরীক্ষার্থীকে গণিত, রসায়ন, পদার্থ, বাংলা, ইংরেজি এই ৫ বিষয়ে ২৪ থাকতে হয় বুয়েটে পরীক্ষায় অংশগ্রহণের জন্য। এছাড়া অন্যান্য প্রকৌশল বিশ্ববিদ্যালয়ে পরীক্ষার জন্য বিজ্ঞানভিত্তিক বিষয়গুলোতে জিপিএ ৫ চেয়ে থাকে।চুয়েট, রুয়েট, কুয়েট ভর্তি পরীক্ষায় অংশগ্রহণের ভর্তি যোগ্যতা এইচএসসির রেজাল্টের ওপর ভিত্তি করে দেয়া হয়। ডিপ্লোমায়ের ক্ষেত্রে ২.২৫ হতে হবে জিপিএ।\n\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

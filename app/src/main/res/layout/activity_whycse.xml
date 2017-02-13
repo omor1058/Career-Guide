@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_whycse"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.whycse">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+       >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="সি এস ই তে কি কি পড়ানো হয়?  \n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="কম্পিউটার সায়েন্স খুবই জনপ্রিয় একটা বিষয়। এই বিষয়টা নিয়ে মানুষের মধ্যে অনেক ভূল ধারণা প্রচলিত আছে, এই সাবজেক্টটাতে কি পড়ানো হয় এ বিষয়ে সবার ভালো ধারণা নেই। সবথেকে দু:খজনক ব্যাপার হলো এই সাবজেক্টে কি পড়ানো হয় সেটা না জেনেই বহু ছাত্রছাত্রী ভর্তি হয়ে যায় চাকরীর বাজার ভালো এই কারণে, এটা শুধু কম্পিউটার সায়েন্স না বরং বাংলাদেশে যেকোনো সাবজেক্টের জন্যই সত্য। এরপর যেটা হয় সেটা হলো খাপ খাওয়াতে না পেরে অনেকেই হতাশ হয়ে পড়ে।
+
+\n\nঅনেকের ধারণা কম্পিউটার সায়েন্সে ওয়ার্ড, পাওয়ারপয়েন্ট এসব শেখানো হয়, এবং এগুলো যেহেতু পাড়ার দোকানদারও ভালো পারে তাই কম্পিউটার সায়েন্স পড়ার কোনো মানে নাই। আবার কম্পিউটার সম্পর্কে ভালো জানে, টুকটাক প্রোগ্রামিংও কিছুটা জানে এমন মানুষের ধারণা এখানে শুধু এইচটিমিএল, পিএইচপিতে এ ওয়েবসাইট বানানো শেখায়, যেগুলো কম্পিউটার সায়েন্স না পড়লেও শেখা যায়, ফ্রিল্যান্সারদের মধ্যে এই ধারণাটা বেশি কাজ করে।
+\n\n কম্পিউটার সায়েন্সে কি কি টপিক পড়ানো হয় এখন আমরা সেই টপিকগুলো সম্পর্কে সংক্ষেপেজানবো। এরপরে নিজেই সিদ্ধান্ত নেয়া যাবে উপরের ধারণা গুলো কতটা সত্যি।
+\n\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="প্রোগ্রামিং\n"
+                android:id="@+id/textView9"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="কম্পিউটার সায়েন্স বললে অবধারিত ভাবে প্রথমে চলে আসে প্রোগ্রামিং। প্রোগ্রামিং হলো কম্পিউটারকে কথা শুনানোর উপায়, বোকা কম্পিউটারকে দিয়ে ইচ্ছামত কাজ করিয়ে নেয়া। কম্পিউটার যেহেতু মানুষের ভাষা বুঝেনা তাকে বোঝাতে হয় বিশেষ ভাষায় যাকে বলে প্রোগ্রামিং ল্যাংগুয়েজ। প্রোগ্রামিং ল্যাংগুয়েজ শিখে সফটওয়্যার, ওয়েবসাইট যেমন বানানো সম্ভব তেমনি গাণিতিক সমস্যা সমাধান করা সম্ভব, রকেটের গতিপথ নির্ণয় করা সম্ভব, কোয়ান্টাম মেকানিক্স নিয়ে গবেষণা সম্ভব, ডিএনএ অ্যানালাইসিস করা সম্ভব। এককথায় বলতে গেলে প্রোগ্রামিং এর জ্ঞান আধুনিক যুগের সুপারপাওয়ার যেটা দিয়ে পৃথিবীকে নিয়ন্ত্রণ করা সম্ভব।
+\n\nবাংলাদেশে বেশিরভাগ বিশ্ববিদ্যালয়ে প্রথম সেমিস্টারে শিখানো হয় সি ল্যাংগুয়েজ যেটাকে বলা যেতে পারে প্রোগ্রামারদের মাতৃভাষা। এরপরে অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং কোর্সে শিখানো হয় জাভা। সফটওয়্যার প্রোগ্রামিং এবং বড় বড় প্রজেক্টের জন্য জাভা জনপ্রিয়। কোনো কোনো বিশ্ববিদ্যালয়ে জাভা শেখানোর সময় অ্যান্ড্রয়েডে প্রোগ্রামিং শেখানো হয়।
+
+\n\nপ্রোগ্রামিং ল্যাংগুয়েজ কোর্স দুই ভাগে করানো হয়। ক্লাসরুমে কিছু থিওরিটিকাল কথাবার্তা থাকে তবে এই কোর্সের মূল অংশ হয় ল্যাবে। সেখানে প্রোগ্রামিং ল্যাংগুয়েজ দিয়ে বিভিন্ন সমস্যা সমাধান করতে দেয়া হয়। সবশেষে সাধারণত একটা প্রজেক্ট করতে দেয়া হয়, সেখানে স্টুডেন্টরা ক্রিয়েটিভিটি দেখানোর সুযোগ পায়।
+\n\nকম্পিউটার সায়েন্সের আরো অনেক অংশ থাকলেও ভালো প্রোগ্রামিং জানা এই সাবজেক্টে ভালো করার পূর্বশর্ত।
+\n\nপরবর্তীতে অ্যাসেম্বলী ল্যাংগুয়েজের জন্য আরেকটি কোর্স থাকে। এখানে একদম লো লেভেলে সরাসরি মেমরির বিভিন্ন অংশ নিয়ে কাজ করা যায়। অ্যাসেম্বলী ল্যাংগুয়েজ জানতে সাহায্য করে কম্পিউটার কিভাবে মেমরিতে বিট/বাইট হিসাব করে ডাটা রাখে, একদম হার্ডওয়্যার লেভেলে কিভাবে ডাটা রাখা হয় সেটা তুমি জানতে পারবে। অ্যাসেম্বলী ভালোভাবে শিখলে ভাইরাস বানানোর মতো মজার কাজ করা সম্ভব, প্রোগ্রামিং করে মেমরির বিভিন্ন অংশ কন্ট্রোল করা সম্ভব।
+\n\n"
+                android:id="@+id/textView24"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="অ্যালগোরিদম\n"
+                android:id="@+id/textView1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="তুমি কি জানো কিভাবে বড় একটা ফাইলকে কমপ্রেস করে সাইজ কমিয়ে ফেলা সম্ভব হয়? গুগল কিভাবে লাখ লাখ ওয়েবসাইট থেকে চোখের পলকে দরকারি ডাটা খুজে আনে? কিভাবে লাখ লাখ টেরাবাইটের ডিএনএ সিকোয়েন্স থেকে খুজে বের করা হয় জীবনের রহস্য? এধরণের প্রবলেম সলভিং এর হাতেখড়ি হয় অ্যালগোরিদম কোর্সে। অ্যালগোরিদম হলো একটি সমস্যাকে সমাধান করার বিভিন্ন ধাপ। অ্যালগোরিদম কোর্সে মূলত শেখানো হয় প্রবলেম সলভিং টেকনিক। সেখানে এধরণের রিয়েল লাইফ প্রবলেম সরাসরি সলভ করা শেখাবেনা, তবে এই কোর্সটা একটা বেস তৈরি করবে, কিছু কমন প্রবলেম সলভিং টেকনিক শিখিয়ে দিবে। কম্পিউটারে মেমরি এবং সময় কম খরচ করে কিভাবে সমস্যা সমাধান করা যায় সেগুলো শেখানো হয় এখানে। এই কোর্সেও ল্যাব এবং থিওরী দুটোই থাকে। এই কোর্সটা করার সময় তুমি বুঝতে পারবে যে শুধু প্রোগ্রামিং ল্যাংগুয়েজ জেনে কোনো লাভ নেই, সেটা ব্যবহার সমস্যা সমাধান করতে জানতে হবে।\n"
+                android:id="@+id/textView38"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nডাটা স্ট্রাকচার\n"
+                android:id="@+id/textView2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ফেসবুক কিভাবে এত মানুষের তথ্য সংরক্ষণ করে? এলোমেলো ভাবে সংরক্ষণ করলে তাড়াতাড়ি খুজে পাওয়া সমস্যা, তাই তথ্য সংরক্ষণ করার নির্দিষ্ট কিছু টেকনিক আছে। ড্রয়ারে লেভেল করে কাগজপত্র রাখলে যেমন সহজে খুজে পাওয়া যায় তেমনি কিছু নির্দিষ্ট স্ট্রাকচার ফলো করে ডাটা সেভ করলে সহজে সেটা কাজের সময় পাওয়া যায়। ডাটা স্ট্রাকচার কোর্সে এগুলো সম্পর্কে ধারণা দেয়া হয়।
+\n\nঅ্যালগোরিদম এবং ডাটা স্ট্রাকচার হলো কম্পিউটার সায়েন্সের মূল ভিত্তি, প্রতিটা টপিকে এগুলো কাজে লাগে।
+\n\n"
+                android:id="@+id/textView23"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="গণিত\n"
+                android:id="@+id/textView3"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="কম্পিউটার সায়েন্সের স্টুডেন্টদের ভালো গণিত জানার দরকার হয়। এটার কারণটা সবার কাছে পরিস্কার না। নতুন অ্যালগোরিদম বা ডাটা স্ট্রাকচার ডিজাইন করার সময় এগুলো কতটা ভালো কাজ করবে সেটা নির্ধারণ করতে গণিত দরকার হয়। একটা সমস্যা অনেক ভাবে সমাধান করা যায়, কোন পদ্ধতিটা সবথেকে ভালো, কোনটা কম মেমরিতে কম সময়ে কাজ করবে এসব হিসাবের জন্য গণিতের জ্ঞান খুব দরকার। তুমি যত ভালো গণিত জানবে তোমার প্রবলেম সলভিং স্কিল তত ভালো হবে। কম্পিউটার সায়েন্সকে এজন্য “অ্যাপ্লাইড ম্যাথ” বলতেও শুনেছি অনেককে।গণিতের অনেক কঠিন কঠিন সমস্যাও আজকাল কম্পিউটার দিয়ে সলভ করা হয়, এমনকি থিওরেম প্রমাণও করা হয়। গণিতের মধ্যে জানা লাগবে মূলত কম্বিনেটরিক্স, প্রোবাবিলিটি, নাম্বার থিওরি, জিওমেট্রি এবং লিনিয়ার অ্যালজেব্রা ইত্যাদি। এছাড়া কিছু ক্যালকুলাস শেখানো হয়। প্রোবাবিলিটির জন্য আলাদা কোর্স করানো হয় এবং খুবই ইন্টারেস্টিং কিছু প্রবলেম সলভ করানো হয় সেখানে। কারো যদি গণিত ভালো লাগে তার জন্য কম্পিউটার সায়েন্সে ভালো করা সহজ হয় যায়। আবার কেও গণিতের রিয়েল লাইফ অ্যাপ্লিকেশন শিখতে চাইলেও এটা তার জন্য একটা ভালো সাবজেক্ট হতে পারে।\n\n"
+                android:id="@+id/textView22"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="অপারেটিং সিস্টেম এবং সিস্টেম প্রোগ্রামিং\n "
+                android:id="@+id/textView4"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="এখানে শিখানো হয় কিভাবে অপারেটিং সিস্টেম কাজ করে। তবে তারমানে এই না যে উইন্ডোজ চালানো শেখানো হয়! এখানে শিখায় অপারেটিং সিস্টেমের ইন্টারনাল স্ট্রাকচার কিরকম। কম্পিউটারে একই সাথে ১০টা কাজ করলে অপারেটিং সিস্টেমকে ১০টা কাজের জন্য বিশেষ শিডিউল তৈরি করতে হয়, সেগুলো এখানে শিখানো হয়। তারপর ধরো ২টা প্রোগ্রাম একই সাথে প্রিন্টার ব্যবহার করতে চাইলো, কাকে অপেক্ষায় রেখে কাকে দিবে এ ধরণের রিসোর্স ম্যানেজমেন্টের কাজও শিখানো হয়।
+\n\nসিস্টেম প্রোগ্রামিং এ মুক্তসোর্স অপারেটিং সিস্টেম ইউনিক্স/লিনাক্সের সোর্সকোড নিয়ে ঘাটাঘাটি করা হয়। এই কোর্সটা ভালোমত করলে শেখা যাবে কিভাবে মডেম বা বিভিন্ন ডিভাইসের জন্য ড্রাইভার তৈরি করা যায়, কিভাবে অপারেটিং সিস্টেমের ভিতরের কোড মডিফাই করা যায়। ভবিষ্যতে কেও অপারেটিং সিস্টেম তৈরি করতে চাইলে বা এই সম্পর্কিত রিসার্চ করতে চাইলে সেটার ব্যাকগ্রাউন্ড তৈরি হয় এখানে।
+\n"
+                android:id="@+id/textView21"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ডাটাবেস\n"
+                android:id="@+id/textView5"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ওয়েবসাইট বা বড়বড় সফটওয়্যার বিশাল ডাটা রাখে “ডাটাবেস” এর ভিতর। ডাটাবেসে কিভাবে ডাটা রাখতে হয়, কিভাবে সেখান থেকে ডাটা নিয়ে আসতে হয় ইত্যাদি নিয়ে এই কোর্স।\n"
+                android:id="@+id/textView36"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nআর্টিফিসিয়াল ইন্টেলিজেন্স(এ.আই)\n "
+                android:id="@+id/textView10"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="নাম শুনেই বোঝা যাচ্ছে কি নিয়ে এই কোর্স, থিসিসের জন্য খুবই পপুলার একটা টপিক এটা। কিভাবে রোবটকে দিয়ে কাজ করানো যায়, গেমের ক্যারেক্টার নিজে নিজে বিভিন্ন সিদ্ধান্ত নেয়, কম্পিউটার কিভাবে দাবা খেলে এই ধরণের দারুণ ইন্টারেস্টিং সব টপিক এ.আই এর অন্তর্ভূক্ত। ল্যাবে প্রোগ্রামিং করে এসব টেকনিক ইমপ্লিমেন্টও করতে হয়। গেম প্রোগ্রামিং বা রোবোটিকস এ আগ্রহ থাকলে এই কোর্সটি তোমার খুব পছন্দ হবে। নিউরাল নেটওয়ার্ক, জেনেটিক অ্যালগোরিদমের মতো দারুণ সব জিনিস শিখতে পারবে।\n"
+                android:id="@+id/textView39"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="কম্পাইলার\n "
+                android:id="@+id/textView11"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="সাদামাটা ভাষায় কম্পাইলার জিনিসটার কাজ প্রোগ্রামিং ল্যাংগুয়েজকে মেশিন ভাষায় পরিণত করা যাতে হার্ডওয়্যার সেটা বুঝতে পারে। প্রোগ্রামিং ল্যাংগুয়েজ কিভাবে কাজ করে, কিভাবে নিজের প্রোগ্রামিং ল্যাংগুয়েজ তৈরি করা যায় এগুলো নিয়েই কম্পাইলার কোর্স। প্রোগ্রামিং ল্যাংগুয়েজের ইনস্ট্রাকশন গুলো কম্পিউটার কিভাবে মেশিন কোড বানিয়ে কাজ করে সেগুলো শেখানো হয় এখানে। মানুষের ভাষার মতো প্রোগ্রামিং ভাষারও গ্রামার থাকে, সেগুলো নিয়ে জানতে পারবে।\n"
+                android:id="@+id/textView31"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="গ্রাফিক্স\n "
+                android:id="@+id/textView12"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="আমরা কম্পিউটার গেমস বা অ্যানিমেটেড মুভিতে এত সুন্দর গ্রাফিক্স দেখি তার পিছনে আছে প্রচুর ম্যাথমেটিকাল থিওরী। যেমন গেমসে লাইটিং, শেডিং কিভাবে বাস্তবসম্মত করা যায় তার পিছনে আছে অনেক থিওরী। গেমারদের কাছে প্রচলিত শব্দ “এন্টি এলিয়াসিং”, “শেডিং” ইত্যাদি সম্পর্কে এই টপিকে বিস্তারিত পড়ানো হয়। প্রচুর জ্যামিতি দরকার হয় এখানে। যেমন একটা ৩-ডি বাক্সকে ৪৫ ডিগ্রী ঘুরালে কো-অর্ডিনেট কত পরিবর্তন হবে এসব হিসাব এখানে করতে হয় এবং ল্যাবে সেই অনুযায়ি গ্রাফিকাল প্রোগ্রাম লিখতে হয়, তাই শেখাটা শুধু মুখস্থে সীমাবদ্ধ থাকেনা। তুমি কলেজে থাকতে হয়তো বৃত্ত, সরলরেখার ইকুয়েশন শিখেছো, এখানে শিখবে ওগুলো ব্যবহার করে কিভাবে গ্রাফিক্স তৈরি হয়।\n"
+                android:id="@+id/textView35"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="নেটওয়ার্কিং\n "
+                android:id="@+id/textView13"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="কিভাবে একটা কম্পিউটারকে আরো ১০ কম্পিউটারের সাথে কানেক্ট করতে হয়, কিভাবে ইন্টারনেট কাজ করে, কিভাবে নেটওয়ার্কে ডাটা প্যাকেট পাঠানো হয় এবং অন্য প্রান্তে রিসিভ করা হয় ইত্যাদি শেখানো হয়। নেটওয়ার্ক সিকিউরিটিও এই টপিকের অন্তর্ভূক্ত। জানতে পারবে ল্যান, ডিএনএস সার্ভার, আইপিভি-৬, ক্রিপ্টোগ্রাফি ইত্যাদি সম্পর্কে।\n"
+                android:id="@+id/textView34"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ডিস্ট্রিবিউটেড সিস্টেম\n  "
+                android:id="@+id/textView14"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="তুমি হয়তো জানো বড় বড় যেসব কাজে অনেক মেমরি, শক্তি দরকার হয় সেসব কাজে অনেকগুলো কম্পিউটারকে একসাথে ব্যবহার করে কাজ করা হয়। বড় বড় রিসার্চের কাজ এভাবে করা হয়, ওয়েবসাইটগুলোতেও অনেকগুলো সার্ভার একসাথে কাজ করে। কিভাবে ডিস্ট্রিবিউটেড সিস্টেম ডিজাইন করা যায় সেটা নিয়েই এই কোর্স।\n"
+                android:id="@+id/textView32"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="সফটওয়্যার ইঞ্জিনিয়ারিং\n  "
+                android:id="@+id/textView8"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="আধুনিক সফটওয়্যার ডিজাইনের টেকনিক পড়ানো হয় এই টপিকে। সব বিশ্ববিদ্যালয়ের কারিকুলামে সম্ভবত এটা নেই।
+\n\nএখন আসি হার্ডওয়্যার রিলেটেড কিছু টপিকে। এ ব্যাপারে আগ্রহ এবং জ্ঞান কম বলে কম কথা শেষ করছি। কম্পিউটার সায়েন্সে হার্ডওয়ার নিয়ে অনেক কিছু পড়ানো হয়। কম্পিউটার আর্কিটেকচারে কম্পিউটারে মূল গঠন পড়ানো হয়। কিভাবে কম্পিউটারের তথ্য যাবার পথ বা “ডাটা বাস” কাজ করে, এজিপির সাথে পিসিআই এর পার্থক্য, ক্যাশ মেমরি ইত্যাদি শেখানো হয়। ইলেকট্রিকাল সার্কিটের মতো কম্পিউটারে থাকে বিশেষ ডিজিটাল সার্কিট, সেগুলো নিয়ে পড়ানো হয় ডিজিটাল সিস্টেমস টপিকে। এছাড়া বিভিন্ন ডিভাইস যোগ করলে কিভাবে সেটা কম্পিউটারের সাথে যোগাযোগ করে এসব পড়ানো হয় হার্ডওয়্যার অংশে। ল্যাবে বিভিন্ন ধরণের সার্কিট তৈরি করতে হয়। প্রজেক্ট অংশে অনেক ক্রিয়েটিভিটি দেখানোর সুযোগ থাকে, কেও কেও রোবট তৈরি করে, আমাদের ক্লাসের একজন মোবাইল দিয়ে নিয়ন্ত্রণ করা যায় এমন খেলনা গাড়ি বানিয়েছিলো।
+\n\nকম্পিউটার সায়েন্স শেষ বর্ষে কিছু ক্রেডিট থাকে গবেষণা বা প্রজেক্টের জন্য।প্রতি বছরই বাংলাদেশের অনার্সের ছাত্ররা ভালো ভালো জার্নালে পেপার পাবলিশকরে থাকে। কম্পিউটার সায়েন্সের গবেষণার একটা সুবিধা হলো নিজের ডেস্কটপকম্পিউটার ব্যবহার করেই বড় বড় গবেষণা করা যায়, কোটি টাকার যন্ত্রপাতিরদরকার হয় না ।কনটেস্ট সারা বছরই বিভিন্ন বিশ্ববিদ্যালয় বা কোম্পানি প্রোগ্রামিং কনটেস্ট ওসফটওয়্যার কনটেস্ট আয়োজনকরে। প্রোগ্রামিং কনটেস্টে মূলত অলিম্পিয়াডস্টাইলে অ্যালগরিদমের সাহায্যে প্রবলেম সলভ করতে হয়। এখানে সুযোগ আছে সারাবিশ্বের বড় বড় প্রোগ্রামারের সাথে কনটেস্ট করার। বাংলাদেশের মানুষের গর্বকরার মতো জিনিস খুব বেশি নেই, তবে প্রোগ্রামিং কনটেস্ট অবশ্যই সেই অল্পজিনিসের একটা, অনেক বছর ধরেই বাংলাদেশীরা এসব কনটেস্টে ভালো ফল করছে।সফটওয়্যার কনটেস্টে মূলত বিভিন্ন সফটওয়্যার, ওয়েব সাইট ডিজাইন করতে হয়, মোবাইল বিশেষ করে অ্যান্ড্রয়েড ভিত্তিক মোবাইলের সফটওয়্যার কনটেস্ট বর্তমানে খুব জনপ্রিয়। মাইক্রোসফট ইমেজিন কাপের মতো বড় বড় আন্তর্জাতিক সফটওয়্যার কনটেস্টেও বাংলাদেশিরা অংশ নেয়। আবার তুমি চাইলে হার্ডওয়্যার কনটেস্টও করতে পারো, দারুণ একটা রোবট বানিয়ে চমকে দিতো পারো সবাইকে।
+\n\nএই হলো মোটামুটি কম্পিউটার সায়েন্সে যা যা পড়ানো হয় তার সামারি। অনেক কিছু হয়তো বাদ পড়ে গিয়েছে এই মূহূর্তে মাথায় না থাকার কারণে।
+\n\nকম্পিউটার সায়েন্স অনার্স করে তুমি চাইলে অন্যান্য বিষয় নিয়েও পড়ালেখা করতে পারো কারণ এখন সবকাজে কম্পিউটার দরকার হয়।
+\n\nযেমন রিসেন্টলি অ্যাস্ট্রোইনফরমেটিক্স নামের একটা সাবজেক্ট নিয়ে গবেষণা হচ্ছে, এদের কাজ মহাকাশ গবেষণায় কম্পিউটারকে আরো ভালোভাবে কিভাবে ব্যবহার করা যায় সেটা নিয়ে কাজ করা। তুমি চাইলে ফিজিক্সের লাইনে গিয়ে কোয়ান্টাম কম্পিউটার নিয়ে কাজ করতে পারো। আবার বায়োলজী ভালো লাগলে বায়োইনফরমেটিক্স নিয়ে পড়ালেখা করতে পারো, কাজ করতে পারবো ন্যানোটেকনোলজী, ডিএনএ/প্রোটিন অ্যানালাইসিস নিয়ে। এরকম হাজারটা সম্ভাবনা তোমার সামনে থাকবে।
+\n"
+                android:id="@+id/textView33"
+                android:textColor="#0a0909" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

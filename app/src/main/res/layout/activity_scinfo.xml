@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.scinfo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="স্কলারশিপ\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="স্কলারশিপ পেতে হলে আপনাকে খুব ভাল রেজাল্ট করতে হবে, মাষ্টার্স লেভেলে স্কলারশিপ বেশি আছে। এক্ষেত্রে আপনার সিজিপএ ৩.৭৫ এর উপরে যত হবে তত ভাল। জাপান, জার্মান, ইউএসএ, সহ অনেক দেশে স্কলারশিপ দেয়। নেটে একটু গুগল দিয়ে এসব দেশের নামকরা ভার্সিটির সাইটে ঢুকে সরাসরি আবেদন করতে পারবেন।
+\n\nবাংলাদেশে অনেকেই বিদেশে উচ্চ শিক্ষার ব্যাপারে আগ্রহী। কিন্তু আগ্রহের পাশাপাশি কয়েকটি গুরুত্বপূর্ণ বিষয় মনে রাখা জরুরি। সেসব বিষয় নিয়েই আমার এই লেখা  ।আশাকরি অনেকের  কাজে আসবে।
+\n\nএকসময় বিদেশে উচ্চশিক্ষার ক্ষেত্রে অর্থনৈতিক সচ্ছলতাই মুখ্য বিষয় ছিল। কেবল উচ্চবিত্তের সন্তানেরাই এ নিয়ে ভাবত। কিন্তু এখন কেবল অর্থ থাকলেই সঠিক লক্ষ্যে পৌঁছানো সম্ভব নয়। বিভিন্ন দেশের শিক্ষার মান, সুযোগ সুবিধা, চাহিদা, ভবিষ্যৎ প্রাপ্তি ইত্যাদি বিষয় প্রতিনিয়ত পরিবর্তিত হচ্ছে। তাই আপডেটেট থাকা জরুরি। উদাহরণ হিসেবে বলা যায়, আপনি হয়তো কোনো বিশ্ববিদ্যালয়ে গত বছরের চাহিদা অনুযায়ী একটা আবেদন করলেন, কিন্তু  এ বছর তা পরিবর্তিত হয়ে গেল। আপনি সুযোগ হারাতে পারেন। কিংবা গতবছর আপনার কাঙ্ক্ষিত বিষয়ে  স্কলারশিপ ছিলনা, যা এ বছর আছে। না জানার কারণে আপনি সুযোগ হারাতে পারেন। তাই নিয়মিত যোগাযোগ রাখুন অনলাইনে, চোখ রাখুন বিভিন্ন ওয়েবসাইটে।
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="নিজেকে প্রস্তুত করুন\n"
+                android:id="@+id/textView65"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="বাইরের শিক্ষা প্রতিষ্ঠান গুলোর নির্ধারিত চাহিদা আছে। তবে তুলনামূলকভাবে কিছু মৌলিক চাহিদা থাকে। যেমন-ইংরেজি ভাষাজ্ঞান, জিমেট, স্যাট, জিআরই ইত্যাদি। আপনি যদি নির্দিষ্ট গন্তব্যে পৌঁছাতে চান, তবে এসব কিছু গুরুত্বপূর্ণ কোর্স করে রাখুন। কাজে আসবে। মনে রাখবেন, যা আপনি অর্জন করবেন তা কখনো বৃথা যাবেনা। অনেকে মনে করে, বাইরে না গেলে IELTS বা TOEFL  করে লাভ কী? কিন্তু এসব জ্ঞান কিন্তু আপনার দেশেও চাকরি বা ব্যক্তিগত জীবনে উপকারে আসবে। তাই নিজেকে যতটুকু সম্ভব প্রস্তুত রাখুন। আরেকটা বিষয় হলো, কোন বিশ্ববিদ্যালয় যদি আপনার অর্জিত কোনো কোর্স না চেয়েও থাকে, তথাপি  আপনি CV-তে উল্লেখ করলে প্রতিযোগিতায় প্রায়োরিটি পাবেন।\n\n"
+                android:id="@+id/textView75"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="স্পেসিফিক হোন\n"
+                android:id="@+id/textView64"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="একটা বিষয় আমরা প্রায়ই খেয়াল করি, অনেকেই বলেন আমি বিদেশ আসতে চাই বা ইউরোপ আসতে চাই। তারা কোন দেশে আসবেন, এটাও কনফার্ম না, বিষয় তো দূরের কথা। এটা হলো অনেকটা আমাদের ছোটবেলার বায়নার  মতো। ওর আছে আমারও লাগবে। ও গেছে আমিও যাব। কিন্তু বিদেশে উচ্চশিক্ষা কোনো বায়না নয়, এটা মেধা দিয়ে আপনাকে অর্জন করে নিতে হবে। তাই প্রথমেই লক্ষ্য নির্ধারণ করুন। আপনার বয়স, উদ্দেশ্য বা লাভ-এসব বিষয় বিবেচনা করুন। উদাহরণ হিসেবে মেধা বা অর্থ থাকার পরও আপনার পারিবারিক অবস্থানের কারণে আপনার বাইরে আসা হয়তো যুক্তিসংগত না- ও হতে পারে । তাই সব বিবেচনা করে কোমর বেঁধে নামুন। সফলতা  আসবেই।\n\n"
+                android:id="@+id/textView74"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="সময়জ্ঞান\n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" বিশ্ববিদ্যালয়গুলোর ভর্তি ও স্কলারশিপের সময়সীমা নির্দিষ্ট, যা মেনে চলা খুবই গুরুত্বপূর্ণ। সবসময় কিছু জিনিস প্রস্তুত রাখুন। CV, Motivation Letter, Recommendation Letter ইত্যাদি।
+\n\nঅনেক সময় আবেদন করতে করতেই সময় ফুরিয়ে যায়। আর তাছাড়া পোস্টে কাগজপত্র পাঠাতেও সময় ও অর্থের প্রয়োজন। তাই সময়ের প্রতি বিশেষ খেয়াল রাখুন।
+\n\nবাজেট বা অর্থনৈতিক বিষয়: আপনি যদি সত্যিকার আগ্রহী হন তবে বাজেট করুন। আপনার পক্ষে কতটুকু ব্যয় করা সম্ভব, তা জেনে নিন। সে অনুযায়ী আবেদন করুন। কারণ, এসব বিষয় না ভেবে আবেদন করলে পরে আর্থিক সমস্যার কারণে তা ভেস্তে যায় এবং আবেদন বা অন্য খরচ গুলো অপচয়ে পরিণত হয়। আবার দেখা যায়, অনেকে বড় বড় বাজেট করেন, কিন্তু আবেদন করতে পোস্ট খরচ দেখে ঘাবড়ে যান। তাই বলি, বাজেট করুন এবং সে অনুযায়ী সামনে এগোন। এলোমেলো প্রচেষ্টা ব্যর্থ হবে, বলাই  বাহুল্য।
+\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="পড়ার অভ্যাস করুন\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="সবচেয়ে গুরুত্বপূর্ণ বিষয় এটি। অনেকে কেবল প্রশ্ন করেন, ভাই, বিদেশে কীভাবে যাব? কোন বিশ্ববিদ্যালয়ে পড়ব? সুযোগ সুবিধা কেমন? ভবিষ্যৎ কেমন? ইত্যাদি ইত্যাদি। কিন্তু তাদের যখন কোনো তথ্য দেওয়া হয়, তারা পড়েননা। আমরা পেজে অনেক  লিংক পোস্ট করি যাতে সব তথ্যই পাওয়া যায়। কিন্তু একই প্রশ্ন বার বার করা হয়-লিংকগুলো অনেকে দেখেনইনা। তাই পড়ার অভ্যাস করুন। যতটুকু সময় অনলাইনে থাকেন, তার কিছু সময় বিভিন্ন দেশের শিক্ষা সাইটগুলো ভিজিট করুন। আমাদের পেজের বিভিন্ন সময় পোস্ট করা লিংকগুলো পড়ুন। এতে আপনিতো জ্ঞাত হবেনই, আবার অন্যকেও পরামর্শ দিতে পারবেন।\n\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="বিভ্রান্ত হবেন না\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="আপনি যদি কনফিডেন্ট হন, কেউ আপনাকে বিভ্রান্ত করতে পারবেনা। তাই কনফিডেন্স খুবই জরুরি। একটা বিষয় মনে রাখবেন, টাকা দিয়ে কখনো ভিসা কেনা যায়না। আপনার যোগ্যতা থাকলেই কেবল আপনি এডমিশন এবং ভিসা পাবেন। তাই প্ররোচনায় বিভ্রান্ত হবেন না। অনেকে এডমিটেড হওয়ার পরও আত্মবিশ্বাসের অভাবে ভিসা পেতে ব্যর্থ হন। একটা সাধারণ জ্ঞান হলো, একটা শিক্ষাপ্রতিষ্ঠান যদি আপনাকে ছাত্র হিসাবে গ্রহণ করে, তবে দূতাবাস ভিসা দিতে বাধ্য; যদি না কোনো মেজর ত্রুটি থাকে। তাই আত্মবিশ্বাসের সঙ্গে অগ্রসর হোন।
+\n\nসর্বোপরি, চেষ্টা করুন, সফলতা আসবে। মনে রাখবেন, এটা আপনার জীবন এবং এর লক্ষ্য আপনাকেই নির্ধারণ করতে হবে। আপনাদের সবারই সফলতা কামনা করছি।
+\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

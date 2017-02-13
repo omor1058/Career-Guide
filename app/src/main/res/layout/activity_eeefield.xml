@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_eeefield"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.eeefield">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ইইই এর সাবডিসিপ্লিনগুলো \n"
+            android:id="@+id/textView6"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ইইই এর সাবডিসিপ্লিনগুলো লক্ষ্য করো- 1.Power 2.Electronics 3.Telecommunication 4.Computers\n\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Power  \n"
+                android:id="@+id/textView64"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Power  সেক্টরের ব্যাপারটা মনে হয় সবাই এমনিতেই বুঝতে পেরেছে। যারাবিদ্যুত উৎপাদন আর সরবরাহের দায়িত্বে থাকে। এই সেক্টরের চাহিদা বাংলাদেশের প্রেক্ষাপটে এই মুহুর্তে প্রচুর। চাহিদা পুরনের জন্য প্রতি বছরই নতুন নতুন বিদ্যুত কেন্দ্র তৈরি হচ্ছে। ভবিষ্যতে নিউক্লিয়ার পাওয়ার প্ল্যান্ট স্থাপনের পরিকল্পনাও চলছে সরকারের উচ্চ পর্যায়ে। আর এই সেক্টরের পুরো  দায়িত্বই থাকে ইলেক্ট্রিকাল ইঞ্জিনিয়ারদের হাতে। যারা নিজেকে একজন Power management engineer হিসেবে দেখতে চাও, তারা নিঃসঙ্কোচে EEE নিতে পারো। বাংলাদেশের কয়েকটি কোম্পানি হল ঢাকা ইলেক্ট্রিক সাপ্লাই কোম্পানি(DESCO) , বাংলাদেশ পাওয়ার ডেভেলপমেন্ট বোর্ড( BPDB), পাওয়ার গ্রীড কোম্পানি বাংলাদেশ ( PGCB),ইলেক্ট্রিসিটি জেনারেশন কোম্পানি অব বাংলাদেশ (EGCB).\n\n"
+                android:id="@+id/textView4"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Electronics \n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Electronics নিয়েও সবাই হালকা পাতলা কিছু জানে। Resistor, Capacitor, Inductor এসবের নাম তোমরা শুনে এসেছ। এখনকার সময়ে তোমরা যত ডিভাইস দেখ, তারবেশিরভাগই ইন্টিগ্রেটেড সার্কিট দিয়ে ডিজাইন করা। স্মমার্টফোন, আইপ্যাড, নোটপ্যাড, ল্যাপটপ সবগুলোই ইলেক্ট্রনিক্সের অবদান। Microcontroller এর নামহয়তো কেউ কেউ শুনে থাকবে। যা রোবটিক্স নিয়ে পড়াশোনার ব্যাপক ইচ্ছা যাদের, তাদের জন্য microcontroller হলো একেবারে শুরুর ধাপ। তবে হ্যা, এদিক দিয়েআগাতে হলে অবশ্যই পরিশ্রমী আর উদ্যমী হতে হবে।
+\n\nযাদের উদ্ভাবনী ক্ষমতা বেশি, বিস্তর ইচ্ছা আছে এই rapidly running টপিক নিয়ে পড়াশোনা করার, তার জন্য EEE'র দরজা সদা উন্মুক্ত।
+\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Telecommunication\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Telecommunication, যোগাযোগ নিয়ে কাজকারবার। মোবাইল ফোন কোম্পানিতে মাঝের কয়েক বছর ইইই ইঞ্জিনিয়ারদের বিশাল চাহিদা ছিলো। আমাদের মত দেশে নতুন নতুন নেটওয়ার্ক, টাওয়ার, কভারেজ তৈরিসহ সমগ্র সিস্টেম ম্যানেজমেন্টের দায়িত্বে আছে বিপুল সংখ্যক ইইই ইঞ্জিনিয়ার। শুধু এক Grameenphone এই এখন কাজ করছে প্রায় ৫ হাজার প্রকৌশলী, যার বেশিরভাগই ইলেক্ট্রিক্যাল এন্ড ইলেক্ট্রনিক্স ব্যাকগ্রাউন্ডের। যত নতুন নতুন টেকনোলজি আসবে, অত চাহিদা Expand করবে। যারা নিজেকে একজন প্রতিষ্ঠিত Telecommunication Engineer হিসেবে দেখতে চাও, তাদের জন্য অবশ্যই EEE. আরো কয়েকটি মোবাইল অপারেটর কোম্পানি হল  ইত্যাদি । \n\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Robotics \n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Robotics যদিও ইলেক্ট্রিকালের একটি সাবজেক্ট কিন্তু এতে প্রোগ্রামিং এর অনেক বিষয় জড়িত রয়েছে। এর জন্যে আপনাকে মেসিন ল্যাংগুয়েজ সম্পর্কে ভালভাবে ধারণা নিতে হবে। যদি রোবটিক্স যাবারই ইচ্ছে থাকে তাহলে EEE ই বেস্ট হবে। তবে মনে রাখতে হবে আপনাকে ফিজিক্স এবং গণিতে অসম্ভব রকমের পারদর্শী হতে হবে এবং ভার্সিটি নির্ধারণ করার পূর্বে খুজ নিয়ে দেখুন সেই ভার্সিটিতে রোবটিক্সের জন্যে ক্লাব আছে কিনা।
+\nআরো কয়েকটি সেক্টর হল,
+\n\nগ্যাস  জেনারেশন এন্ড ডিস্ট্রিবিউশন সেক্টরঃPetrobangla Chevron, Jalalabad Gas FieldLtd.
+\nঅটোমেশন এন্ড এম্বেডেড সিস্টেম ,বায়োমেডিকেল সেক্টর , কেবল ইন্ড্রাস্ট্রিজ, পাওয়ার ইকুয়েপমেন্ট এন্ড ইলেক্ট্রিক হোম এপ্লিয়ান্সেস ম্যানুফেকচারারস
+\n\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+           1
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

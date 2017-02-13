@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_whysc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.whysc">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="স্কলারশিপ পাওয়ার জন্য যাহা করণীয় \n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="স্কলারশিপ অনেকের কাছেই সোনার হরিণ এর মত। যদিও কিছু ধাপ এবং প্রয়োজনীয় কাগজপত্র থাকলেই  স্কলারশিপ পাওয়া খুব একটা কঠিন নয়। তাই সবাই কে মন যোগ সহকারে পড়ারজন্য আহবান করছি।
+\n\nMinimum Requirements to get scholarship
+\n\n1.	Master of Science with CGPA minimum 3.50 out 4.00 ( Sometimes 3.0 CGPA is acceptable)
+\n\n2.	 Bachelor of Science in Agriculture/Fisheries/Veterinary/Food/Engineering/BBA/Arts with minimum CGPA 3.5 out of 4:00( Sometimes 3.0 CGPA is acceptable)
+\n\n3.	 Published paper in peer reviewed journal with impact factor or without impact factor. Paper should be published from Honours or MS thesis.
+\n\n4.	 IELTS score 6.50 (Individual band score not less than 6.00).
+\n\nIf you have above criteria, then you can apply for any kind of scholarship for MS/PhD study.
+
+\n\nFollowing steps should be followed-
+
+\n\n1. Select your preferred country for higher study.
+\n\n2. Search google writing university of UK (For Example).
+\n\n3. Click the website of respective university.12. Find interested faculty/department/subject.
+\n\n4. Find personal profile/CV of professor/faculty member/ staff.
+\n\n5. Check your interested research area/field from the profile/cv of professor/faculty member. Collect e-mail of Professor/faculty member/staff and
+\n\n6. Write e-mail to them mentioning your introduction and interest. Please do not forget to send your CV with attached file.
+
+\n\nস্কলারশিপ পেতে কিভাবে প্রফেসর কে লিখতে হবে:
+\nএখন আলোচনা করব যে কিভাবে প্রফেসর কে ই-মেইল করতে হবে। এই ক্ষেত্রে কিছু বিষয়খুব খেয়াল করতে হবে। তা না হলে প্রফেসর ই-মেইল এর উত্তর দিবে না। এরকম অনেকেই বলেথাকে যে , অনেক প্রফেসর কে লিখে কিন্তু প্রোফেসর উত্তর দেয় না। সেই জন্য , প্রথমেপ্রফেসর এর বায়োডাটা ভাল করে দেখতে হবে বিশেষ করে তার গবেষণার বিষয় বস্তু। যদি দেখাযায় প্রফেসর Plant Disease নিয়ে কাজ করে, অথবা, Cold, salt, drought stress নিয়েগবেষণা করে তাহলে প্রফেসর কে specific area উল্লেখ করে লিখতে হবে। এখন ই-মেইল এরভাষা কেমন হবে? বা কি কি লিখতে হবে? সেই ক্ষেত্রে অনেকেই অনেক ভাবে প্রফেসর কে approach করার চেষ্টা করে থাকে। এখানে খুব সাধারন ভাষায় একটা উদাহরণ সরূপ দেওয়াহল।
+\n\nTo: bmb@yahoo.com
+\n\nSubject: Humble request for MS/PhD position in your lab
+\n\nDear Professo X
+\n\nI’m serving as Lecturer in the Department of Biochemistry and Molecular Biology of Hajee Mohammad Danesh Science and Technology University, Dinajpur, Bangladesh . I have completed Bachelor of Science in Agriculture (Hons) in 2007 and Master of Science in Biochemistry in 2009 from Bangladesh Agricultural University, Bangladesh. After completing mygraduation, I have been appointed as a Lecturer in the Department of Biochemistry and Molecular Biology at Hajee Mohammad Danesh Science and Technology University , Bangladesh since 16 May, 2010 till to date. Now, I would like to do PhD under your supervision entitled “Molecular Mechanisms of Plant Disease Suppression by Plant Growth Promoting Mycorrhiza”. Could you please give me such type of opportunity to do PhD in your well-developed lab? If you have any space for MS/PhD, I would like to request you to provide me necessary information in this regard. I sent u my complete CV as attached file for your kind consideration.
+\n\nI am sorry for any kind of inconvenience.
+\n\nWith best regards
+\nY
+\nHSTU
+\nBangladesh
+\n\nএই ভাবে প্রতিদিন অন্ততঃ ৫ জন প্রফেসর কে লিখতে হবে…… এর মধ্যে থেকে কিছুপ্রফেসর উত্তর দিবে।
+\n\nযদি প্রফেসর ই-মেইল এর উত্তর দেয় তাহলে কি করতে হবে সে বিষয় নিয়ে এখন বলব। অনেকপ্রফেসর আছে উত্তর দিবে, কিন্তু বলবে যে তার ফান্ড নাই বা ল্যাব এ স্পেস নাই। সেইক্ষেত্রে হতাশ হওয়া যাবে না। তবে, প্রফেসরকে খুব পোলাইটলি ধন্যবাদ দিয়ে উত্তর দিতেহবে। আবার কিছু প্রফেসর আছে, তারা পজিটিভলি উত্তর দিবে এবং বলবে যে এক টা রিসার্চপ্রপোজাল পাঠাতে। তখন এমন একটা রিসার্চ প্রপোজাল লিখতে হবে যেন, প্রফেসর এর রিসার্চএর সাথে মিলে যায়। এই ক্ষেত্রে পরের ই-মেইল এ ফান্ডিং বা application process সম্পর্কে প্রফেসর হয়তো জানাবে। একটা জিনিস মনে রাখতে হবে যে, প্রফেসর যদি ম্যানেজহয়, তাহলে ৫০% স্কলারশিপ পাওয়ার কাজ হয়ে গেল। তাই প্রফেসর যদি আপনার প্রতি আগ্রহদেখায়, তাহলে পরের ই-মেইল গুলোতে আপনি সব কিছু জানতে পারবেন।
+\n\nযাদের জিপিএ ৩.৫ এর কম, তাদেরকেও উক্ত নিয়ম গুলো ফলো করে কাজ করতে হবে। এই জন্যতাদের কে IELTS পেতে হবে ৬.৫ বা তার চাইতে বেশি। যারা শুধু মাত্র Honours করেইবিদেশে MS করতে চায়, তাদের জন্য Full Scholarship পাওয়া একটু কষ্টকর হবে। হয়তো ৫০% scholarship পাওয়া যেতে পারে। কিন্তু সেই জন্য নিজের খরচে পড়তে হবে। এতে খুবকষ্টকরহবে। তাই, সবচেয়ে ভাল হয়, বাংলাদেশে মাস্টার্স করে, তারপর বিদেশে যাওয়া। কারনহল, scholarship পেতে হলে scientific paper/research paper/publication থাকতে হবে।যাহা মাস্টার্স এর থেসিস থেকে paper publish করা যাবে। কিন্তু যারা Undergraduate এ thesis/ project work করে, তারা সেখান থেকে paper publish করতে পারে। এ ক্ষেত্রেইঞ্জিনিয়ারিং এর স্টুডেন্ট দের জন্য খুব সুবিধা। তারা honoursকরেই বিদেশেমাস্টার্স করতে পারে।
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="স্কলারশিপের জন্য যে ভাবে পেপার প্রকাশ করতে হবে\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="বিদেশে পড়তে আসতে হলে ভাল স্কলারশিপ অবশ্যই দরকার। এর জন্য দরকার অনার্স এবংমাস্টার্স এর ভাল রেজাল্ট, ভাল জার্নালে প্রকাশিত পেপার এবং IELTS এর স্কোর 6.5।এখন ভাল জার্নালে কিভাবে পেপার প্রকাশ করা যাবে? পেপার হল মাস্টার্স এর থেসিসসংক্ষিপ্ত আকারে নির্দিষ্ট ফরম্যাট এ জার্নালে প্রকাশ করতে হয়। যদি মাস্টার্স এ কেউভাল গবেষণা করতে পারে, তাহলে, সেই গবেষণা এর কাজ ভাল জার্নালে প্রকাশ করতে পারবে।ভাল জার্নাল বলতে কি বুঝায়? ভাল জার্নাল বলতে যে সকল জার্নাল এর Impact Factor আছেএবং ISI (International Scientific Indexing), SCI(Science Citation Index), SCIE( Science Citation Index Expanded), ELSEVIER, SPRINGER এর তালিকাভুক্তি, সে সকলজার্নাল কে ভাল মানের জার্নাল বলা হয়। প্রশ্ন আসতে পারে Impact Factor কি? আমি সহজভাবে বলতে পারি যে জার্নাল এর ইম্পাক্ট ফ্যাক্টর যত বেশি সে জার্নাল তত ভাল। Impact Factor মুলত 0.1 থেকে শুরু করে 40 বা তার ও বেশি হতে পারে। ইম্পাক্ট ফ্যাক্টরসম্পর্কে জানতে চাইলে গুগল সার্চ দিয়ে জানা যাবে। অনেক জার্নাল আছে, দেখা যায় যে Impact factor দেওয়া আছে। কিন্তু সেগুলো সঠিক নয়। সেই সব জার্নাল এর Impact factor এর সত্যতা যাচাই করার জন্য ISI, SCI, SCIE, Springer, Elsevier এর ওয়েব সাইটে এপ্রবেশ করে সার্চ অপশনে জার্নাল এর নাম বা ISSN নাম্বার দিয়ে সার্চ দিতে হবে। যদিভাল মানের জার্নাল হয় তাহলে কমপক্ষে ISI, SCI, SCIE, Springer, Elsevier এর যে কোনএকটি ওয়েব সাইটে তালিকা ভুক্তি থাকবে। যদি তালিকা ভুক্তি থাকে তাহলে বুঝতে হবে যেএই জার্নাল ভাল মানের। বলে রাখা ভাল যে বাংলাদেশে ২০০ এর উপর জার্নাল আছে, তারমধ্যে মাত্র ২-৩ টি জার্নাল ভাল মানের। অর্থাৎ ISI, SCI, SCIE, Springer, Elsevier এর যে কোন একটি ওয়েব সাইটের তালিকা ভুক্তি আছে। এই ২-৩ টি জার্নাল এর মধ্যে ঢাকাবিশ্ববিদ্যালয় থেকে প্রকাশিত হয় জার্নাল অফ বোটানি, যার Impact Factor 0.5. এখন কেউযদি তার থেসিস ভাল মানের জার্নাল এ প্রকাশ করতে পারে তাহলে তার স্কলারশিপ পাওয়া খুবসহজ হয়, যদিও তার রেজাল্ট খারাপ থাকে। মনে কর, কেউ একটা পেপার প্রকাশ করল এমন একটাজার্নাল এ যাহার impact factor ১ বা ২। তাহলে সে যে কোণ দেশে স্কলারশিপ পেতে পারে।বিদেশে কোন প্রফেসর এর কাছে লিখলে প্রফেসর দেখে তার রেজাল্ট, প্রকাশিত পেপার, IELTS এর স্কোর। তবে ভাল জার্নালে পেপার প্রকাশ করতে হলে অবশ্যই এম এস এর থেসিস বা গবেষণাভাল মানের হতে হবে। তাছাড়া ভাল মানের জার্নালে প্রকাশ করা যাবে না। এই জন্য এম এসকরার জন্য একটু ভাল প্রফেসর এবং ভাল বিভাগে এম এস করতে পারে। ভাল প্রফেসর বলতে যারাভাল গবেষণা করেন। কারন Impact factor ওয়ালা জার্নালে ভাল গবেশনা ছাড়া প্রকশ করে না।জার্নাল এ পেপার প্রকাশ করার জন্য আগে চিন্তা করতে হবে কোন জার্নালে পেপার প্রকাশকরবে। তারপর সেই জার্নাল এর ওয়েব সাইটে ঢুকে তাদের গাইড লাইন অনুসারে লিখতে হবে এবংসাবমিট করতে হবে অনলাইনে। তার পর জার্নাল এর এডিটর রেভিউয়ার এর কাছে পাঠাবে রিভিউকরতে। যদি রিভিউয়ার মনে করে যে ভাল হয়েছে গবেষণা, তাহলে কারেকশন এর জন্য আবার ফেরতপাঠাবে। তারপর কারেকশন করে আবার এডিটর এর কাছে পাঠালে, প্রকাশ করে দিবে। তখনজার্নাল এর ওয়েব সাইটে ঢুঁকে ডাউনলোড করা যাবে। এখন কথা হল যে, Normal জার্নাল এ কিপ্রকাশ করা যাবে না? হ্যা, করা যাবে। বাংলাদেশের অনেক প্রফেসর যে সকল জার্নালে impact Factor নাই সেই সকল জার্নালে প্রকাশ করে। কারন Impact factor ওয়ালা জার্নালেপ্রকাশ করতে পারে না। তবে এই সব জার্নালে পেপার প্রকাশ করলে ও স্কলারশিপ পাওয়াযাবে। কথায় আছে, “নাই মামার চেয়ে কানা মামা ভাল”।\n\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

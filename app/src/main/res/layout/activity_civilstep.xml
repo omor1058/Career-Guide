@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_civilstep"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.civilstep">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="সিভিল ইঞ্জিনিয়ারিং এর প্রধান শাখাগুলি\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="সিভিল ইঞ্জিনিয়ারিং এর প্রধাণ ৭ টি শাখা আছে নিচে এগুলো নিয়ে সংক্ষেপে আলোচনা করা হল\n\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="১. স্ট্রাকচারাল ইঞ্জিনিয়ারিং \n"
+                android:id="@+id/textView67"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="বাড়ি,হোটেল, পার্ক, ব্রীজ, বিল্ডিং ইত্যাদির উপরে নিজস্ব ভার বা বাইরের ভার প্রতিরোধ ক্ষমতা সহ বাতাস,পানি,ভুমিকম্প,তাপমাত্রা ইত্যাদির প্রভাব থেকে রক্ষার জন্য সিমেন্ট,বালি,রি-ইনফোর্সমেন্ট,কাঠ, অন্যান্য উপাদানের সমন্বয়ে সঠিক ডিজাইন করা হলো এই শাখার কাজ।\n\n"
+                android:id="@+id/textView77"
+                android:textColor="#0a0909" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="২.এনভায়রনমেন্টাল ইঞ্জিনিয়ারিং\n"
+            android:id="@+id/textView66"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="পরিবেশ তথা বাতাস এবং পানির দুষণ রোধ, বিশুদ্ধকরণ ইত্যাদি করা এই শাখার কাজ। বর্তমানে এটি একটি গুরুত্বপুর্ন শাখা। বিশুদ্ধ পানি সরবরাহ, বর্জ্য, মল ইত্যাদি অপসারণ এবং বিশুদ্ধকরণ করা নিয়ে আলোচনা করা হয় এই শাখাতে।\n\n"
+                android:id="@+id/textView76"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৩.জিওটেকনিক্যাল ইঞ্জিনিয়ারিং\n"
+                android:id="@+id/textView65"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="প্রায় সকল সিভিল ইঞ্জিনিয়ারিং শাখাতেই এটি কাজে লাগে। কারণ বেশির ভাগ স্ট্রাকচার ভুমির উপর অবস্থিত। মাটি বা পাথরের এর উপর স্ট্রাকচার এর প্রভাব এবং এদের বৈশিষ্ঠ্য নিয়ে আলোচনা করে এই শাখাটি। ভুগর্ভের সিপেজ,ভুমিকম্পের প্রভাব, স্থিতিশিলতা ইত্যাদি নিয়ে কাজ করে এর সিভিল ইঞ্জিনিয়ারিং শাখাটি। বাধ, রিটেইনিং ওয়াল, ফাউন্ডেশন ইত্যাদির আংশিক ডিজাইন করা হয় এই শাখার মাধ্যমে।\n\n"
+                android:id="@+id/textView75"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৪.ওয়াটার রিসোর্স ইঞ্জিনিয়ারিং\n"
+                android:id="@+id/textView64"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="পানি আমাদের জিবনে অনেক গুরুত্বপুর্ন এটা আমরা সবাই যেমন জানি, তেমনি এটাও ঠিক যে এটি অত্যান্ত্য সাধারণ একটি কথা। আবার এই পানি আমাদের মরণও ডেকে নিয়ে আসে। তাও আমরা জানি। পানি সম্পদ প্রকৌশল পানির ভৌত অবস্থা নিয়ে আলোচনা করে। বন্যা, শহরের-কারখানা-সেচ এর পানি সরবরাহ, নদি ভাঙ্গন রোধ, নদির শাষন ইত্যাদি বিষয়ে আলোচনা এবং ডিজাইন করে থাকে। হাইড্রলিক পাওয়ার, বাধ, খাল, পানিধস ইত্যাদি নিয়ে আলোচনা করে এই শাখাটি।\n\n"
+                android:id="@+id/textView74"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৫.ট্রান্সপোর্টেশন ইঞ্জিনিয়ারিং\n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="কোন সমাজের বৈশিষ্ঠ্য বা গুন এর যোগাযোগ ব্যবস্থার উপর নির্ভর করে। কোন সমাজের উন্নয়ন অনেকটা প্রভাবিত হয় এই যোগাযোগ ব্যবস্থার উপর। মানুষ, মালামাল ইত্যাদি পরিবহন ব্যবস্থা নিয়ে গবেষনা, ডিজাইন, সমস্যা, সমাধান নিয়ে কাজ করে ট্র্যান্সপোর্টেশন ইঞ্জিনিয়ারিং। অল্প রাস্তায় অধিক পরিবহন সুবিধা, দুর্ঘটনা কমানো, খরচ কমানো ইত্যাদি নিয়ে কাজ করে এই শাখাটি।\n\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৬.কন্সট্রাকশন ইঞ্জিনিয়ারিং\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="এই শাখাতে আলোচনা করা হয় যে কি ভাবে একটি কাঠামো গঠন করতে হবে। অর্থের ব্যবহার, সময়ের সংক্ষেপন, প্রয়োজনীয় মালামাল-যন্ত্রপাতি ইত্যাদির যোগান, কাঠামো গঠনের পদ্ধতি বিজ্ঞান নিয়ে কাজ করা হয় শাখাতে।\n\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৭.আরবান এবং কম্যিউনিটি প্লানিং\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="নগরায়ণ এবং শহর পরিকল্পনা করা হয় মুলত একটি গোষ্ঠি নিয়ে কাজ করা। একটি গোষ্ঠি বা জোট এ কি কি লাগতে পারে এবং কিভাবে লাগাতে হবে তা নিয়ে গবেষণা করা হয় এই শাখাতে। \n\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

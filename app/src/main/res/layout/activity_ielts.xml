@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ielts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.ielts">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="IELTS\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="IELTS= International English Language Testing System, ইংরেজি ভাষায় আপনার দক্ষতা যাচাই করার জন্য একটি স্ট্যান্ডার্ডাইজড টেস্ট। আপনার প্রয়োজনের ওপর ভিত্তি করে দু ধরনের IELTS থেকে যে কোন একটিতে অংশগ্রহণ করে ইংরেজিতে আপনার কারিশমা দেখাতে পারেন।
+
+\n\nGeneral Training version- পড়াশোনা ভিন্ন অন্য কোন উদ্দেশ্যে, যেমন-ইমিগ্রেশন, চাকরি, ইত্যাদির জন্য লাগবে জেনারেল ট্রেনিং ভার্সন।
+
+\n\nAcademic version- যাদের first language ইংরেজি নয়, ইংরেজি প্রধান দেশের বিশ্ববিদ্যালয়ে ভর্তি হতে হলে তাদের সবারই হয় TOEFL, নয়তো Academic IELTS স্কোর লাগবেই। আজ থেকে কয়েক বছর আগেও আমেরিকার অনেক ইউনিভার্সিটি ভাষার দক্ষতার জন্য IELTS score accept করতো না, কিন্তু এখন সব ইউনিভার্সিটিই IELTS accept করছে। তো, IELTS যদি আপনার যদি TOEFL এর চেয়ে বেশি ফ্যামিলিয়ার মনে হয়, বিনা দ্বিধায় IELTS এর প্রিপারেশন নিতে পারেন। TOEFL নিয়ে জানতে হলে চলে যান দেখুন Test Preparation সেকশনের ১০ নং নোট - All about TOEFL
+
+আমরা এই নোটে শুধু ILETS এর একাডেমিক ভার্সনের ব্যাপারেই জানবো……
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TEST STRUCTURE\n"
+                android:id="@+id/textView65"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="চারটা সেকশন- Listening, Reading, Writing, Speaking. প্রথম তিনটা সেকশন ক্রম মেনেই চলে, সমস্যা হয় speaking নিয়ে। যেহেতু স্পিকিং সেকশনটা ইন্টারভিউ স্টাইলের (ডিটেইলস নিচে দেখুন), তাই সবাইকে তো আর একসাথে সময় দেয়া যায়না। বাকি তিন সেকশন পরীক্ষার আগে পিছে সাতদিনের মধ্যে (অর্থাৎ, যদি বাকি তিনটার পরীক্ষা হয় ১৫ তারিখ, তাহলে ৮ থেকে ২২ তারিখের মধ্যে) যে কোন দিন তারিখ পড়তে পারে।
+\n"
+                android:id="@+id/textView75"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1. Listening section\n"
+                android:id="@+id/textView64"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="চারটা লেকচার বা কনভার্সেশন আপনাকে শোনানো হবে, এবং শুনতে শুনতেই আপনাকে খসড়া উত্তর লিখতে হবে। লেকচার বা কনভার্সেশন শুরুর আগেই আপনাকে জানিয়ে দেয়া হবে, কে কি নিয়ে কথা বলতে যাচ্ছে। এখানে কিছুটা সময় পাওয়া যায়, যাতে আপকামিং প্রশ্নগুলোর ওপর আপনি একটু চোখ বুলিয়ে নিতে পারেন। প্রথমটা সবচেয়ে সোজা, শেষেরটা সবচেয়ে কঠিন, এই ক্রমে অডিওগুলোকে সাজানো হয়েছে।
+
+\n\nচারটা অডিও এর ওপর মোট চল্লিশটা প্রশ্ন হবে, তিরিশ মিনিটের মধ্যেই অডিওগুলো শেষ হয়ে যাবে। অডিও শুনতে শুনতে প্রত্যেকটা প্রশ্নের সম্ভাব্য উত্তরগুলো লিখে ফেলুন। IELTS এর বেশ কিছু প্রশ্নের মধ্যেই নির্দেশ দেয়া থাকে, NO MORE THAN TWO WORDS অথবা NO MORE THAN THREE WORDS. সম্ভাব্য উত্তর লেখার সময় এত কিছু ভাবার দরকার নেই। অডিও শেষ হবার পর আরো দশ মিনিট পাওয়া যাবে উত্তরগুলোকে answer sheet-এ ট্রান্সফার করার জন্য, তখন নির্দেশ মোতাবেক এডিট করে নিলেই হবে। অডিও চলাকালীন সময়ে এ জাতীয় এডিটিং করতে গেলে পরবর্তী প্রশ্নের উত্তর ছুটে যাওয়ার সম্ভাবনা থাকে।
+
+\n\nলিসেনিং সেকশনে মোটামুটি ছয় টাইপের প্রশ্ন থাকে। আলোচনার সুবিধার্থে আমরা একটি কাল্পনিক আলোচনা শুনি (I mean, পড়ি)……
+
+\n\nমনে করুন, একজন একটা সেলফোনের কাস্টোমার কেয়ারে ফোন করেছে তার সমস্যার কথা বলার জন্য। আপনি সমস্যায় জর্জরিত ব্যক্তিটি এবং কাস্টোমার কেয়ার ম্যানেজারের মধ্যে কথাবার্তা শুনছেন। তাদের মধ্যে অনেকক্ষণ সুখ-দুঃখের আলাপ হলো। যেমন- প্রথমে নাম জানতে চাওয়া, ফোন নাম্বার জানতে চাওয়া, গ্রাহক কি ধরনের বাঁশ খেয়েছে, কবে থেকে এ জাতীয় বাঁশ খাচ্ছে, সপ্তাহে কয়বার ব্যাথা অনুভূত হয়, ইত্যাদি ইত্যাদি। পরে কাঁদে না, লক্ষী সোনা জাতীয় কথাবার্তা বলে ফুসলিয়ে একটা যা-তা সমাধান দেয়ার মাধ্যমে আলোচনা শেষ হলো।
+
+\n\nMCQ- সঠিক উত্তর বাছাই করতে হবে। নির্দেশ অনুযায়ী এক বা একাধিক সঠিক উত্তর বেছে নিতে হবে। মনে রাখবেন, answer sheet এ ট্রান্সফার করার সময় শুধু সঠিক উত্তর নির্দেশকারী অক্ষরটাকেই লিখতে হবে, পুরো উত্তরটা নয়। যেমন, সপ্তাহে কয়বার ব্যথা হয়, এটার অপশন যদি এমন হয়-
+\n\na. once b. twice c. three times d. ten times
+\n\nএবং সঠিক উত্তর যদি হয় দশবার (ব্যাটা বাঁইচ্যা আছে ক্যামনে?) তাহলে উত্তরপত্রে শুধু D লিখতে হবে, TEN TIMES লেখা যাবেনা। লিখলে গোল্লা !!
+
+\n\nShort Answer Question- ছোট ছোট প্রশ্ন, ছোট ছোট উত্তর দিতে হবে, তিন শব্দ বা সংখ্যার মধ্যে
+
+\nSentence Completion- শূন্যস্থান পূরণ, NO MORE THAN THREE WORDS AND/OR NUMBER নিয়ম প্রযোজ্য
+
+\n\nFilling up a Table/Form/Note/Flow Chart/Summary- আপনার কাছে একটি ফর্ম আছে, যেখানে কিছু কিছু ইনফর্মেশন নেই। যেমন, জর্জরিত ব্যক্তির নাম আছে, কিন্তু ফোন নাম্বারটা নেই। বাঁশটা কি, সেটা ঐ ফর্মে আছে, কিন্তু কবে থেকে খাচ্ছে বা সপ্তাহে কয়বার খাচ্ছে, এগুলো নেই। শুনতে শুনতে আপনাকে সেগুলো লিখে ফেলতে হবে। ইনফর্মেশন যদি বিভিন্ন ক্যাটাগরিতে হয়, তাহলে পুরোটা টেবিল আকারে আসতে পারে। অথবা যদি কোন প্রসেস নিয়ে কথাবার্তা হয়, তাহলে ফ্লো চার্টের আকারে আসতে পারে। পুরো কনভার্সেশনটা একটা summary আকারে কিছু গ্যাপ সহও আসতে পারে।
+
+\n\nLabeling a Diagram/Map- একটা ম্যাপ বা কোন যন্ত্রের ছবি দেয়া থাকবে এবং অডিওতে সেই ম্যাপ বা যন্ত্রের বর্ণনা দেয়া হবে। ম্যাপ বা যন্ত্রের কিছু কিছু অংশ মার্ক করা থাকবে। বর্ণনা শুনে শুনে ম্যাপের বাকি জায়গাগুলো মার্ক করতে হবে।
+
+\n\nMatching- দুই কলামের দুই সেট ইনফর্মেশনের মধ্যে ম্যাচ করতে হবে। এ জাতীয় প্রশ্নের জন্য অডিও শুরুর আগে যে সময়টা পাওয়া যায়, সে সময়টাতে ভালো করে আগাম ধারণা নিয়ে রাখতে হয়।
+\n"
+                android:id="@+id/textView74"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="2. Reading section\n"
+                android:id="@+id/textView634"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="তিনটা প্যাসেজের ওপর মোট চল্লিশটা প্রশ্ন হবে, এবং ১ ঘণ্টার মধ্যে সবগুলো প্রশ্নের উত্তর দিতে হবে। লিসেনিং সেকশনে যে যে টাইপের প্রশ্ন আসে, সেগুলো ছাড়াও আরো দুই ধরনের প্রশ্ন আসে রিডিং সেকশনে।
+
+\n\nChoosing Suitable Paragraph Headings- মনে করেন, প্যাসেজের মধ্যে পাঁচটা প্যারা ছিলো। প্রত্যেকটা প্যারাগ্রাফকে একটা করে টাইটেল দিতে হবে। ধরে নিন, a থেকে g পর্যন্ত টোটাল অপশন আছে সাতটা। মনে রাখবেন, উত্তরপত্রের মধ্যে পুরা টাইটেল না, শুধু অপশনের অক্ষরটা লিখতে হবে। যেমন, প্রথম প্যারার টাইটেল C অপশনে থাকলে শুধু C লিখতে হবে।
+
+\n\nTrue/False/Not Given অথবা Yes/No/Not Given- কিছু কিছু স্টেটমেন্ট দেয়া থাকবে। প্যাসেজের টেক্সট অনুসারে যদি সেটা সত্য হয়, তাহলে True/Yes, মিথ্যা হলে False/No লিখতে হবে। যদি প্যাসেজে ঐ স্টেটমেন্ট টা সত্য নাকি মিথ্যা কিছুই না বলা থাকে, তাহলে NOT GIVEN লিখতে হবে।
+\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="3. Writing section\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="এক ঘণ্টা সময়ের মধ্যে দুটো রচনা লিখতে হয়।
+
+\n\nTask 1- একটা figure/graph বা Diagram বা table দেয়া থাকবে, যেটার বর্ণনা দিতে হবে। মিনিমাম ১৫০ শব্দ লিখতে হবে, ২০ মিনিটের মধ্যে। আমার মতে, ২০০ শব্দ হচ্ছে স্ট্যান্ডার্ড। এটা নিয়ে একটা পূর্ণাংগ নোট লেখার ইচ্ছে রইলো।
+
+\n\nTask 2- সোজা বাংলায়, ভাব সম্প্রসারণ। GRE এর Issue Task বা TOEFL এর Independent Task এর ব্যাপারটা হুবুহু এরকম। এ ব্যাপারে বিস্তারিত জানতে হলে চলে যান এখানে, Analytical Writing. আমার মতে, a little over 300 words is best.
+\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="4. Speaking section\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="টোটাল স্পিকিং সেকশন তিন ভাগে বিভক্ত-
+
+\n\nInterview-
+\n\nআসেন, বসেন, কি অবস্থা, কি হালচাল, এই জাতীয় সাধারণ কথাবার্তা হবে। আপনি কোন শহরে থাকেন, সেই শহরের description জিজ্ঞেস করতে পারে। আপনি কি করেন, আপনার শখ কি কি, সেগুলো নিয়ে আলোচনা হতে পারে। আমি এই সেশনের নাম দিয়েছি, খোশগল্প সেশন; শুধু এক কাপ চা হাতে থাকলেই হয়ে যেত।
+
+\n\nTopic card-
+\n\nএখানে আপনার সামনে কিছু কার্ড দেয়া হবে, প্রত্যেকটা কার্ডে একটা টপিক থাকবে। সেই টপিক নিয়ে আপনাকে এক মিনিট ভাবার সুযোগ দেয়া হবে, এরপর ২ মিনিট বলতে হবে। আমার মতে, ভাবাভাবির সময় পুরো স্পিচ রেডি করার চেষ্টা না করে শুধু প্রথম এক বা দুই লাইন রেডি করুন। বাকিটার জন্য শুধু কি নিয়ে বলবেন, সেটাই ভাবুন। প্রথম লাইন সাবলীলভাবে মুখ থেকে বের হলে বাকিটা এমনিতেই বের হতে থাকবে।
+
+\n\nDiscussion-
+\n\nটপিক কার্ড সেশনে যা যা বললেন, সেটার ওপরেই কিছুটা আলোচনা করা হবে। আপনার বক্তব্যের বিশেষ কোন লাইন নিয়ে ওরা আরেকটু ডিটেইলস জানতে চাইতে পারে।
+
+\n\nSCORING PATTERN:
+\n\nপ্রত্যেক সেকশনে ১ থেকে ৯ এর মধ্যে একটা স্কোর দেয়া হবে। আবার চার সেকশনের স্কোর যোগ করে গড় করা হয়, যেটাকে বলে Band Score- এটার স্কেলও একই, ১ থেকে ৯ এর মধ্যে। Band score বাড়ে আধা আধা করে, যেমন-6, 6.5, 7. চার সেকশনের গড় করতে গিয়ে যদি 6.75 হয়ে যায়, তাহলে সেটাকে round off করে 7 বানিয়ে দেয়া হয়। অধিকাংশ ইউনিভার্সিটিতে এপ্লাই করার জন্য 6.5 এর প্রয়োজন হয়
+
+\n\nPRACTICE TEST:
+\n\nCambridge IELTS এর প্রথম সাতটা বই নামিয়ে নিতে পারেন এই লিংক থেকে, IELTS prep materials
+
+\n\nOTHERS
+
+\n\n১) রেজিস্ট্রেশন করার জন্য Registration Form, এই লিংকে গিয়ে ফর্মটা ডাউনলোড>প্রিন্ট>পূরণ করে টাকা নিয়ে ব্রিটিশ কাউন্সিলে চলে যান অথবা ওখানে গিয়ে বসে বসে পূরণ করুন। পাসপোর্ট ছাড়া রেজিস্ট্রেশন করা যাবেনা।
+
+\n\n২) একবার পরীক্ষা দিতে ১৪,৮০০ টাকা লাগে।
+
+\n\n৩) যে যে ভার্সিটিতে আপনার স্কোর পাঠাতে চান, সেগুলো রেজিস্ট্রেশনের ফর্মের ৭ নং পেজে লিপিবদ্ধ করুন। ব্রিটিশ কাউন্সিলই নির্দিষ্ট ফি গ্রহণ করে স্কোর
+\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

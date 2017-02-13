@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_careerprog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.careerprog">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="প্রোগ্রামার হিসেবে ক্যারিয়ার  \n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="আপনি যদি প্রোগ্রামার হন আর প্রোগ্রামিংটাকে সত্যিকার অর্থেই ভালবাসেন তাহলে আপনার সামনে অসংখ্য চাকুরির হাতছানি আসবে।\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nJunior programmer\n"
+                android:id="@+id/textView9"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Junior programmerপদে প্রথমত ফ্রেশার হিসেবে আপনি জয়েন করতে পারেন কোন সফটওয়্যার ফার্মে ।এমন হতে পারে আপনি এতদিন কাজ করে এসেছেন জাভাতে। এখন আপনাকে কাজ করতে হচ্ছে পিএইচপিতে। যেহেতু আপনি ব্যাসিক প্রোগ্রামিং সম্পর্কে ভাল ধারনা রাখেন তাই প্রোগ্রামিং ল্যাঙ্গুয়েজ তেমন বড় কোন বিষয় নয়। অনেক বড় বড় আউটসোর্সিং কোম্পানী আছে যাদের প্রোগ্রামাররা কয়েক মাস পরপরই তাদের স্ট্যাক চেঞ্জ করেন।যখন যেই প্রোজেক্ট আসে সেই প্রোজেক্টে কাজ করতে হয় তাই ঐ কাজের জন্য শিখে কাজ ডেলিভারি দিতে হয়। ঘন ঘন প্ল্যাটফর্ম পরিবর্তনে কিছু সুবিধা ও অসুবিধাও আছে।\n"
+                android:id="@+id/textView24"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nSenior programmer\n"
+                android:id="@+id/textView1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Senior programmerপদে সাধারণত একদম ফ্রেশাররা জয়েন করতে পারেন না।কিছু এক্সপেরিয়েন্স হলে এইপদে পদোন্নতি পাওয়া যায়। জুনিয়র ও সিনিয়র উভয় প্রোগ্রামারই নিজ হাতে কোড লিখে থাকেন।\n"
+                android:id="@+id/textView38"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nProject manager\n\  "
+                android:id="@+id/textView2"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Project manager এর কাজ হচ্ছে পুরো প্রোজেক্টের কাজ প্রোগ্রামারদের বুঝিয়ে দেয়া এবং তাদের কাছ থেকে কাজ বুঝে নেয়া। এই পদের লোকদের সরাসরি কোডে হাত দিতে হয়না কিন্তু ভাল প্রোগ্রামিং জানা থাকার দরকার হয়। সরাসরি প্রোজেক্ট ম্যানেজার পদে কোন ফ্রেশারকে নেয়া হয় না । প্রোগ্রামার হিসেবে বেশ খানিকটা অভিজ্ঞতা অর্জনের পরেই এই পদে আসা যায়।\n"
+                android:id="@+id/textView23"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nSystem analyst\n"
+                android:id="@+id/textView3"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="System analystসাধারণত সরাসরি প্রোগ্রামার বা ডেভেলপারদের সাথে dealকরেন না ।তাদের  কাজ হচ্ছে কোন একটা প্রোজেক্ট শুরু করার আগে সেটা নিয়ে রিসার্চ করে পুরো সিস্টেমটা ডিজাইন করা বা সিস্টেমটা কিভাবে কাজ করবে তার পরিকল্পনা করা ।সিস্টেম এনালিস্টও কোড করেন না কিন্তু প্রোগ্রামিং , অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং , ডেটাবেজ ইত্যাদি সম্পর্কে স্বচ্ছ ধারণা রাখেন । সিস্টেম এনালিস্ট যিনি হবেন তারও থাকতে হবে প্রোগ্রামার হিসেবে কাজ করার দীর্ঘ অভিজ্ঞতা। \n"
+                android:id="@+id/textView22"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="\nResearcher\n"
+                android:id="@+id/textView4"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Researcherপদটি আমাদের দেশের কোম্পানিগুলোতে তেমন একটা দেখা না গেলেও বাইরের দেশের খুব বড় মাপের কোম্পানিগুলোতে থাকে। রিসার্চাররা হয়ে থাকেন ভয়ংকর মাপের প্রোগ্রামার বা প্রবলেম সলভার।তাদের কাজ বসে বসে কোড করা না বরং তাদের প্রোডাক্টের পারফরমেন্স বাড়ানো , ইফিসিয়েন্সি বাড়ানো , সিকিউরিটি বাড়ানো ইত্যাদি । তারা বিভিন্ন এলগরিদম, ডেটা স্ট্রাকচারের উপর রিসার্চ করে সেগুলোকে আরো অপ্টিমাইজ করে প্রোজেক্টে ইমপ্লিমেন্ট করার রিকমেন্ডেশন দেয় । \n\n"
+                android:id="@+id/textView21"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Game Development\n"
+                android:id="@+id/textView5"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="শতকরা ৮০ ভাগস্কুল-কলেজ পড়ুয়া ছাত্র কিংবা ছাত্রি গেইমে ইন্টারেস্টেড। তার মধ্যে অনেকেইসপ্ন দেখেন, নিজের তৈরী গেইম বিশ্ববাসী খেলবে। যদিও বাংলাদেশেস্পেসিফিকভাবে গেইমের জন্যে কোন ৪ বছর মেয়াদী কোর্স নেই। তবে আপনি চাইলেমাল্টিমিডিয়ার কোর্স্ করেও গেইম নিয়ে কাজ করতে পারেন। একটি গেইমের অনেকগুলোপার্ট রয়েছে। গেইম শুধুমাত্র প্রোগ্রামিং এ সীমাবদ্ধ নয়। এতে রয়েছে ৩ডি, ২ডি আর্ট, সাউন্ডের কাজ, পিজিক্স ইঞ্জিনের সমহার এবং সব কিছু নিয়ন্ত্রণ করাহয় প্রোগ্রামিং এর মধ্যমে। আপনি সি.এস.ই তে পড়লে প্রোগ্রামিং এর পার্টটুকুশিখতে পারবেন তবে অন্য বিষয়গুলো নিয়ে কাজ করা আপনার জন্যে অনেকটা জটিল হয়েযাবে। এই জন্যে মাল্টিমিডিয়ার কোন কোর্সে ভর্তি হতে পারেন। ড্যাফডিল এবংশান্তা মরিওম মাল্টিমিডিয়ার উপর ৪ বছর মেয়াদী কোর্স অফার করছে।
+\n\nএছাড়া ডেটা সায়েন্স , মেশিন লার্নিং, আর্টিফিশিয়াল ইন্টেলিজেন্স, আর্টিফিশিয়াল নিউরাল নেটওয়ার্ক, ডেটা মাইনিং, অগমেন্টেড রিয়েলিটি, ভার্চুয়াল রিয়েলিটি সহ অসংখ্য এক্সট্রা টপিক রয়েছে। আগামীর দিনগুলোতে থাকবে এই বিষয় গুলোর উপর তীব্র মাত্রার এক্সপেরিমেন্ট আর নতুন নতুন সাফল্য। বলাই বাহুল্য, এই সবগুলো বিষয়ের মূলে রয়েছে গণিত আর সেই লেভেলের প্রোগ্রামিং। তাই এই সেক্টরগুলোতে কাজ করতে আগ্রহী হলে algorithm problem solving এর কোন বিকল্প নেই।
+\n\n"
+                android:id="@+id/textView36"
+                android:textColor="#0a0909" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_whyeee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.whyeee">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ইলেক্ট্রিকাল এ্যন্ড ইলেক্ট্রনিক ইঞ্জিনিয়ারিং প্রধান কিছু প্রয়োগ ক্ষেত্র \n"
+                android:id="@+id/textView50"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="১) বিদ্যুত উৎপাদন ও বন্টন (Power Generation and Distribution System)
+\n২) বিদ্যুত ব্যবস্থার নিরাপত্তা (Power System Protection)
+\n৩) স্বয়ংক্রিয় নিয়ন্ত্রন (Automatic Control Systems)
+\n৪) সংকেত নিয়ন্ত্রন এবং যোগাযোগ (Signal Processing and Communication)
+\n৫) টেলিযোগাযোগ , মোবাইল সেলুলার (Telecommunication and Mobile Cellular Communication)
+\n৬) মাইক্রোওয়েভ যোগাযোগ (Communication using Microwave)
+\n৭) এনালগ ও ডিজিটাল ইলেক্ট্রনিক্স (Analog and Digital Electronics)
+\n৮) অপ্টো ইলেক্ট্রনিক্স ও অপটিক্যাল ফাইবার (Opto-electronics and Optical Fiber )
+\n৯) ইন্টিগ্রেটেড সার্কিট ডিজাইন (VLSI and IC Fabrication)
+\n১০) জেনারেটর, মোটর ও ট্রান্সফরমার পরিচালনা, নিরাপত্তা (Generator, Motor and Transformer Driving and Protection)
+
+\nএকটু বিস্তারিত বলি\n ,
+
+"
+                android:id="@+id/textView51"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="১) বিদ্যুত উৎপাদন ও বন্টন (Power Generation and Distribution System)\n"
+                android:id="@+id/textView52"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="বিদ্যুৎ উৎপাদন ও বন্টনের ক্ষেত্রে প্রথমেই যেটা মাথায় আসে তা হচ্ছে জেনারেটর। যেখানে মেকানিক্যাল শক্তি থেকে বিদ্যুৎকে উৎপন্ন করা হচ্ছে এরপরে ট্রান্সফর্মার, তার, সার্কিট ব্রেকার, ফিউজ, সুইচ , ইত্যাদি নানা ইলেক্ট্রিকাল ইকুইপমেন্ট ব্যবহার করে বিদ্যুতকে মানুষের ঘরে বা কারখানায় বন্টন করাই হচ্ছে এই বিভাগের প্রধান কাজ। এই সব বৈদ্যুতিক যন্ত্রপাতির পরিচালনা, মেইন্টেইন্যান্স, নির্ভরযোগ্যতা নিশ্চিত করা এই ক্ষেত্রে খুবই গুরুত্বপূর্ণ, কারণ আমাদের লক্ষ্য থাকবে উৎপাদিত বিদ্যুৎ নির্বিঘ্নে এবং যতটা সম্ভব নিরাপদ ভাবে ক্রেতার কাছে পৌঁছে দেওয়া।\n\n"
+                android:id="@+id/textView53"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="২) বিদ্যুত ব্যবস্থার নিরাপত্তা (Power System Protection)\n"
+                android:id="@+id/textView5"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="উৎপাদন কেন্দ্র থেকে আমাদের বাসা পর্যন্ত বিদ্যুতকে পৌঁছে দিতে যে কত ধাপ পার হতে হয় , একজন ইলেকট্রিক্যাল ইঞ্জিনিয়ার না হলে তা কল্পনা করাটাও কারও জন্য অসম্ভব হতে পারে, এই বিভিন্ন ধাপের যে কোন একটি ধাপ যে কোন সময় ফেইল করতে পারে , বিপর্যস্ত করতে পারে সম্পূর্ণ বিদ্যুত বিতরন ব্যাবস্থা , তাই নিতে হয় যথাযথ নিরাপত্তা ও বিপর্যয় পূর্ববর্তী ব্যাবস্থা। এই বিষয়টি সম্পর্কে পড়াশোনা করা হয় এই বিভাগে।\n\n"
+                android:id="@+id/textView55"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৩) স্বয়ংক্রিয় নিয়ন্ত্রন (Automatic Control Systems)\n"
+                android:id="@+id/textView56"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" স্বয়ংক্রিয় নিয়ন্ত্রন করার যন্ত্র সাধারণত বিভিন্ন ধরণের সেন্সরের সমন্বয়ে গঠিত হয়। যেমন, শীতাতপ নিয়ন্ত্রক যন্ত্র। ঘরের তাপমাত্রাকে একটি নির্দিষ্ট লেভেলে রাখতে যদি একটা নির্দিষ্ট সেটপয়েন্ট তৈরি করা হয়, তাহলে ঘরের তাপমাত্রা যদি ঐ সেটপয়েন্ট এর উপরে উঠে যায় তাহলে যন্ত্রটি টেম্পারেচার সেন্সরের মাধ্যমে তা অনুধাবন করে এয়ার কন্ডিশনার ইউনিটকে চালু করে দিবে। কিংবা কোন একটি ফ্যাক্টরি যেখানে কোন একটি পণ্য পুরোপুরি স্বয়ংক্রিয় ভাবে প্রস্তুত হচ্ছে , প্রস্তুত শেষে হয়তবা প্যাকেজিংও হয়ে যাচ্ছে স্বয়ংক্রিয় ভাবে। বিমানের অটোপাইলটের মতন ফাংশনও এর আরেকটি বড় উদাহরণ। অটোপাইলটের সফটওয়্যার বিমানকে নিজে নিজে চালাতে পারে। বাতাসের গতি, বিমানের গতি, ভাইব্রেশন সেন্সর, দিক নির্দেশক ইত্যাদি অনেক কিছুর সমন্বয়ে তৈরি হয় এমন জটিল একটি কন্ট্রোল সিস্টেম।\n\n"
+                android:id="@+id/textView57"
+                android:textColor="#0a0909" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="৪) সংকেত নিয়ন্ত্রন এবং যোগাযোগ (Signal Processing and Communication)\n"
+            android:id="@+id/textView67"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="এই ক্ষেত্রটির সাথে প্রায় সবাই বেশ পরিচিত। টেলিভিশন,  টেলিফোন, স্যাটেলাইট, মোবাইল ফোন এ সবই এই ক্ষেত্রের আওতায় পড়ে। ডিজিটাল ছবি থেকে শুরু করে আমাদের ভয়েসকে ডিজিটাল সিগন্যালের রূপদান করা অথবা কোন একটা জটিল সিগন্যাল থেকে ছবি , ভয়েস বা কোন তথ্য উদ্ধার করার পদ্ধতিই হচ্ছে Signal Processing, যোগাযোগ মাধ্যমে এর কত ব্যাপক প্রয়োগ থাকতে পারে তা সহজেই অনুমেয়।\n\n"
+                android:id="@+id/textView77"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৫) টেলিযোগাযোগ , মোবাইল সেলুলার (Telecommunication and Mobile Cellular Communication)\n"
+                android:id="@+id/textView68"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="নামই বলে দিচ্ছে কি কাজ এই বিষয়ের, বলতে গেলে বাংলাদেশের প্রেক্ষাপটে সবচাইতে ভালো সুযোগ সুবিধার চাকুরীগুলো পাওয়া যায় এই বিষয়েরই, বড় বড় নামকরা সব কোম্পানিতেই আমাদের ইউনিভার্সিটির গ্র্যাজুয়েটদের পাওয়া যাবে অনায়েসেই। এই সাবজেক্টে শেখানো হয় কিভাবে টেলিযোগাযোগ ব্যবস্থা স্থাপন করা যায় , কিভাবে মোবাইল সেলুলার টেকনোলোজি ব্যবহার করে আজকালকার মোবাইল ফোনগুলো কাজ করছে, কিভাবে ডাটা Encryption (Cipher) ও Decryption (Deciphering) করা হয়, ডাটা কিভাবে স্যাম্পলিং ও ক্যারিয়ার ফ্রিকোয়েন্সিতে মডুলেট হয়ে মোবাইল থেকে টাওয়ারে চলে যায় এমন ইন্টারেস্টিং অনেক কিছু।\n\n"
+                android:id="@+id/textView79"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৬) মাইক্রোওয়েভ যোগাযোগ (Communication using Microwave)\n"
+                android:id="@+id/textView60"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="বিজ্ঞানের অন্যতম শাখা হচ্ছে মাইক্রোওয়েভ , মাইক্রোওয়েভ একপ্রকার রেডিও ওয়েভ যার ফ্রিকোয়েন্সি অত্যন্ত বেশী (আনুমানিক 3 to 300 GHz, যেখানে আমরা FM Radio শুনি হয়তোবা 87 to 107 MHz এর মধ্যে) আমাদের হাতের মোবাইল থেকে শুরু করে নেভির জাহাজের যোগাযোগ কিংবা স্যাটালাইটের সাথে পৃথিবীর যোগাযোগ হচ্ছে কিন্তু মাইক্রোওয়েভ দিয়েই, এখন পর্যন্ত ব্যাপক গবেষণা চলছে মাইক্রোওয়েভের উন্নতি, ট্রান্সমিটার ও রিসিভারের এন্টেনার সাইজ বা আকৃতি নিয়ে। ওহ আরেকটা কথা, বিমান বা জাহাজের রাডারও কিন্তু কাজ করে মাইক্রোওয়েভ দিয়ে।\n\n"
+                android:id="@+id/textView75"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৭) এনালগ ও ডিজিটাল ইলেক্ট্রনিক্স (Analog and Digital Electronics)\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" অপ্টো ইলেক্ট্রনিক্স বলতে এমন সব ইলেক্ট্রনিক ইকুইপমেন্ট বোঝায় যারা অপ্টো মানে আলো নিয়ে কাজ করে , যেমন LED লাইট , কিংবা লেজার লাইট , অপটিক্যাল সেন্সর এমন আরো অনেক কিছু , আমাদের মাউস গুলো যেমন অপটিক্যাল টেকনোলোজি ব্যবহার করে, ক্যামেরার ইনফ্রা-রেড টেকনোলোজি ব্যবহার করে রাতের অন্ধকারে যেমন ছবি তোলা যায় বা ক্যামেরার সেন্সর যেভাবে লেন্সের মাধ্যমে ফোকাস করা আলোকে ইলেক্ট্রনিক সিগন্যালে রুপান্তরিত করে প্রসেসিং এর পর মেমরি কার্ডে জমা করে সবই অপ্টো ইলেক্ট্রনিক্স ফল। অপটিক্যাল ফাইবার , অপ্টো ইলেক্ট্রনিক্সের একটি অসাধারণ এপ্লিকেশন যা তথ্য প্রযুক্তিতে এখন ব্যাপক ভাবে ব্যাবহার করা হয় কেননা সাধারন তারের চাইতে অপটিক্যাল ফাইবারে তথ্য স্থানান্তর ক্ষমতা হাজারগুন বেশী, সময় লাগে কম (আলোর গতিতে তথ্য যায়), একই সাথে অসংখ্য তথ্য বিভিন্ন কম্পনাংকে পাঠানো যায় কোন রকম ইন্টারফারেন্স ছাড়াই, এছাড়া পাওয়ার কন্সাম্পশনও অত্যন্ত কম।\n\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৮) অপ্টো ইলেক্ট্রনিক্স ও অপটিক্যাল ফাইবার (Opto-electronics and Optical Fiber )\n"
+                android:id="@+id/textView66"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" অপ্টো ইলেক্ট্রনিক্স বলতে এমন সব ইলেক্ট্রনিক ইকুইপমেন্ট বোঝায় যারা অপ্টো মানে আলো নিয়ে কাজ করে , যেমন LED লাইট , কিংবা লেজার লাইট , অপটিক্যাল সেন্সর এমন আরো অনেক কিছু , আমাদের মাউস গুলো যেমন অপটিক্যাল টেকনোলোজি ব্যবহার করে, ক্যামেরার ইনফ্রা-রেড টেকনোলোজি ব্যবহার করে রাতের অন্ধকারে যেমন ছবি তোলা যায় বা ক্যামেরার সেন্সর যেভাবে লেন্সের মাধ্যমে ফোকাস করা আলোকে ইলেক্ট্রনিক সিগন্যালে রুপান্তরিত করে প্রসেসিং এর পর মেমরি কার্ডে জমা করে সবই অপ্টো ইলেক্ট্রনিক্স ফল। অপটিক্যাল ফাইবার , অপ্টো ইলেক্ট্রনিক্সের একটি অসাধারণ এপ্লিকেশন যা তথ্য প্রযুক্তিতে এখন ব্যাপক ভাবে ব্যাবহার করা হয় কেননা সাধারন তারের চাইতে অপটিক্যাল ফাইবারে তথ্য স্থানান্তর ক্ষমতা হাজারগুন বেশী, সময় লাগে কম (আলোর গতিতে তথ্য যায়), একই সাথে অসংখ্য তথ্য বিভিন্ন কম্পনাংকে পাঠানো যায় কোন রকম ইন্টারফারেন্স ছাড়াই, এছাড়া পাওয়ার কন্সাম্পশনও অত্যন্ত কম।\n\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="৯) ইন্টিগ্রেটেড সার্কিট ডিজাইন (VLSI and IC Fabrication)\n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="এই বিষয়টি বলতে গেলে পৃথিবীতে ইলেক্ট্রনিক্সের অন্যতম দামি শাখা হলেও বাংলাদেশে এই সাবজেক্টের শিক্ষার ক্ষেত্র দুঃখজনক ভাবে সীমিত, বলতে গেলে পুরোটাই সিমুলেশন নির্ভর। তারপরেও শিখবেনা কেন! সত্যিই যথেষ্ট ভালো লাগবে এই সাব্জেক্টটা কেননা এতদিন বিভিন্ন আই.সি ব্যবহার করে আসলেও কিভাবে আই.সি টা তৈরি হল এইটা রহস্যই ছিলো , কিন্তু এই সাবজেক্টে তুমি শিখতে পারবে কিভাবে একের পর এক ডিফিউশন লেয়ার আর ডিপলেশন থেকে পেয়ে যাচ্ছ চমৎকার সব আই.সি , আর কম্পিউটারে দেখেও নিতে পারবে তোমার আই.সি টা ঠিক মত কাজ করছে কিনা ... সত্যিই অসাধারণ মজার একটা বিষয় ছোটখাটো 4 Bit কম্পিউটার তৈরি করে ফেলাও তখন তোমার জন্য কঠিন কোন বিষয় না । \n\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="১০) জেনারেটর, মোটর ও ট্রান্সফরমার পরিচালনা, নিরাপত্তা (Generator, Motor andTransformer Driving and Protection)\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="সবকিছুরই একটা নিয়ম আছে , হুট করে জেনারেটর চালু করে দিলাম আর গ্রীডে কানেকশন দিয়ে দিলাম ব্যাপারটা মোটেও এমন মামুলি বিষয় নয়, এর জন্যও অনেক নিয়ম অনুসরণ করতে হয়, নয়ত ঘটে যেতে পারে বড় ধরনের বিপর্যয়। একই ব্যাপার ঘটে মোটর চালু করার সময় , বাসা বাড়ির ছোটখাটো মটরের কথা বলছি না , বলছি ফ্যাক্টরি বা প্ল্যান্টে ব্যাবহার হওয়া বিশালাকৃতির মোটর গুলোর কথা যেগুলোর ক্ষমতা অন্তত ১ মেগা ওয়াটের (1MW) উপরে, এইসব মোটর চালু বা বন্ধ করার জন্যও আছে নানা রকম নিয়ম বা মেথড, ট্রান্সফরমার গুলোরও কিন্তু চালু বা বন্ধ করার নিয়ম আছে , নয়ত যেকোন সময় হয়ত পুড়ে যেতে পারে শতকোটি টাকা দামের কোন একটি ... এইসব ব্যাপার ছাড়াও আমাদের বিদ্যুত ব্যাবস্থা যেই রকম Unstable (সাথে আছে শর্ট সার্কিট বা লাইনে বাজ পড়ার আশঙ্কা) , প্রয়োজনীয় নিরাপত্তা ব্যাবস্থা না রেখে মেশিন চালু করা আর ওই মেশিনের সুইসাইড নোট লেখার মধ্যে খুব একটা পার্থক্য নেই। তাই এইসব শেখাও আমাদের দায়িত্বের মধ্যে পরে ।
+\n\nমুলত এই সকল বিষয় গুলোই ইলেক্ট্রিকাল এ্যন্ড ইলেক্ট্রনিক ইঞ্জিনিয়ারিং এ শেখানো হয়। পরবর্তিতে একজন ইলেক্ট্রিকাল এ্যন্ড ইলেক্ট্রনিক ইঞ্জিনিয়ার এই সকল বিষয় সংশ্লিষ্ট ক্ষেত্রে তার কর্মজীবন শুরু করেন অথবা উচ্চশিক্ষার্থে পোস্ট গ্র্যাজুয়েশনে ভর্তি হন।
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

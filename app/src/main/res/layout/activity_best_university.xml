@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajoysarkar.careerguide.bestUniversity"
+    android:padding="0dp">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Dhaka University"
+            android:id="@+id/textView9"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView4"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/buet"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:onClick="buet"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="BUET"
+            android:id="@+id/textView13"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginLeft="45dp"
+            android:typeface="serif"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="KUET"
+            android:id="@+id/textView15"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="IUT"
+            android:id="@+id/textView17"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold|italic"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="CUET"
+            android:id="@+id/textView14"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="98dp"
+            android:id="@+id/imageView7"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:src="@drawable/cuet"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:onClick="cuet"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="SUST"
+            android:id="@+id/textView16"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnLogout"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:src="@drawable/iut"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="20dp"
+            android:onClick="iut"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView10"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:src="@drawable/sust"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:onClick="sust"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Jahangirnagar\n     University"
+            android:id="@+id/textView12"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Leading\nUniversity"
+            android:id="@+id/textView20"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView21"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:src="@drawable/nu"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:onClick="nu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="National\nUniversity"
+            android:id="@+id/textView22"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold|italic"
+            android:typeface="serif" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView13"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:src="@drawable/lu"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:onClick="lu"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView8"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:src="@drawable/kuet"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:onClick="kuet"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView3"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/dhaka"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:onClick="du"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView6"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:src="@drawable/ju"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:onClick="ju"/>
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--app:srcCompat="@drawable/careervideo"-->
+        <!--android:id="@+id/imageView6"-->
+        <!--android:layout_marginLeft="-350dp"-->
+        <!--android:layout_marginTop="15dp"/>-->
+
+
+    </GridLayout>
+
+</RelativeLayout>

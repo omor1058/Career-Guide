@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_civilcareer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.civilcareer">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="সিভিল ইঞ্জিনিয়ার হিসেবে ক্যারিয়ার\n"
+                android:id="@+id/textView67"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="• সিভিল ইঞ্জিনিয়ারদের অফিস এবং মাঠ উভয় পর্যায়ে কাজ করতে হয়।
+\n• চুক্তিকারী এবং পরামর্শক ইঞ্জিনিয়ার দেরকে একই সময়ে বিভিন্ন স্থানে কাজ করতে হয়।
+\n• তাদেরকে দুর্যোগ প্রশমন এবং ব্যবস্থাপনার মত সংকটময় পরিস্থিতির সমাধানও করতে হয়।
+\n• নির্মাণ প্রকৌশলীরা তেল রিগস, বহুতলবিশিষ্ট গাড়ি পার্কিং ব্যবস্থা অথবা বাড়ির  নকশা এমনভাবে তৈরি করেন যাতে নির্মাণ কাঠামোটি যে ভার বহনের জন্যে তৈরি করা হয়েছে তা নিশ্চিত  করা যায়। তারা নতুন নতুন নির্মাণ সামগ্রী ও কৌশল উদ্ভাবন করে থাকেন যেমন- বিশেষ ধরণের সেতু কাঠামো ও বিশেষ ধরণের বিল্ডিং কাঠামো ইত্যাদি।
+\n• পানি ব্যবস্থাপনা ইঞ্জিনিয়াররা পানি সরবরাহ, পয়ঃনিস্কাশন ব্যবস্থা এবং দূষণ নিয়ন্ত্রনের উপর বিশেষভাবে পারদর্শী হয়ে থাকেন।
+\n\• হাইওয়ে ইঞ্জিনিয়ারগণ সাধারণতঃ রাস্তাঘাটের পুননির্মাণ, ট্রাফিক লাইট, গলি, পার্কিং স্পেস ইত্যাদির পরিকল্পনা তৈরি করে থাকেন। হাইওয়ে ইঞ্জিনিয়ারগন প্রধানত রাস্তা নির্মান এবং ট্রাফিক ব্যবস্থাপনার কাজের সাথে জড়িত।\n"
+                android:id="@+id/textView77"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="কাজের ক্ষেত্র\n"
+                android:id="@+id/textView66"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" সিভিল ইঞ্জিনিয়ারিং সম্পন্ন করে শিক্ষার্থী পানি উন্নয়ন বোর্ড, এলজিইডি, রেলওয়ে, রিয়েল এস্টেট, বিইয়ার্কিকিএ, সিকি করপোরেশন, পৌরসভা, গৃবায়ন ও গণপূর্ত মন্ত্রণালয়, মোবাইল ফোন কোম্পানির টাওয়ার নির্মাণে প্রকৌশলী, এন জি ও তে প্রকল্প প্রকৌশল বিসেবে এবং নিজস্ব নির্মাণ ব্যবসা প্রতিষ্ঠায় শিক্ষার্থীরা ক্যারিয়ার গড়ার সুযোগ আছে উর্বশী। এছাড়া দেশের বাইরে বিভিন্ন নির্মাণ প্রতিষ্ঠানে চাকরি করার সুযোগ রয়েছে।  \n\n"
+                android:id="@+id/textView75"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="প্রয়োজনীয় যোগ্যতা\n"
+                android:id="@+id/textView64"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="১ দৃঢ় শিক্ষাগত অতীত
+\n২সুদক্ষ সমস্যা সমাধানের দক্ষতা
+\n৩ শক্তিশালী যোগাযোগ দক্ষতা
+\n৪ দলগতভাবে কাজ করার দক্ষতা
+\n৫ রিপোর্ট লেখার দক্ষতা
+\n৬ গানিতিক অন্তর্দৃষ্টি
+\n৭ শেখার আগ্রহ
+\n৮ দলীয় নেতৃত্ব দানের যোগ্যতা
+\n"
+                android:id="@+id/textView74"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="সিমেন্টশিল্প\n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="দিনদিন বাংলাদেশে নগরায়ণ বাড়ছে। শহর-বন্দর সবস্থানেই  লেগেছে পরিবর্তনের  ছোঁয়া। নির্মিত হচ্ছে বড় বড় দালানকোঠা, সেতু, কালভার্টও স্থাপনা।  আর এই কাজের অন্যতম প্রধান উপকরণ হচ্ছে সিমেন্ট। তাই বিপুল চাহিদার  কারণে দেশে বড় হচ্ছে সিমেন্টশিল্প। বর্তমানে ৩৫ টির বেশি  নিবন্ধিত দেশি সিমেন্ট কোম্পানি আর পাঁচটি বিদেশি কোম্পানি বাংলাদেশে কাজ করছে।
+\nএর ফলে অনেক মানুষের কর্মসংস্থান হয়েছে এবং হচ্ছে। এই খাতের সঙ্গে সংশ্লিষ্ট ব্যক্তিদের  মতে, এর সংখ্যা কয়েক লাখ। সিমেন্টের চাহিদা বেড়ে যাওয়ায় প্রতিটি প্রতিষ্ঠানতাদের জনবল বৃদ্ধিকরে নতুন নতুন কার্যক্রম শুরু  করছে। এই শিল্পে আপনিও খুঁজে নিতে পারেন নিজের জন্য মানানসই চাকরি। এছাড়া সিমেন্ট শিল্পের নানারকম কাজে সিভিল ইঞ্জিনিয়ারদের কদর আছে। সৈয়দ মাসউদুল হাসান বলেন, অনেক  সময় ক্রেতাদের নানা ধরনের টেকনিক্যাল প্রশ্নের উত্তর দেওয়ার জন্য সিভিল ইঞ্জিনিয়ারদের সাহায্য দরকার হয়। তাঁরা  যেহেতু এই বিষয়ে অভিজ্ঞ, তাই সিমেন্ট কোম্পানিতে সিভিল ইঞ্জিনিয়ারদের নেওয়া হয়। এছাড়া প্রতিষ্ঠানগুলোর নিজস্ব স্থাপনারকাজেও তাঁদের লাগে।
+\n\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Building Engineering and Construction Management (BECM)\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="দালান তৈরি হল মানুষের আদিম সভ্যতার একটি শিল্প । সভ্যতার প্রথম থেকেই মানুষ তাদের বাসস্থান সম্পর্কে ভেবে এসেছে । সেকারণে এটা মানুষের কাছে আদিম কাল থেকেই একটি অতি চমকপ্রদ শিল্প । যাহোক এটা Civil Engineering এর একটি শাখা।
+\nAs the name is Building Engineering and Construction Management, এটি বুঝায় সংক্ষেপেঃ
+\n১ । বাড়ি করতে ভুমি জরিপ করা ।
+\n২ । বাড়ির planning করা (with architectural view)
+\n৩ । beam ,column , slab ইত্যাদি সহ বাড়ির বিস্তারিত ডিজাইন অর্থাৎ কটটুকু রড লাগবে , সিমেন্ট , বালি , পানি , ইট ইত্যাদি লাগবে এসব কিছুর ডিজাইন করা ।
+\n৪ । বাড়ির প্লান অনুযায়ী estimation করা অর্থাৎ কতো টাকা লাগবে বাড়ি তৈরি করতে , শ্রমিক খরচ , নির্মাণ সময় হিসাব করা এবং অবশ্যই সাধ্যের মধ্যে নির্মাণ খরচ রাখা ।
+\n৫ । construction management বলতে বুঝাই নির্মাণ স্থলে সুষ্ঠুভাবে কাজ দেখাশোনা করা এবং কোনরকম দুর্ঘটনা ছাড়াই নির্ধারিত সময়ের মধ্যে নির্মাণ কাজ সম্পন্ন করা
+
+\n\nসাধারন ভাবে BECM তে শেখানো হবে construction technique of a structure and the problem associated with it. এখানে শেখানো হবে foundation design , structural design যেমন slab design , roof design , column failure , ভিতকে আরও শক্তিশালী ও মজবুত করার পদ্ধতি সহ আরও অনেক কিছু ।
+\nhigher study এর ক্ষেত্র ও এখানে অনেক । যেমন BSc BECM থেকে করে MSc করা যাবে Structural Engineering , Foundation Engineering , Building Management , Construction Management, Construction Project Management, Sustainable Management, Construction Law and International Construction Management, Civil Engineering and Construction Management সহ বিভিন্ন বিষয়ের উপর ।
+private sector গুলোতে যেমন বাড়ি নির্মাণ ও দেখাশুনা করা , real estate company ( housing estate ) , নগর উন্নয়ন কর্তৃপক্ষ তে , গণপূর্ত বিভাগে , স্থানীয় সরকার মন্ত্রনালয়ে ও আংশিক কাজের ক্ষেত্র আছে । অর্থাৎ এদের major job sector হল real estate company গুলো , এছাড়া সরকারি ক্ষেত্রে আংশিক ভাবে গণপূর্ত , স্থানীয় সরকার মন্ত্রনালয়ে কাজ আছে । This is an age of developing world by showing its sky scraper. So , the world needs more Civil Engineer having a good knowledge about building construction. If they got a person who is very expert both in designing and management , it will be having like gold cup with silver spoon for them. So, it is clear that the job field is quite bright.
+সবশেষে বলতে চাই , বাংলাদেশে এই প্রথম এই বিষয়টি চালু করেছে যেটি একই সাথে সিভিল ইঞ্জিনিয়ারিং এবং Management এর এক মেলবন্ধন । so , নির্দ্বিধায় তোমরা BECM নিয়ে জীবন গড়তে পারো ।
+\n\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="আয়-রোজগার\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="একজন নতুন পুরকৌশলীর বেতন ২৫ হাজার থেকে ৩৫ হাজার হয়ে থাকে। তাছাড়া অভিজ্ঞতার ঝুড়ির দিক থেকে সেই আয় বেড়ে ৫০ হাজার থেকে লাখ ছাড়িয়ে যায়। এছাড়া একজন নিজের প্রতিষ্ঠানের মাধ্যমে আয় করতে পারেন।\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_eeeinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajoysarkar.careerguide.eeeinfo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="তড়িৎ ও ইলেক্ট্রনিক প্রকৌশল বা ইলেক্ট্রিকাল এ্যন্ড ইলেক্ট্রনিক ইঞ্জিনিয়ারিং \n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" ইঞ্জিনিয়ারিং পড়তে ইচ্ছুক নতুন প্রজন্মের অন্যতম পছন্দের এবং অত্যন্ত চাহিদার একটি বিষয় তাই ভাল একটি প্রতিষ্ঠানে এই বিষয়ে পড়ার সুযোগ পাওয়াও অত্যন্ত কঠিন, যেহেতু পূর্বে ভাল রেজাল্ট করেই এই বিষয়টি পছন্দ করেছ , আশা করছি ভবিষ্যৎটাও মন্দ যাবে না কেননা এই সাবজেক্ট পছন্দ করা মানে এই যে, আগামি ৪ বছর ম্যাথ আর ফিজিক্স রিলেটেড পড়াশোনাকেই সোজা বাংলায় তোমার জীবন-মরন বানাতে হবে । ইলেকট্রিক্যালের প্রায় প্রতিটি বিষয়ে-ই অংক রয়েছে। অন্বয়, ফ্যাংশন, নির্নায়ক হতে শুরু করে ডিফারেন্সসিয়েশন, ইন্ট্রিগ্রেশন, ক্যালকুলাস পর্যন্ত অংকের এমন কোন ধারা নেই যা এই ইলেকট্রিক্যালে এ নেই । আগামি চার বছর যে শুধু ৭-৮ প্রকারের ম্যাথ আর ফিজিক্স পড়বে তাই না, সাথে কেমিস্ট্রি, মেশিন, প্রোগ্রামিং, সিভিল ড্রয়িং এর মত বেসিক সাবজেক্টগুলোও অবশ্যই পড়তে হবে সাথে আরও থাকবে কিছু মানবিক বিভাগ ও ব্যাবসা প্রশাসনের কোর্স , কেননা একজন ইঞ্জিনিয়ার মানে এই না যে সে শুধু তার নিজের সাবজেক্ট সম্পর্কেই ধারনা রাখবে , অন্য বিষয়ে হবে অজ্ঞ ! তাকে একজন পরিপূর্ণ Common Sense সম্পন্ন মানুষই তড়িৎ প্রকৌশলীরা আসলে কি করে, বা কিভাবে এই বিদ্যা কাজে লাগানো যায় ?
+
+\n\nঅনেকে মনে করে থাকেন , বাসার ফ্যান-লাইট ঠিক করাই বুঝি তাদের কাজ, হাস্যকর হলেও সত্যি , এই কাজটাই যদি না শিখতে পারলে তাহলেতো তোমার ইঞ্জিনিয়ারিং লাইফই বৃথা যদিও একজন ইঞ্জিনিয়ার জানবেন এর থেকেও ঢের বেশী !
+
+\n\nআমরা যারা এইচ.এস.সি. পাশের পরপরই ইলেক্ট্রিকাল এ্যন্ড ইলেক্ট্রনিক ইঞ্জিনিয়ারিং এ পড়াশোনা করতে চাই তাদের এই সময় এ বিষয় নিয়ে ধারণা খুব একটা বেশী থাকার কথা নয় আমাদেরও তেমন একটা ছিলো না। মূলত: পদার্থবিজ্ঞানের সাথে সম্পর্কযুক্ত বলে এবং ইলেক্ট্রনিক্স, সার্কিট ও কম্পিউটারে আগ্রহ থাকায় আমার কাছে এই ক্ষেত্রকে বেশ আকর্ষণীয় মনে হয়। এরপর যখন তড়িৎ প্রকৌশলের বিশাল বিস্তৃত ভূমিতে পদার্পন করলাম, তখন আস্তে আস্তে জানতে ও বুঝতে শুরু করলাম তড়িৎ প্রকৌশলের অসীম সম্ভাবনার জগতের সব জটিল রহস্যের হাতছানি। আমাদের দৈনন্দিন জীবনের সাথে ইলেক্ট্রিক্যাল ক্যালকুলেশন্স যে এতটা ওতপ্রোত ভাবে জড়িত , এই বিষয়ে ভর্তি হওয়ার আগে আমার একফোঁটাও জানা ছিলো না । একটা ব্যাপার প্রথম থেকেই জেনে রাখো, এই সাবজেক্টে কিন্তু বেশ কিছু ল্যাব করতে হবে হাই ভোল্টেজের লাইন নিয়ে (যদিও পর্যাপ্ত নিরাপত্তা থাকবে) তাই , নিজের বোকামির জন্য যেন ভুলেও শক না লাগে। আর কিছু ল্যাবে কাজ করবে অত্যন্ত স্পর্শকাতর (ও মুল্যবান) কিছু ইকুইপমেন্টস নিয়ে, ব্যবহারের সময় সতর্কতা অবলম্বন জরুরী ।
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

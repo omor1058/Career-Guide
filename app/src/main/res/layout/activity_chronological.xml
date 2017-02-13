@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chronological"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.Chronological">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="A chronological CV focuses on presenting the candidate's experience on an employer-by-employer basis, with the posts being listed in reverse chronological order. Chronological CVs should also contain a brief personal statement at the front which sets out the key skills and strengths of the candidate. This is the most common type of CV."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="53dp"
+            android:textSize="17sp"
+            android:id="@+id/textView38" />
+
+        <TextView
+            android:text="Chronological CV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/textView37"
+            android:textStyle="normal|bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="Sample Download"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+            android:layout_width="270dp"
+            android:layout_height="90dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:id="@+id/downloadDoc"
+            android:layout_marginTop="46dp"
+            android:layout_below="@+id/textView38"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

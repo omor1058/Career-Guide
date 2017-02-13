@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ajoysarkar.careerguide">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".bestUniversity"
+            android:label="@string/bestUni"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".aboutUs"
+            android:label="@string/aboutUs"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CareerTips"
+            android:label="@string/tips"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cseTip"
+            android:label="@string/cseTips"
+            android:parentActivityName=".CareerTips" />
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/contactUs"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".civilTip"
+            android:label="@string/civilTips"
+            android:parentActivityName=".CareerTips" />
+        <activity
+            android:name=".architectureTip"
+            android:label="@string/architectureTips"
+            android:parentActivityName=".CareerTips" />
+        <activity
+            android:name=".eeeTip"
+            android:label="@string/eeeTips"
+            android:parentActivityName=".CareerTips" />
+        <activity
+            android:name=".cvSample"
+            android:label="@string/cvSample"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".jobTest"
+            android:label="@string/jobTest"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".video"
+            android:label="@string/video"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".scholars"
+            android:label="Scholarship Tips"
+            android:parentActivityName=".CareerTips" />
+        <activity
+            android:name=".DU"
+            android:label="Dhaka University"
+            android:parentActivityName=".bestUniversity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Chronological"
+            android:label="Chronological CV Sample"
+            android:parentActivityName=".cvSample" />
+        <activity
+            android:name=".Functional"
+            android:label="Functional CV Sample"
+            android:parentActivityName=".cvSample" />
+        <activity
+            android:name=".Combined"
+            android:label="Combined CV Sample"
+            android:parentActivityName=".cvSample" />
+        <activity
+            android:name=".cuet"
+            android:label="CUET"
+            android:parentActivityName=".bestUniversity" />
+        <activity
+            android:name=".kuet"
+            android:label="KUET"
+            android:parentActivityName=".bestUniversity" />
+        <activity
+            android:name=".buet"
+            android:label="BUET"
+            android:parentActivityName=".bestUniversity" />
+        <activity
+            android:name=".iut"
+            android:label="IUT"
+            android:parentActivityName=".bestUniversity" />
+        <activity
+            android:name=".lu"
+            android:label="Leading University"
+            android:parentActivityName=".bestUniversity" />
+        <activity
+            android:name=".sust"
+            android:label="SUST"
+            android:parentActivityName=".bestUniversity" />
+        <activity
+            android:name=".ju"
+            android:label="Jahangirnagar University"
+            android:parentActivityName=".bestUniversity" />
+
+        <activity
+            android:name=".nu"
+            android:label="National University"
+            android:parentActivityName=".bestUniversity" />
+        <activity android:name=".conversion" />
+        <activity
+            android:name=".Messaging"
+            android:configChanges="orientation"
+            android:label="Discussion"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".cseinfo"
+            android:label="সি এস ই"
+            android:parentActivityName=".cseTip" />
+        <activity
+            android:name=".whycse"
+            android:label="সি এস ই তে কি কি পড়ানো হয়? "
+            android:parentActivityName=".cseTip" />
+        <activity
+            android:name=".programming"
+            android:label=" সি এস ই এর প্রাণ প্রোগ্রামিং"
+            android:parentActivityName=".cseTip" />
+        <activity
+            android:name=".math"
+            android:label="গণিতে দূর্বল?"
+            android:parentActivityName=".cseTip" />
+        <activity
+            android:name=".careerprog"
+            android:label="প্রোগ্রামার হিসেবে ক্যারিয়ার"
+            android:parentActivityName=".cseTip" />
+        <activity
+            android:name=".nonprog"
+            android:label="নন-প্রোগ্রামার হিসেবে ক্যারিয়ার "
+            android:parentActivityName=".cseTip" />
+        <activity
+            android:name=".freelance"
+            android:label="ফ্রিল্যান্সার হিসেবে ক্যারিয়ার"
+            android:parentActivityName=".cseTip" />
+        <activity
+            android:name=".starting"
+            android:label="শুরু কিভাবে করবেন?"
+            android:parentActivityName=".cseTip" />
+        <activity
+            android:name=".career1"
+            android:label="ক্যারিয়ার"
+            android:parentActivityName=".cseTip" />
+        <activity
+            android:name=".eeeinfo"
+            android:label="ই ই ই"
+            android:parentActivityName=".eeeTip" />
+        <activity
+            android:name=".whyeee"
+            android:label="ইইই এর কিছু প্রয়োগ ক্ষেত্র "
+            android:parentActivityName=".eeeTip" />
+        <activity
+            android:name=".eeefield"
+            android:label="ইইই এর সাবডিসিপ্লিন"
+            android:parentActivityName=".eeeTip" />
+        <activity
+            android:name=".civilinfo"
+            android:label="সিভিল ইঞ্জিনিয়ারিং"
+            android:parentActivityName=".civilTip" />
+        <activity
+            android:name=".civilwork"
+            android:label="প্রকৌশলীর কাজের ধরন"
+            android:parentActivityName=".civilTip" />
+        <activity
+            android:name=".civilstep"
+            android:label="সিভিল ইঞ্জিনিয়ারিং এর প্রধান শাখাগুলি"
+            android:parentActivityName=".civilTip" />
+        <activity
+            android:name=".wherestudy"
+            android:label="কোথায় পড়বেন"
+            android:parentActivityName=".civilTip" />
+        <activity
+            android:name=".civilcareer"
+            android:label="সিভিল ইঞ্জিনিয়ার হিসেবে ক্যারিয়ার"
+            android:parentActivityName=".civilTip" />
+        <activity
+            android:name=".archinfo"
+            android:label="আর্কিটেকচার"
+            android:parentActivityName=".architectureTip" />
+        <activity
+            android:name=".archstep"
+            android:label="আর্কিটেকচার এর কয়েকটি শাখা"
+            android:parentActivityName=".architectureTip" />
+        <activity
+            android:name=".whyarch"
+            android:label="কেন আর্কিটেকচার পড়তে এসেছো ?"
+            android:parentActivityName=".architectureTip" />
+        <activity
+            android:name=".admission"
+            android:label="এডমিশন"
+            android:parentActivityName=".architectureTip" />
+        <activity android:name=".scinfo"
+            android:label="স্কলারশিপ"
+            android:parentActivityName=".scholars"/>
+        <activity android:name=".whysc"
+            android:label="স্কলারশিপ পাওয়ার জন্য যাহা করণীয় "
+            android:parentActivityName=".scholars"
+            />
+        <activity android:name=".scname"
+            android:label="বিশ্বের কিছু নাম করা স্কলারশিপ "
+            android:parentActivityName=".scholars"/>
+        <activity android:name=".gre"
+            android:label="GRE"
+            android:parentActivityName=".scholars"/>
+        <activity android:name=".ielts"
+            android:label="IELTS"
+            android:parentActivityName=".scholars"/>
+        <activity android:name=".toefl"
+            android:label="TOEFL"
+            android:parentActivityName=".scholars"/>
+        <activity android:name=".gmat"
+            android:label="GMAT"
+            android:parentActivityName=".scholars">
+
+        </activity>
+    </application>
+
+</manifest>

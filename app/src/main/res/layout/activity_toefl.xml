@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_toefl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.toefl">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TOEFL\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TOEFL = Test of English as a Foreign Language, একটি কম্পিউটারাইজড টেস্ট যেটা যাচাই করে আপনি ইংরেজিতে কেমন কোপাইতে পারেন।
+
+\n\nআমেরিকাতে বাঙালি আছে অনেক, কথা সত্য। নিউইয়র্কের জ্যাকসন হাইটসে গেলে আশেপাশে সবার মুখে বাংলা শুনবেন, সাইনবোর্ডেও বাংলা দেখতে পাবেন। কিন্তু বাংলা দিয়ে সব জায়গায় তো আর চলতে পারবেন না, একটা মিনিমাম লেভেলের ইংরেজি জানতেই হবে- এটা তো জানা কথা। যদি পড়াশোনা করতে এখানে আসেন, তাহলে ক্লাসে তো ইংরেজিতেই বাতচিত করতে হবে। অতএব, undergraduate (অনার্স) অথবা graduate (মাস্টার্স বা পিএইচডি) যেটার জন্যেই এপ্লাই করেন, TOEFL দিতে হবে। আবার মনে করেন, যদি কেউ জব করতে আসেন, তাহলে বসকে তো ইংরেজিতেই পামপট্টি দিতে হবে (আমেরিকানরা পামপট্টি জিনিসটা একেবারেই খায় না যদিও)- সেখানেও TOEFL টা দরকার। সেই লেভেলের ইংরেজি আপনার জানা আছে কিনা, সেটা জানার জন্য কিছু টেস্ট আছে, তার মধ্যে একটা হলো TOEFL. যাদের first language ইংরেজি নয়, ইংরেজি প্রধান দেশের বিশ্ববিদ্যালয়ে ভর্তি হতে হলে তাদের সবারই হয় TOEFL, নয়তো IELTS স্কোর লাগবেই। IELTS সম্পর্কে জানতে দেখুন Test Preparationn সেকশনের ৮ নং নোট - All About IELTS
+\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TEST STRUCTURE\n"
+                android:id="@+id/textView62"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="চারটা সেকশন- Reading, Listening, Speaking, Writing. সেকশনগুলোর ক্রমটা এরকমই থাকে। প্রথম দুই সেকশনের পর ১০ মিনিটের ব্রেক, তারপর বাকি দুইটা সেকশন।
+\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1. Reading Section\n"
+                android:id="@+id/textView63"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="সাধারণত ৩টা প্যাসেজ থাকে, প্রত্যেকটা থেকে প্রায় ১৪টা করে প্রশ্ন থাকে, মোট ৪২ টার মত প্রশ্ন থাকে। সময় দেয়া হবে ১ ঘণ্টা। এখন এখানে একটু আগাম হুঁশিয়ারির প্রয়োজন আছে। প্যাসেজের সংখ্যা ৪ টাও হতে পারে, এবং মোট প্রশ্নের সংখ্যা ৫৬টাও হতে পারে, সেক্ষেত্রে সময় অবশ্য ২০ মিনিট বাড়িয়ে দেয়া হবে। ব্যাপারটা তেমন কিছু না। অধিকাংশ মানুষের ক্ষেত্রে ৩টা প্যাসেজ থাকে, এবং যারা এই ব্যাপারটা আগে থেকে জানেনা, পরীক্ষার হলে আরো একটা অতিরিক্ত প্যাসেজ দেখে ঘাবড়ে যায়। অনেকে আবার এটাকে এক্সপেরিমেন্টাল হিসেবে ভেবে নিয়ে ইচ্ছেমত উত্তর দাগায়। মোদ্দা কথা হচ্ছে, নতুন প্যাসেজটাকেও আগের গুলোর মতই যত্ন সহকারে এপ্রোচ করতে হবে।
+
+\n\nম্যাক্সিমাম প্রশ্নই general MCQ টাইপের। এটার মধ্যে vocabulary নিয়ে প্রশ্ন থাকে, inference (অমুক লাইনটা থেকে কি ধারণা করা যায়, এই জাতীয়) টাইপ প্রশ্ন থাকে, Sentence Simplification টাইপ প্রশ্ন থাকে। এগুলোর সব কিছু নিয়ে আরেকদিন details এ গ্যাঁজানো যাবে। তবে এর বাইরেও দুই ধরনের প্রশ্ন থাকে।
+
+\n\na) Insert Text Question- এটাও অনেকটা MCQ টাইপ, তবে সবসময় ঠিক যেভাবে MCQ জিনিসটাকে দেখি, ঠিক ওরকম না আর কী! একটা লাইন দেয়া থাকবে, আর একটা প্যাসেজ দেয়া থাকবে যেখানে চারটা পজিশন মার্ক করা থাকবে। ঐ চার পজিশনের কোন জায়গায় লাইনটা সবচেয়ে বেশি ফিট খায়, সেখানে লাইনটাকে বসাতে হবে।
+
+\n\nb) Reading to Learn question- এটার আবার দুটো টাইপ আছে-
+
+\n\nProse Summary question- এটাতে MCQ এর মত অপশন একাধিক এবং উত্তরও একাধিক। যেমন, ওরা যে প্যাসেজটা দিয়েছে, সেটার ব্যাপারে ৭টা লাইন আপনাকে দিলো, এবং বের করতে বললো এই সাতটার মধ্যে কোন তিনটা লাইন দিয়ে প্যাসেজের সারমর্ম সবচেয়ে ভালোভাবে প্রকাশ করা যায়। আপনাকে ঐ তিনটা লাইন সিলেক্ট করতে হবে।
+
+\n\nFill in a Table question- মনে করেন, প্যাসেজে দুটো বিষয় (ধরা যাক, একটা forest, আরেকটা environment) নিয়ে কথা বলা হয়েছে। এরপর আপনাকে কয়েকটা লাইন দেয়া হলো, যার মধ্যে কয়েকটা ফরেস্ট এর ক্যাটাগরিতে পড়ে, কয়েকটা এনভায়রনমেন্টের ক্যাটাগরিতে পড়ে। আপনাকে সেগুলো সঠিক ক্যাটাগরিতে ফেলতে হবে। অপশনের সংখ্যা প্রয়োজনের চেয়ে বেশি থাকবে, অর্থাৎ আপনাকে বেছে নেয়ার পরেও কিছু অপশন বাকি থেকে যাবে।
+\n"
+                android:id="@+id/textView73"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="2. Listening Section\n"
+                android:id="@+id/textView64"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="বিভিন্ন বিষয়ের ওপর একজনের লেকচার অথবা দুজনের কথোপকথন শুনতে হবে, শুনতে শুনতে রাফ কাগজে নোট নিতে হবে। লেকচার বা কনভার্সেশন শেষ হবার পর প্রশ্ন আসবে। প্রত্যেকটা question type এর সাথে কিছু Note taking strategy দেয়া আছে, সেগুলো ভালো করে ফলো করুন। শুধু Listening এ নয়, Speaking এবং Writing এর মধ্যেও এগুলো লাগবে।
+
+\n\nসাধারণত ৬টা টাস্ক থাকে (৬০ মিনিট এর জন্য), কারো কারো ক্ষেত্রে ৯টা (৯০ মিনিট এর জন্য) আসতে পারে। যদি Reading সেকশনে তিনটার জায়গায় চারটা প্যাসেজ চলে আসে, তাহলে Listening সেকশনে নয়টা টাস্কের সম্ভাবনা নেই বললেই চলে।a) Basic Comprehension Questions- সারমর্ম বা কিছু বিশেষ খুঁটিনাটি নিয়ে এই জাতীয় প্রশ্ন করা হয়। যেমন- এই কনভার্সেশনের মূল বিষয়বস্তু কি, এই লেকচারের প্রধান উদ্দেশ্য কি, অথবা ঐ জিনিসটা কেন ঘটলো- এগুলো নিয়ে MCQ টাইপ প্রশ্ন হবে, সঠিক উত্তর বাছাই করতে হবে।
+
+\n\nNote Taking Strategy: আপনি কতটুকু কার্যকর ভাবে নোট নিতে পারছেন, সেটার ওপর উত্তর দেয়া অনেকাংশেই নির্ভর করে। মুখ্য বিষয়বস্তু গুলো কি, সেটা আইডেন্টিফাই করে একেকটা টাইটেল ঠিক করুন। সেই টাইটেলের নিচে নিচে নোট নিতে থাকুন। পুরো লাইন লিখে সময় নষ্ট করার দরকার নেই, সেটা সম্ভবও না। জাস্ট key-word গুলো লিখে রাখুন, যাতে সেটা দেখলেই মনে পড়ে যায় কি নিয়ে কথা হচ্ছিলো, এবং সেখানে কি বলা হচ্ছিলো।
+
+\n\nb) Pragmatic Understanding Questions- যে জিনিসটা এতক্ষণ শুনলেন, সেটা থেকে কি বুঝলেন, সেটা যাচাই করা হয় এই জাতীয় প্রশ্ন দিয়ে। একটা বিশেষ লাইন আপনাকে আবার শোনানো হতে পারে, এরপর জিজ্ঞেস করা হতে পারে, এই লাইনটা দিয়ে লোকটা আসলে কি বোঝাতে চাচ্ছে। অথবা speaker এর attitude জানতে চাইতে পারে। মনে করেন, কোন এক লেখক কে নিয়ে অনেকক্ষণ একজন লেকচার দিলো। এই বক্তাটি উক্ত লেখককে অত্যাধিক পছন্দ করে, নাকি মোটামুটি পছন্দ করে, নাকি দুই চক্ষে দেখতে পারেনা- এটা আপনাকে জিজ্ঞেস করবে।
+
+\n\nNote Taking Strategy: বিশেষ কিছু শব্দ যদি বক্তৃতার মধ্যে খেয়াল করতে পারেন, তাহলে এটা বোঝা যাবে। যেমন- The author’s impressively written book The Da Vinci Code লাইনের মধ্যে impressive শব্দটা শুনে বোঝা যাওয়ার কথা বক্তা লেখককে কেমন পছন্দ করেন। নোট নেয়ার সময় এ ধরনের কিছু বিশেষণ এর নিচে আন্ডারলাইন করে রাখতে পারেন। শুনতে শুনতে এটাও বুঝবেন কোনো কোনো শব্দের ওপর বক্তা একটু জোর দিচ্ছে, সেগুলো আন্ডারলাইন করুন।
+
+\n\nc) Connecting Information Questions- পুরো লেকচার বা কনভার্সেশনের বিভিন্ন তথ্যের মধ্যে লিংক খুঁজে বের করতে হবে। যেমন- দুজনের মধ্যে কথা হচ্ছিলো, একজন বললো সে এই বছর তার থিসিস সাবমিট করবেনা। কেন সে এই সিদ্ধান্ত নিলো, সেটা নিশ্চয়ই সে স্পেসিফিক করে কোথাও না কোথাও বলেছে। সেটাকে অপশন থেকে সিলেক্ট করতে হবে। এখানে একাধিক কারণও থাকতে পারে। সেক্ষেত্রে সব কারণগুলোকেই অপশন থেকে সিলেক্ট করতে হবে।
+
+\n\nNote Taking Strategy: টাইটেল গুলো বড় করে লিখুন, অথবা চারপাশে বৃত্ত এঁকে রাখুন, যাতে সহজেই চোখে পড়ে। এতে সময় বাঁচবে, অন্য কোন দিকে পথ হাতড়াতে হবেনা। যেমন- সে যখন বললো, সে থিসিস সাবমিট করবেনা, এটাকে FACT টাইটেলের নিচে লিখুন; এবং যখনই সে কারণ বলা আরম্ভ করলো, তখন সেটাকে CAUSE টাইটেলের নিচে লিখুন। আরেকজন তাকে এটার কিছু সম্ভাব্য সমাধান দিলো, সেগুলো SOLUTION টাইটেলের নিচে লিখুন। প্রশ্নে যদি কারণ জিজ্ঞেস করে, তাহলে CAUSE টাইটেলের ভেতরে যা আছে, সেটা ছাড়া আর কোন দিকে তাকানোর দরকার নেই।
+
+\n\nঅথবা মনে করেন, সে ফরেস্ট আর এনভায়রনমেন্ট নিয়ে বলতে গিয়ে অনেকগুলো উদাহরণ দিয়েছে, কিছু ফরেস্ট্রির, কিছু এনভায়রনমেন্টের। কোন উদাহরণটা কোনটার জন্য দিয়েছে, সেটা সাজাতে হবে।
+
+\n\nNote Taking Strategy: নোট নেয়ার সময় যদি কিছু সহজ নিয়ম মেনে চলেন, তাহলে এটা কোন ব্যাপার না। যেমন, যখনই দেখলেন দুটো বিষয় নিয়ে কথা হচ্ছে, তখনই দুটো কলাম বানিয়ে ফেলুন। এরপর যখন যা নিয়ে কথা হচ্ছে, সেটা সেই কলামে লিখুন। একটানা প্যারাগ্রাফের মত লেখার চেয়ে এভাবে করে লিখলে সহজে তথ্য খুঁজে পাওয়া যাবে। কোন কোন প্রশ্নের জন্য হয়তো FOREST কলামটা দেখতেই হবেনা।
+
+\n"
+                android:id="@+id/textView74"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="3. Speaking Section\n"
+                android:id="@+id/textView65"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="দশ মিনিটের ব্রেকে কিছুটা বিশ্রাম নিয়ে, বাথরুম থেকে কিছুটা পাতলা হয়ে এসে আবার যখন কম্পিউটারের সামনে এসে বসবেন, তখন শুরু হবে কথার খই ফোটানোর সেকশন। তাই বলে প্রত্যেক প্রশ্নে “সে এক বিরাট কাহিনী। বাসায় গেসি ভাত খাইতে। বিবি বলে, তেল নাই। বাজারে গেলাম তেল কিনতে। রাস্তায় মফিজের সাথে দেখা”- এই জাতীয় কাহিনী শোনানো যাবেনা। যেটা জানতে চাওয়া হয়েছে, সেটাই বলতে হবে। গোটা সেকশনটা ২০ মিনিটের মধ্যে শেষ হয়ে যায়, এটাই TOEFL এর সবচেয়ে সংক্ষিপ্ত সেকশন।
+
+\n\nস্পিকিং সেকশনে দু ধরনের টাস্ক থাকবে-
+
+\n\na) Independent Task- এগুলোকে Independent task বলা হয়, কারণ এখানে স্পিকিং ছাড়া অন্য কোন ব্যাপার নেই। এ ধরনের টাস্ক থাকবে দুইটা। এখানে আপনার পরিচিত কোন টপিক নিয়ে ৪৫ সেকেন্ড বলতে হবে, প্রিপারেশনের জন্য সময় পাবেন ১৫ সেকেন্ড। টপিকগুলো খুবই সহজ সহজ, যেমন- How do you want to celebrate your birthday- with some really close friends? Or with a lot of friends and relatives as in a party?
+
+\n\nb) Integrated Task- এগুলোর মধ্যে আপনাকে স্পিকিং ছাড়াও আরো কিছু ক্ষেত্রে কেরামতি দেখাতে হবে। যেমন, আপনাকে একটা প্যারাগ্রাফ পড়তে হবে অথবা কোন একটা কনভার্সেশন বা লেকচার শুনতে হবে। এরপর সেগুলোর ওপর ভিত্তি করে যে প্রশ্নটা করা হবে, সেটার ওপরে বলতে হবে। যেমন, মনে করেন- হোস্টেলে থাকার সুবিধা-অসুবিধা নিয়ে একটা ছেলে আর একটা মেয়ে কথা বলছে। ছেলেটা হোস্টেলে থাকার পক্ষে, মেয়েটা বিপক্ষে। কথোপকথনের মধ্যে দুইজনেই ব্যাপক যুক্তি দিলো। শেষ পর্যন্ত কেউ কারো কথা মানলোনা, তারা আড়ি নিয়ে যার যার বাড়ি চলে গেলো। ছেলেটা কেন হোস্টেলে থাকার পক্ষে, সেটা আপনাকে বলতে হতে পারে। অথবা কার যুক্তি বেশি গ্রহণযোগ্য মনে হয় আপনার কাছে, সেটাও জানতে চাইতে পারে। Listening সেকশনের নোট নেয়ার স্ট্র্যাটেজিগুলো এখানে কাজে লাগাতে হবে। এ ধরনের টাস্ক থাকবে চারটা।
+\n"
+
+                android:id="@+id/textView75"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="4. Writing Section\n"
+                android:id="@+id/textView66"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="এটা মনে হয় টোফেলের সবচেয়ে স্বস্তিকর সেকশন। লিখতে বাঙালীর কখনো কোন সমস্যা নাই। প্রশ্ন ভুল আসলেও আমরা পাতার পর পাতা লিখে ফেলতে পারি।
+
+\n\nস্পিকিং এর মত এই সেকশনেও দুই ধরনের টাস্ক থাকবে-
+
+\n\na) Independent task- অনেকটা ভাব সম্প্রসারণের মত। তারা একটা টপিক দেবে, লেখা আরম্ভ করবেন। GRE এর Issue task এর মত এই জিনিসটা। বিস্তারিত পড়ুন এখানে, NexTop’s Note-Analytical Writing for GRE
+
+\n\nb) Integrated task-
+\n\nবুঝেই ফেলেছেন, লেখালেখি ছাড়াও আরো কিছু করতে হবে। এই টাস্কে প্রথমে আপনাকে একটা ছোট্ট প্যাসেজ পড়তে দেয়া হবে, এরপর ঐ প্যাসেজের বিষয়বস্তু নিয়েই একটা লেকচার শোনানো হবে। অতএব, এখানেও নোট নিতে হবে। আগের strategy গুলোর পাশাপাশি আরেকটা এখানে উল্লেখযোগ্য।
+
+\n\nNote Taking Strategy:
+\n\nপ্যাসেজটা পড়ে একটা structure দাঁড় করিয়ে নিন, প্যাসেজটাকে কয়েক ভাগে ভাগ করে প্রত্যেক ভাগকে একটা টাইটেল দিন। এরপর লেকচার চলাকালীন সময়ে প্রত্যেকটা টাইটেলের নিচে রিলেটেড ইনফর্মেশন গুলো টুকে নিন।
+
+\n\nযেমন, মনে করেন গ্লোবাল ওয়ার্মিং ঠেকানোর তিনটা উপায় নিয়ে একটা প্যাসেজ আপনাকে দেয়া হলো। এরপর লেকচারে উদাহরণসহ ব্যাখ্যা দেয়া হলো যে আসলে ঐ তিনটা উপায়ের কোনটাই কার্যকর না। প্যাসেজ পড়তে পড়তে আপনি তিনটা উপায় এর জন্য তিনটা টাইটেল রাফ কাগজে টুকে নিন। এরপর লেকচার চলাকালীন সময়ে প্রথম উপায়ের জন্য যে টাইটেল টা দিয়েছিলেন, সেটার নিচে নোট নিন কেন এই উপায়টা কার্যকর না, কি উদাহরণ দিয়ে সে এইটা ব্যাখ্যা করেছে। এভাবে নোট নিলে আপনার লেখার স্ট্রাকচারটাও তৈরি হয়ে যাবে। তখন জাস্ট নোটের কী-ওয়ার্ডগুলো দিয়ে লাইন বানালেই একটা essay হয়ে গেল।
+\n"
+                android:id="@+id/textView76"
+                android:textColor="#0a0909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="SCORING PATTERN\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="প্রত্যেক সেকশনে ৩০ করে মোট ১২০ নম্বরের পরীক্ষা। নাম্বার এক এক করে বাড়ে, অর্থাৎ সাড়ে নিরানব্বই (৯৯.৫) পাওয়া যায় না; হয় নিরানব্বই, নয়তো গোটা একশো। বেশির ভাগ ইউনিভার্সিটি এর ক্ষেত্রেই minimum requirement থাকে ৮০ এর কাছাকাছি। কোন কোন অতি কাবিল ইউনিভার্সিটি ১০০ বা ১০৫ চায়, তবে এই ঘটনা মরুদ্যানের মতই বিরল। তবে একটা বিশেষ বার্তা- এসিস্ট্যান্টশিপ বা স্কলারশিপ এর জন্য speaking সেকশনে মিনিমাম ২৩ পাওয়াটা জরুরি।
+\n\nOTHERS
+\n\n১) টোফেলের ওয়েবসাইটে গিয়ে একাউন্ট খুলতে হবে। ঐ একাউন্ট থেকেই রেজিস্ট্রেশন করতে হবে। রেজিস্ট্রেশন করতে লাগে ১৬০ ডলার। একবার রেজিস্ট্রেশন করলে চারটা ভার্সিটিতে ফ্রি স্কোর পাঠানো যায়। মনে থাকে যেন, ফ্রি স্কোর পাঠাতে হবে পরীক্ষার হলে যাওয়ার আগেই
+
+\n\n২) পরবর্তীতে প্রতিটা ইউনিভার্সিটিতে স্কোর পাঠাতে ১৭ ডলার করে লাগে। একবার রেজিস্টার করার পর reschedule করতে চাইলে লাগবে ৬০ ডলার।
+
+\n\n৩) Register, score sending, reschedule-সবগুলোই ক্রেডিট কার্ড এর মাধ্যমে করতে হয়। আপনার পরিচিত কারো ক্রেডিট কার্ড না থাকলে NexTop-USA এর সাথে যোগাযোগ করতে পারেন। We will be glad to help you.
+
+\n\n৪) আরো কিছু ট্যাকটিকস এর জন্য দেখতে পারেন Test Preparation সেকশনের ১১ নং নোট - -TOEFL Tactics
+\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

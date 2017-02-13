@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_archinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.archinfo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="আর্কিটেকচার\n"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="প্রথমেই বলে নেই আর্কিটেকচার কিন্তু প্রকৌশল নয়। আবার আর্কিটেকচার কোন সাবজেক্ট ও নয়। তাহলে আর্কিটেকচার কী?
+এর উত্তর হয়ত ১০ বছর এই ক্ষেত্রে থেকেও বুঝা যাবে না। ছাত্র হিসাবে আর্কিটেকচার যতটা পড়া তার চেয়ে বড় হল লাইফ স্টাইল। সেটা কেমন? এটাও বলার নয় দেখে অণুকরণ করার নয় নিজে নিজে গড়ে নেবার ব্যাপার। সেটা কীভাবে কেন কোথায় এর উত্তর কেবল যিনি কাজটি করছেন তিনিই দিতে পারেন।
+তাহলে আর্কিটেকচারে কী পড়ায়? বিল্ডিং ডিজাইন করা? নিশ্চয়ই। তবে সেটা সামান্য পার্ট মাত্র। আর্কিটেক্ট কী করে? বিল্ডিং ড্রইং করে। সেটা সবাই পারে না ঠিকই। কিন্তু সিভিল ইঞ্জিনিয়ার বা নিয়ম জানা সাধারণ মানুষ ও পারে। তবে কেন এদের দরকার? আর শুধু কী এই ই করে? প্রশ্ন অনেক উত্তর সামান্য। এসবই নিজের এক্সপ্লোর করার ব্যাপার।
+এটুকু বলে দেয়া যায় একজন আর্কিটেকচার ছাত্রের জন্যে জীবন,প্রকৃতি আর মানুষ হল পড়ার বিষয়। এর সাথে সম্পর্কিত যা যা হতে পারে সবই এখানে পড়ানো হয়। ডিজাইন করা আর তাকে ডেভেলপ করা এটাই মূল কাজ। ডিজাইন যে কোন বিষয় এর হতে পারে। চাকরী নিয়েও কিছু বলা যাবে না। এমনকী তুমি আর্কিটেক্ট হবে কী না তাও না। বেতন বা এরকম ব্যাপার নিয়ে কথা বলা বোকামি। তবে যারা ভাব যে “না খেয়ে মরতে হবে” তাদের দ্বিধাহীন কন্ঠ্যে শুধু বলতে পারি “না।”
+\n\n"
+                android:id="@+id/textView7"
+                android:textColor="#0a0909" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="এবার আশা যাক কী কী চাই?\n"
+            android:id="@+id/textView62"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="অসীম ইচ্ছা, পরিশ্রমী মানসিকতা, Ambition, fitness আর নিজেকে প্রকাশ করার ইচ্ছা ও ক্ষমতা। এটা পর্যাপ্ত জ্ঞান সম্পন্ন যে কেউ স্বীকার কচার শেষ করা সবচেয়ে কঠিন।
+\n\nআর কী যোগ্যতা লাগে? ভাল আকতে পারবে যে জগতে যত বিদ্যা আছে যা বিশ্ববিদ্যালয়ে পড়ান হয় তার মাঝে আর্কিটে? হলে ভাল। না হলে খারাপ তাও না। তবে অল্পতে তুষ্ট না হওয়া, মূলের বা সাধারণের বাইরে চিন্তা করা এবং কখনো হার না মানার মত মন দরকার। শিক্ষার প্রসেসটা খুব দ্রুত না। আবার অল্প সময়ে অমানুষিক পরিমান চাপ নিতেও হয়।
+
+\n\nসুতরাং যা সবচেয়ে আগে চাই তা হল “ আমি আর্কিটেকচারই পড়তে চাই” এই ইচ্ছা। আমি আবারো বলছি আর্কিটেকচার তোমাকে কোথায় নিয়ে যাবে আমি জানি না, কীভাবে যাবে তাও না। তবে যেতে হবে নিজেকে আর রাস্তাটা যথেষ্ট কঠিন।
+\nভাল কিছু কথা না বললে কেউ সেই ইচ্ছাটা পাবে না। আর্কিটেকচারের শিক্ষার্থীদের ব্যক্তিত্ব, চিন্তাধারা, জীবন যাপন থেকে জীবিকা সব এই বিষয়ের blessing বলা যায়। জিজ্ঞাসা করলেই জানবে এই ডিপার্টমেন্ট যেখানেই আছে সত্যিকারের আনন্দ আর জীবন সেখানে খুজে পাওয়া যাবেই। জানা ও শেখার পরিধিতে যে কোন মানুষের সাথে পাল্লা দিতে পারে একজন আর্কিটেক্ট। ধরা যাক একটা স্কুল ডিজাইন করতে হবে। বাচ্চা থেকে টিন এজার দের মানসিকতা, শিক্ষকের শিক্ষাদানের উপায় থেকে শুরু করে দেশের ও বিশ্বের শিক্ষাব্যবস্থা নিয়ে দিনের পর দিন কাজ করে যেতে হয়। যেটা অনেক শিক্ষাবিদ ও করেন না অনেক সময়। এবং কাজটা সহজ নয়।
+\n\n৫ বছর প্রায় ২০০ ক্রেডিট এর মাঝে ইতিহাস থেকে ইলেক্ট্রিকাল ইঞ্জিনিয়ারিং, মেকানিকাল থেকে সিভিল সব যেমন আছে ডিপার্টমেন্টের নিজস্ব সাবজেক্ট এর বৈচিত্র যে কাউকে মুগ্ধ করে দেবে।
+\nযেমন শুধু গান এর আসল স্বাদ বোঝার জন্যে ১.৫ ক্রেডিট এর কোর্স আছে এতে। এটা শুধুই সামান্য চিত্র দিচ্ছে কেবল। এমন অনেক মজায় অনেক ব্যাথায় ভরা এক জীবনের নাম আর্কিটেকচার।এখানে বন্ধু মানে পরিবার হয়ে ওঠে, জীবন মানে প্রজেক্ট হয়ে যায়,অস্বাভাবিক খুব স্বাভাবিক হয়ে যায় আর শেষে সৃষ্টির অর্থ খুজে বের করা মাঝে মাঝে যায়। এটাই মজা, এটাই উৎসাহ। আর্কিটেকচার শুধুই তাদের যারা এটা করতে চায়।
+\n\n"
+                android:id="@+id/textView72"
+                android:textColor="#0a0909" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="বিষয়বস্তু\n"
+                android:id="@+id/textView61"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="বর্তমানে আর্কিটেকচারে যেসব বিষয় পড়ানো হয়, তার মধ্যে উল্লেখযোগ্য হল Structure, philosophy, Mathematics, Mechanical equipment, Environmental design, Basic planning, Economics, Sociology, physics, Urban design, construction method and detail, Sculpture, Working drawing.এছাড়াও রয়েছে photography এবং Design studio, Design studio building  এর design শেখানো হয়।\n\n"
+                android:id="@+id/textView71"
+                android:textColor="#0a0909" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

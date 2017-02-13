@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cuet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ajoysarkar.careerguide.cuet"
+    android:layout_marginTop="-25dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/cue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="-50dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="200dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Chittagong University of Engineering and Technology\n"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Chittagong University of Engineering and Technology ( commonly referred to as CUET ) located in Chittagong, Bangladesh, is renowned as one of the public engineering universities in Bangladesh. The university maintains a special emphasis on research.
+\nThe university offers degrees in engineering disciplines in undergraduate and post-graduate levels and also conducts research and provides degrees in basic sciences in post-graduate level. There are fifteen academic departments under five faculties emphasizing teaching and research of engineering, technology, architecture and planning
+"
+        android:id="@+id/textView8"
+        android:textColor="#0a0909" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\nFormer names:  Engineering College, Chittagong (1968-1986)
+                                           Bangladesh Institute of Technology, Chittagong (1986-2003)
+\nType : Public engineering university
+\nEstablished:  September 1, 2003 (converted to university)
+\nAffiliation: University Grants Commission, Institution of Engineers, Bangladesh
+\nChancellor:  President of Bangladesh
+\nVice-Chancellor : Mohammad Rafiqul Alam
+\nAcademic staff:  200+
+\nAdministrative staff:  350+
+\nStudents : 4,500
+\nLocation : Raozan, Chittagong District, Bangladesh
+\nCampus : Suburban, 171 acres (0.69 km2)
+\nLanguage : English
+\nWebsite : www.cuet.ac.bd
+
+"
+            android:id="@+id/textView9"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nAcademic programs\n"
+            android:id="@+id/textView10"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="The Degrees that are offered by various departments of the university are given below
+\n	Faculty of Electrical and Computer Engineering
+\n	Computer Science and Engineering
+\n	Electronic and Telecommunication Engineering
+\n	Faculty of  Civil Engineering
+\n	Civil and Water Resource Engineering
+\n	Disaster and  Environmental Engineering
+\n	Faculty of  Mechanical Engineering
+\n	Petroleum and Mining Engineering
+\n	Department of Mechatronics and Industrial Engineering
+\n	Architecture and Planning
+\n	Urban and Regional Planning
+\n	Humanities
+\n	Engineering and Technology
+\n	Mathematics
+\n	Chemistry
+\n	Administration
+\n	Electrical and Mechanical Engineering Building(E.M.E. Building)
+
+
+"
+            android:id="@+id/textView11"
+            android:textColor="#0a0909" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/textView7"
+            android:textColor="#0a0909" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
